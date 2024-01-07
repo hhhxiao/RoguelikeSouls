@@ -1,72 +1,71 @@
-Soul Arrow
-Great Soul Arrow
-Heavy Soul Arrow
-Great Heavy Soul Arrow
-Homing Soulmass
-Homing Crystal Soulmass
-Soul Spear
-Crystal Soul Spear
-Magic Weapon
-Great Magic Weapon
-Crystal Magic Weapon
-Magic Shield
-Strong Magic Shield
-Hidden Weapon
-Hidden Body
-Cast Light
-Hush
-Aural Decoy
-Repair
-Fall Control
-Chameleon
-Resist Curse
-Remedy
-White Dragon Breath
-Dark Orb
-Dark Bead
-Dark Fog
-Pursuers
-Fireball
-Fire Orb
-Great Fireball
-Firestorm
-Fire Tempest
-Fire Surge
-Fire Whip
-Combustion
-Great Combustion
-Poison Mist
-Toxic Mist
-Acid Surge
-Iron Flesh
-Flash Sweat
-Undead Rapport
-Power Within
-Great Chaos Fireball
-Chaos Storm
-Chaos Fire Whip
-Black Flame
-Heal
-Great Heal
-Great Heal Excerpt
-Soothing Sunlight
-Replenishment
-Bountiful Sunlight
-Gravelord Sword Dance
-Gravelord Greatsword Dance
-Escape Death
-Homeward
-Force
-Wrath of the Gods
-Emit Force
-Seek Guidance
-Lightning Spear
-Great Lightning Spear
-Sunlight Spear
-Magic Barrier
-Great Magic Barrier
-Karmic Justice
-Tranquil Walk of Peace
-Vow of Silence
-Sunlight Blade
-Darkmoon Blade
+灵魂箭
+强力灵魂箭
+灵魂巨箭
+强力灵魂巨箭
+追踪灵魂块
+追踪灵魂结晶块
+灵魂枪
+灵魂结晶枪
+法术武器
+强力法术武器
+结晶法术武器
+法术盾
+强力法术盾
+隐形武器
+隐形身躯
+光明照耀
+静音
+传声
+修理
+控制坠落
+拟态
+解咒
+治疗
+白龙吐息
+黑暗弹
+黑暗飞沫
+黑暗雾
+追踪者
+火球
+火焰弹
+大火球
+火焰风暴
+火焰大风暴
+喷射火焰
+横扫火焰
+引燃火焰
+引燃烈火
+毒雾
+猛毒雾
+喷射酸液
+铁身躯
+剧烈出汗
+魅惑不死人
+内在潜力
+混沌大火球
+混沌风暴
+混沌横扫火焰
+黑焰
+恢复
+大恢复
+限制大恢复
+阳光疗愈
+生命力涌现
+阳光滋润
+墓王剑舞
+墓王大剑舞
+归乡路
+原力
+诸神之怒
+原力并射
+寻求建言
+雷枪
+巨雷枪
+阳光之枪
+法术防护
+强化法术防护
+因果报应
+和平缓步
+沉默禁令
+阳光之剑
+暗月光之剑

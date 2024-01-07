@@ -1,216 +1,191 @@
-Dagger
-Parrying Dagger
-Ghost Blade
-Bandit's Knife
-Priscilla's Dagger
-Shortsword
-Longsword
-Broadsword
-Broken Straight Sword
-Balder Side Sword
-Crystal Straight Sword
-Sunlight Straight Sword
-Barbed Straight Sword
-Silver Knight Straight Sword
-Astora's Straight Sword
-Darksword
-Drake Sword
-Straight Sword Hilt
-Bastard Sword
-Claymore
-Man-serpent Greatsword
-Flamberge
-Crystal Greatsword
-Stone Greatsword
-Greatsword of Artorias
-Great Lord Greatsword
-Moonlight Greatsword
-Black Knight Sword
-Greatsword of Artorias
-Greatsword of Artorias
-Great Lord Greatsword
-Great Lord Greatsword
-Zweihander
-Greatsword
-Demon Great Machete
-Dragon Greatsword
-Black Knight Greatsword
-Scimitar
-Falchion
-Shotel
-Jagged Ghost Blade
-Painting Guardian Sword
-Quelaag's Furysword
-Server
-Murakumo
-Gravelord Sword
-Uchigatana
-Washing Pole
-Iaito
-Chaos Blade
-Mail Breaker
-Rapier
-Estoc
-Velka's Rapier
-Ricard's Rapier
-Hand Axe
-Battle Axe
-Crescent Axe
-Butcher Knife
-Golem Axe
-Gargoyle Tail Axe
-Greataxe
-Demon's Greataxe
-Dragon King Greataxe
-Black Knight Greataxe
-Club
-Mace
-Morning Star
-Warpick
-Pickaxe
-Reinforced Club
-Blacksmith Hammer
-Blacksmith Giant Hammer
-Hammer of Vamos
-Great Club
-Grant
-Demon's Great Hammer
-Dragon Tooth
-Large Club
-Smough's Hammer
-Smough's Hammer
-Fists
-Caestus
-Claw
-Dragon Bone Fist
-Dark Hand
-Spear
-Winged Spear
-Partizan
-Demon's Spear
-Channeler's Trident
-Silver Knight Spear
-Pike
-Dragonslayer Spear
-Moonlight Butterfly Horn
-Moonlight Butterfly Horn
-Dragonslayer Spear
-Halberd
-Giant's Halberd
-Titanite Catch Pole
-Gargoyle's Halberd
-Black Knight Halberd
-Lucerne 
-Scythe
-Great Scythe
-Lifehunt Scythe
-Short Bow
-Longbow
-Black Bow of Pharis
-Dragonslayer Greatbow
-Composite Bow
-Darkmoon Bow
-Light Crossbow
-Heavy Crossbow
-Avelyn
-Sniper Crossbow
-Sorcerer's Catalyst
-Beatrice's Catalyst
-Tin Banishment Catalyst
-Logan's Catalyst
-Tin Darkmoon Catalyst
-Oolacile Ivory Catalyst
-Tin Crystallization Catalyst
-Demon's Catalyst
-Izalith Catalyst
-Pyromancy Flame
-Pyromancy Flame+10
-Pyromancy Flame
-Pyromancy Flame+10
-Talisman
-Canvas Talisman
-Thorolund Talisman
-Ivory Talisman
-Gwynevere's Talisman
-Sunlight Talisman
-Darkmoon Talisman
-Velka's Talisman
-Skull Lantern
-East-West Shield
-Wooden Shield
-Large Leather Shield
-Small Leather Shield
-Target Shield
-Buckler
-Cracked Round Shield
-Leather Shield
-Plank Shield
-Caduceus Round Shield
-Crystal Ring Shield
-Crystal Ring Shield
-Crystal Ring Shield
-Crystal Ring Shield
-Heater Shield
-Knight Shield
-Tower Kite Shield
-Grass Crest Shield
-Hollow Soldier Shield
-Balder Shield
-Crest Shield
-Dragon Crest Shield
-Warrior's Round Shield
-Iron Round Shield
-Spider Shield
-Spiked Shield
-Crystal Shield
-Sunlight Shield
-Silver Knight Shield
-Black Knight Shield
-Pierce Shield
-Red and White Round Shield
-Caduceus Kite Shield
-Gargoyle's Shield
-Eagle Shield
-Tower Shield
-Giant Shield
-Stone Greatshield
-Havel's Greatshield
-Bonewheel Shield
-Greatshield of Artorias
-Greatshield of Artorias
-Greatshield of Artorias
-Greatshield of Artorias
-Whip
-Notched Whip
-Standard Arrow
-Large Arrow
-Feather Arrow
-Fire Arrow
-Poison Arrow
-Moonlight Arrow
-Wooden Arrow
-Dragonslayer Arrow
-Gough's Great Arrow
-Arrow
-Standard Bolt
-Heavy Bolt
-Sniper Bolt
-Wood Bolt
-Lightning Bolt
-Bolt
-Effigy Shield
-Sanctus
-Bloodshield
-Black Iron Greatshield
-Gold Tracer
-Dark Silver Tracer
-Abyss Greatsword
-Abyss Greatsword
-Cleansing Greatshield
-Stone Greataxe
-Four-pronged Plow
-Manus Catalyst
-Oolacile Catalyst
-Guardian Tail
-Obsidian Greatsword
-Gough's Greatbow
+誓约武器
+匕首
+格挡匕首
+亡灵小刀
+盗贼短刀
+普利希拉短剑
+短剑
+长剑
+阔剑
+已折断的直剑
+巴勒德尔突刺直剑
+太阳直剑
+刺针直剑
+银骑士剑
+亚斯特拉直剑
+黑暗剑
+飞龙剑
+直剑剑柄
+混种大剑
+大剑
+蛇人大剑
+焰形大剑
+石大剑
+亚尔特留斯大剑
+大王大剑
+月光大剑
+黑骑士剑
+双手巨剑
+巨剑
+恶魔柴刀
+古龙大剑
+黑骑士大剑
+短弯刀
+弯刃大刀
+钩剑
+亡灵锯齿刀
+绘画守护者曲剑
+克拉格魔剑
+献祭刀
+丛云
+墓王剑
+打刀
+晾衣长刀
+居合刀
+破甲细剑
+细剑
+刺剑
+蓓尔嘉刺剑
+里卡尔刺剑
+手斧
+战斧
+弦月斧
+切肉菜刀
+巨偶斧
+石像鬼尾斧
+巨斧
+恶魔大斧
+龙王大斧
+黑骑士大斧
+棍棒
+锤矛
+晨星锤
+战镐
+十字镐
+强化棍棒
+铁匠铁锤
+巨人铁匠木槌
+巴摩斯锤子
+巨型棍棒
+神许重锤
+恶魔大锤
+大龙牙
+大型棍棒
+斯摩的锤子
+拳头
+护手带
+钩爪
+龙骨拳套
+黑暗之手
+枪
+雁翅枪
+游击枪
+恶魔枪
+传道者三股叉
+银骑士枪
+矛
+猎龙枪
+月光蝶触角
+戟
+巨人戟
+楔形刺叉
+石像鬼戟
+黑骑士戟
+鹤嘴戟
+镰刀
+大镰刀
+猎命镰刀
+短弓
+长弓
+法里斯黑弓
+猎龙大弓
+复合弓
+暗月弓
+轻弩
+重弩
+雅帆琳
+狙击弩
+魔法师杖
+比阿特丽斯杖
+封印锡杖
+罗根杖
+暗月锡杖
+乌拉席露白枝
+恶魔杖
+伊札里斯杖
+咒术之火
+护符
+粗布护符
+索尔隆德护符
+白护符
+太阳护符
+暗月护符
+蓓尔嘉护符
+头盖骨提灯
+双鸟纹木盾
+木盾
+大皮盾
+小皮盾
+团牌
+小圆盾
+半坏木盾
+皮盾
+木板盾
+双蛇纹圆盾
+熨斗形盾
+骑士盾
+塔纹鸢形盾
+草纹盾
+游魂士兵盾
+巴勒德尔盾
+图纹盾
+龙图纹盾
+战士圆盾
+铁圆盾
+蜘蛛纹盾
+刺针盾
+太阳纹盾
+银骑士盾
+黑骑士盾
+突刺盾
+红白圆盾
+双蛇纹鸢形盾
+石像鬼盾
+巨鹰纹盾
+塔盾
+巨人盾
+石大盾
+哈维尔大盾
+骸骨车轮盾
+亚尔特留斯大盾
+软鞭
+荆棘软鞭
+普通箭
+大型箭
+羽毛箭
+火箭
+毒箭
+月光箭
+木箭
+猎龙大箭
+戈夫大箭
+普通弩箭
+重弩箭
+狙击弩箭
+木弩箭
+雷弩箭
+邪神盾
+圣者盾
+血盾
+黑铁大盾
+黄金残光
+暗银残灭
+深渊大剑
+结界大盾
+岩石大斧
+四齿钉耙
+马努斯大杖
+乌拉席露树枝杖
+圣兽尾
+黑龙大剑
+戈夫大弓

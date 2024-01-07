@@ -1,67 +1,64 @@
-Fire soul arrow
-Fire strong soul arrow
-Fire heavy soul arrow
-Fire strong heavy soul arrow
-Fire homing soulmass
-Fire homing crystal soulmass
-Fire piercing soul spear
-Fire piercing crystal soul spear
-Magic augmentation: right weapon
-High magic augmentation: right weapon
-High magic + crystallization: right weapon
-Magic augmentation: left shield
-High magic augmentation: left shield
-Turn right weapon invisible
-Turn body nearly invisible
-Cast a bright light upon surroundings
-Mask all noises of caster
-Create sound originating in distance
-Repair equipped weapons and armor
-Reduce damage and sound from fall
-Transform into something inconspicuous
-Sacrifice humanity to undo curse
-Undo all bleeding and poison
-Emit crystal breath of Seath the Scaleless
-Hurl fireball
-Hurl fire orb
-Hurl giant fireball
-Erect fire pillars in vicinity
-Erect giant fire pillars in vicinity
-Create a surge of flame from palm of hand
-Sweep foes with fire whip
-Create powerful flame in hand
-Create powerful, giant flame in hand
-Create poison mist
-Create intense poison mist
-Emit acid which corrodes weapons and armor
-Iron flesh boosts defence and resilience
-Intense sweating reduces flame damage
-Charm Undead and gain temporary allies
-Short strength/endurance boost, but lose HP
-Hurl giant chaos fireball
-Erect chaos fire pillars in vicinity
-Sweep foes with chaos fire whip
-Restores HP
-Restores high HP
-Restores high HP
-Restores high HP for self and vicinity
-Gradual HP restoration
-Gradual HP restoration for self and vicinity
-Gravelord swords jut out in vicinity
-Giant Gravelord swords jut out in vicinity
-While active, no losses incurred upon death
-Return to last bonfire used for resting
-Create shockwave
-Create powerful shockwave
-Emit shockwave
-Display more guidance from other worlds
-Hurl lightning spear
-Hurl giant lightning spear
-Hurl sunlight spear
-Cover body in defensive magic coating
-Cover body in powerful def. magic coating
-Temporary auto counter vs. heavy damage
-Slows all walking within effect area
-Prevents casting of magic within effect area
-Boost right weapon with rays of Sun
-Boost right weapon with rays of Darkmoon
+射出威力更强的灵魂箭
+射出灵魂巨箭
+射出威力更强的灵魂巨箭
+射出追踪性能优异的灵魂块
+射出追踪性能优异的灵魂结晶块
+射出具贯穿能力的灵魂枪
+射出具贯穿能力的灵魂结晶枪
+以法术强化右手武器
+以法术大幅强化右手武器
+以结晶法术大幅强化右手武器
+以法术强化左手盾牌
+以法术大幅强化左手盾牌
+够让右手武器变透明
+够让全身变得近乎透明
+够发出照亮周围的光线
+彻底消除施术者发出的所有声响
+在远处引发声响，吸引敌人注意
+够修理目前装备的武器、防具
+减轻坠落后的伤害，并降低坠落时发出的声响
+够变身成融入周遭环境的某种物品
+减缓诅咒累积状态
+减缓出血以及所有毒素累积，
+够喷出白龙希斯的结晶吐息
+放出巨大的黑暗弹
+连续施放黑暗弹
+释放黑暗雾
+将人性黑暗面暂时赋予意志施放
+掷出火球
+掷出火焰弹
+掷出巨大的火球
+在自身周围卷起数道火柱
+在自身周围卷起数道巨大火柱
+从手掌喷出火焰
+以火焰鞭横扫对手
+从手中引燃威力强大的火焰
+从手中引燃威力强大的烈火
+引发毒雾
+引发剧毒雾
+喷出损坏武器与防具的酸液
+魅惑不死人，使其暂时成为我方同伴
+暂时提升力气与耐力，但血量会持续减少
+掷出巨大的混沌火球
+在自身周围卷起数道混沌火柱
+以混沌火焰鞭横扫对手，
+从手中引燃盛大的黑色火焰
+恢复血量
+大幅恢复血量
+大幅恢复自身与邻近角色的血量
+逐渐恢复血量
+渐渐恢复自身与邻近角色的血量
+从自身周围的地面，刺出无数把墓王之剑
+从自身周围的地面，刺出无数把巨大墓王之剑
+返回最后休息的营火处
+引起冲击波
+引起强烈的冲击波
+直接射出冲击波
+显示出许多来自其他世界的建言
+射出雷枪
+射出巨雷枪
+射出阳光之枪
+以法术防护膜覆盖全身上下
+以强力法术防护膜覆盖全身上下
+借由阳光的力量强化右手武器
+通过暗月光的力量强化右手武器

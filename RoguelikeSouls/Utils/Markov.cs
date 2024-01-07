@@ -19,6 +19,7 @@ namespace Markov
         {
             Rand = random ?? new Random();
             string s = Regex.Replace(input, @"\s+", " ").TrimEnd(' ');
+            Console.WriteLine(s);
             graphWeights = BuildTDict(s, unitSize);
         }
         public static MarkovProseGenerator MarkovFromFileInput(string inputPath, int unitSize)
@@ -52,7 +53,7 @@ namespace Markov
             // each node is a chunk string containing `size` words.
             TDict t = new TDict();
             string prevNode = "";
-            foreach (string nextNode in Chunk(s, size) )
+            foreach (string nextNode in Chunk(s, size))
             {
                 if (t.ContainsKey(prevNode))
                 {
@@ -67,7 +68,7 @@ namespace Markov
                     }
                 }
                 else
-                    t.Add(prevNode, new WDict(){ {nextNode, 1} });
+                    t.Add(prevNode, new WDict() { { nextNode, 1 } });
                 prevNode = nextNode;
             }
             return t;
@@ -94,7 +95,7 @@ namespace Markov
             List<string> ucStr = new List<string>();
             foreach (string word in graphWeights.Keys.Skip(1))
             {
-                if (char.IsUpper( word.First()))
+                if (char.IsUpper(word.First()))
                 {
                     ucStr.Add(word);
                 }
@@ -107,7 +108,7 @@ namespace Markov
             sb.Append(" ");
 
             WDict w;
- 
+
             for (uint i = 0; i < len; ++i)
             {
                 if (graphWeights.ContainsKey(last))
@@ -119,7 +120,7 @@ namespace Markov
                     w = graphWeights[""];
                 }
                 last = Choose(w);
-                sb.Append(last.Split(' ').Last() ).Append(" ");
+                sb.Append(last.Split(' ').Last()).Append(" ");
             }
 
             if (!exact)
@@ -188,7 +189,7 @@ namespace Markov
             List<string> ucStr = new List<string>();
             foreach (string word in graphWeights.Keys.Skip(1))
             {
-                if (char.IsUpper(word.First()))
+                //  if (char.IsUpper(word.First())) TODO:这里需要对武器说明做一些筛选
                 {
                     ucStr.Add(word);
                 }
@@ -228,6 +229,8 @@ namespace Markov
                 }
             }
 
+            //TODO 
+            exact = true;
             if (!exact)
             {
                 while (last.Last() != '.')
@@ -272,7 +275,9 @@ namespace Markov
             Rand = random ?? new Random();
             string s = Regex.Replace(input, @"[^'\w\s]", " ");  // remove punctuation (except apostrophe)
             s = Regex.Replace(s, @"\s+", " ").TrimEnd(' ');  // collapse excess whitespace
-            graphWeights = BuildTDict(s, unitSize);            
+                                                             // Console.WriteLine($"MarkovWordGenerator: s = {s}");
+            graphWeights = BuildTDict(s, unitSize);
+
         }
         public static MarkovWordGenerator MarkovFromFileInput(string inputPath, int unitSize, Random random = null)
         {
@@ -287,7 +292,7 @@ namespace Markov
         {
             return BuildWord(graphWeights, maxCount, exact: exact).TrimEnd(' ');
         }
-        
+
         public void PrintGraphWeights()
         {
             foreach (var keyValue in graphWeights)
@@ -359,7 +364,7 @@ namespace Markov
                 sb.Append(ucStr.ElementAt(Rand.Next(0, ucStr.Count)));
             }
             last = sb.ToString();
-            
+
             WDict w;
 
             for (uint i = 0; i < len; ++i)

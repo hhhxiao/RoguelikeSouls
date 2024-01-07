@@ -14,100 +14,166 @@ namespace RoguelikeSouls.Installation
         public static readonly WeaponNameOptionDict ClassOptions = new WeaponNameOptionDict()
         {
             { "Dagger", (
-                new List<string>() { "Dagger", "Knife", "Tracer", "Dirk", "Quickblade" },
-                new List<string>() { "Stiletto", "Bloodknife", "Heartpiercer", "Razor" }
+               // new List<string>() { "Dagger", "Knife", "Tracer", "Dirk", "Quickblade" },
+
+               // new List<string>() { "Stiletto", "Bloodknife", "Heartpiercer", "Razor" }
+                
+                new List<string>() { "匕首", "刀", "追踪者", "短剑", "快刀" },
+
+                new List<string>() { "短剑", "血刀", "穿心刺", "锋刃" }
+
                 ) },
             { "StraightSword", (
-                new List<string>() { "Straight Sword", "Sword", "Blade", "Brand", "Edge" },
-                new List<string>() { "Soulbrand", "Blacksword", "Crusader" }
+               // new List<string>() { "Straight Sword", "Sword", "Blade", "Brand", "Edge" },
+               // new List<string>() { "Soulbrand", "Blacksword", "Crusader" }
+
+                  new List<string>() { "直剑", "剑", "刀刃", "刻印", "边缘之刃" },
+                new List<string>() { "灵魂刻印", "黑剑", "十字军" }
+
                 ) },
             { "Greatsword", (
-                new List<string>() { "Greatsword", "Ironblade", "Claymore" },
-                new List<string>() { "Bonehewer", "Breaker" }
+//                new List<string>() { "Greatsword", "Ironblade", "Claymore" },
+  //              new List<string>() { "Bonehewer", "Breaker" }
+                   new List<string>() { "大剑", "铁刃", "大剑" },
+                new List<string>() { "碎骨者", "破坏者" }
                 ) },
             { "UltraGreatsword", (
-                new List<string>() { "Greatsword", "Giantsword" },
-                new List<string>() { "Stoneblade", "Vastblade", "Skullduster" }
+               // new List<string>() { "Greatsword", "Giantsword" },
+                //new List<string>() { "Stoneblade", "Vastblade", "Skullduster" }
+                new List<string>() { "大剑", "巨剑" },
+                new List<string>() { "石刃", "浩瀚之剑", "碎颅者" }
+
                 ) },
             { "ThrustingSword", (
-                new List<string>() { "Rapier", "Estoc", "Sabre", "Foil", "Epee" },
-                new List<string>() { "Impaler", "Reaver", "Etcher" }
+               // new List<string>() { "Rapier", "Estoc", "Sabre", "Foil", "Epee" },
+               // new List<string>() { "Impaler", "Reaver", "Etcher" }
+
+                new List<string>() { "薄剑", "穿刺剑", "军刀", "花剑", "重剑" },
+                new List<string>() { "刺客剑", "掠夺者", "蚀刻剑" }
+
                 ) },
             { "CurvedSword", (
-                new List<string>() { "Scimitar", "Cutlass", "Falchion", "Machete", "Backsword" },
-                new List<string>() { "Shamshir", "Kilij", "Shotel", "Bird-Talon" }
+              //  new List<string>() { "Scimitar", "Cutlass", "Falchion", "Machete", "Backsword" },
+               // new List<string>() { "Shamshir", "Kilij", "Shotel", "Bird-Talon" }
+                new List<string>() { "弯刀", "短弯刀", "弯刃剑", "马刀", "背剑" },
+                new List<string>() { "波斯弯刀", "土耳其弯刀", "钩剑", "鸟钩爪" }
                 ) },
             { "CurvedGreatsword", (
-                new List<string>() { "Arcblade", "Giant Machete" },
-                new List<string>() { "Skincarver", "Rukh-Talon" }
+                //new List<string>() { "Arcblade", "Giant Machete" },
+                //new List<string>() { "Skincarver", "Rukh-Talon" }
+
+                new List<string>() { "弧刃", "巨型马刀" },
+                new List<string>() { "剥皮者", "鲁克钩爪" }
+
                 ) },
             { "Katana", (
-                new List<string>() { "Katana", "Iaito", "Uchigatana", "Shinken"},
-                new List<string>() { "Tsurugi", "Tachi", "Odachi" }
+                // new List<string>() { "Katana", "Iaito", "Uchigatana", "Shinken"},
+                // new List<string>() { "Tsurugi", "Tachi", "Odachi" }
+                new List<string>() { "刀", "居合刀", "打刀", "武士刀"},
+                new List<string>() { "剑", "太刀", "小太刀" }
+
                 ) },
             { "Axe", (
-                new List<string>() { "Axe", "Hatchet", "Chopper", "Battleaxe" },
-                new List<string>() { "Cleaver", "Meataxe", "Bonehewer" }
+                // new List<string>() { "Axe", "Hatchet", "Chopper", "Battleaxe" },
+                // new List<string>() { "Cleaver", "Meataxe", "Bonehewer" }
+                new List<string>() { "斧", "手斧", "小斧", "战斧" },
+                 new List<string>() { "菜刀", "切肉刀", "伐骨者" }
+
+
                 ) },
             { "Greataxe", (
-                new List<string>() { "Greataxe", "Giantaxe", "Stoneaxe" },
-                new List<string>() { "Skullsplitter", "Titanjaw", "Vastaxe" }
+                //new List<string>() { "Greataxe", "Giantaxe", "Stoneaxe" },
+               // new List<string>() { "Skullsplitter", "Titanjaw", "Vastaxe" }
+                new List<string>() { "大斧", "巨斧", "石斧" },
+                new List<string>() { "裂颅者", "泰坦之颚", "浩瀚之斧" }
+
+
                 ) },
             { "Hammer", (
-                new List<string>() { "Hammer", "Club", "Cudgel", "Mace" },
-                new List<string>() { "Truncheon", "Pummeler", "Crusher" }
+                //new List<string>() { "Hammer", "Club", "Cudgel", "Mace" },
+               // new List<string>() { "Truncheon", "Pummeler", "Crusher" }
+                new List<string>() { "锤", "棍棒", "棍棒", "锤矛" },
+                new List<string>() { "棍", "猛击者", "粉碎者" }
+
                 ) },
+
             { "GreatHammer", (
-                new List<string>() { "Great Hammer", "Greatclub", "Giant Club", "Big Rock" },
-                new List<string>() { "Colossus", "Hornhammer", "Dragontooth", "Soulgrinder" }
+               // new List<string>() { "Great Hammer", "Greatclub", "Giant Club", "Big Rock" },
+               // new List<string>() { "Colossus", "Hornhammer", "Dragontooth", "Soulgrinder" }
+                new List<string>() { "大锤", "大型棍棒", "巨型棍棒", "大石" },
+                new List<string>() { "巨人大锤", "角锤", "龙牙", "灵魂研磨者" }
+
                 ) },
             { "Spear", (
-                new List<string>() { "Spear", "Pike", "Lance", "Javelin", "Partizan" },
-                new List<string>() { "Skewer", "Brochette", "Ramspike" }
+                // new List<string>() { "Spear", "Pike", "Lance", "Javelin", "Partizan" },
+                // new List<string>() { "Skewer", "Brochette", "Ramspike" }
+                
+                new List<string>() { "矛", "长矛", "长枪", "投枪", "阔头枪" },
+                new List<string>() { "刺叉", "叉", "冲锋矛" }
+
+
                 ) },
             { "Halberd", (
-                new List<string>() { "Halberd", "Bayonet", "Pollaxe", "Bill-Hook" },
-                new List<string>() { "Spontoon", "Glaive", "Axespear" }
+               // new List<string>() { "Halberd", "Bayonet", "Pollaxe", "Bill-Hook" },
+               // new List<string>() { "Spontoon", "Glaive", "Axespear" }
+                
+                new List<string>() { "戟", "刺刀", "长柄斧", "钩鐮" },
+                new List<string>() { "长柄枪", "长柄刀", "斧枪" }
+
                 ) },
             { "Scythe", (
-                new List<string>() { "Scythe", "Sickle" },
-                new List<string>() { "Reaper", "Grimhook", "Harvester" }
+                new List<string>() { "大镰刀", "小镰刀" },
+                new List<string>() { "收割者", "死神钩", "收割者" }
+                
+                //new List<string>() { "Scythe", "Sickle" },
+                //new List<string>() { "Reaper", "Grimhook", "Harvester" }
+
+
                 ) },
             { "Catalyst", (
-                new List<string>() { "Catalyst" },
-                new List<string>() { "Catalyst" }
+                new List<string>() { "杖" },
+                new List<string>() { "杖" }
                 ) },
             { "Talisman", (
-                new List<string>() { "Talisman" },
-                new List<string>() { "Talisman" }
+                new List<string>() { "护符" },
+                new List<string>() { "护符" }
                 ) },
             { "Fists", (
-                new List<string>() { "Knuckles", "Caestus" },
-                new List<string>() { "Shellfist", "Stonehand" }
+                //new List<string>() { "Knuckles", "Caestus" },
+                //new List<string>() { "Shellfist", "Stonehand" }
+                new List<string>() { "拳套", "护手带" },
+                new List<string>() { "贝壳拳", "石之手" }
+
+
                 ) },
             { "Whip", (
-                new List<string>() { "Whip", "Lash", "Switch" },
-                new List<string>() { "Bullwhip", "Cat-o'-Nine-Tails" }
+                new List<string>() { "鞭", "鞭", "开关鞭" },
+                new List<string>() { "牛皮鞭", "九尾鞭" }
+                
+                //new List<string>() { "Whip", "Lash", "Switch" },
+               // new List<string>() { "Bullwhip", "Cat-o'-Nine-Tails" }
+
+
                 ) },
             { "Bow", (
-                new List<string>() { "Bow", "Longbow", "Shortbow" },
-                new List<string>() { "Heartstring", "Hawkbow" }
+                new List<string>() { "弓", "长弓", "短弓" },
+                new List<string>() { "会心弓", "隼弓" }
                 ) },
             { "Greatbow", (
-                new List<string>() { "Greatbow" },
-                new List<string>() { "Greatbow", "Griefbow" }
+                new List<string>() { "大弓" },
+                new List<string>() { "大弓", "哀伤弓"}
                 ) },
             { "Crossbow", (
-                new List<string>() { "Crossbow" },
-                new List<string>() { "Ballista", "Scorpion" }
+                new List<string>() { "弩" },
+                new List<string>() { "巨弩", "蝎尾弩" }
                 ) },
             { "Greatshield", (
-                new List<string>() { "Greatshield", "Stoneshield" },
-                new List<string>() { "Vastshield", "Carapace", "Wall" }
+                new List<string>() { "大盾", "石盾" },
+                new List<string>() { "浩瀚之盾", "甲壳", "墙盾" }
                 ) },
             { "Shield", (
-                new List<string>() { "Shield", "Buckler", "Protector" },
-                new List<string>() { "Bloodshield", "Shell" }
+                new List<string>() { "盾", "小圆盾", "守护者" },
+                new List<string>() { "血盾", "壳" }
                 ) }
         };
         private readonly Random Rand;
@@ -128,7 +194,7 @@ namespace RoguelikeSouls.Installation
 
         public string GetRandomName(out string randomPart, string weaponClass = "", bool isLegendary = false, bool exact = false)
         {
-            bool isTitled = Rand.NextDouble() < titledNameOdds;
+            bool isTitled = Rand.NextDouble() < titledNameOdds; //是否有原主人
             string className = weaponClass != "" ? GetRandomClassName(weaponClass, isLegendary) : "";
             int actualMaxNameLength = className != "" ? (maxNameLength - (className.Length + (isTitled ? 4 : 1))) : maxNameLength;
             int actualMinNameLength = Math.Min(minNameLength, actualMaxNameLength - 2);
@@ -137,13 +203,14 @@ namespace RoguelikeSouls.Installation
                 className = "";
                 actualMaxNameLength = maxNameLength;
             }
-            
+
             // Keeps trying to get a name that is naturally under the absolute max limit (which is affected by class name).
             string randomName;
             int attempts = 0;
             do
             {
                 randomName = MarkovNames.Generate(actualMinNameLength, exact);
+                // Console.WriteLine($"Random name: {randomName}");
                 attempts++;
                 if (attempts >= maxAttempts)
                     break;
@@ -153,13 +220,14 @@ namespace RoguelikeSouls.Installation
                 // If max attempt number is exceeded (unlikely), just trim the last name.
                 randomName = TrimName(randomName, actualMaxNameLength);
             }
+            //    Console.WriteLine($"Random Name = {randomName}");
 
             randomPart = randomName;  // Can use output to affect description (TODO).
 
             if (className == "")
                 return randomName;
             else if (isTitled)
-                return $"{className} of {randomName}";
+                return $"{randomName}的{className}";
             else
                 return $"{randomName} {className}";
         }
@@ -236,20 +304,20 @@ namespace RoguelikeSouls.Installation
         public static ArmorNameOptionDict PieceNameOptions { get; } = new ArmorNameOptionDict()
         {
             { "Head", (
-                new List<string>() { "Hood", "Hat", "Mask" },
-                new List<string>() { "Helm", "Crown", "Helmet",  }
+                new List<string>() { "兜帽", "帽子", "面具" },
+                new List<string>() { "头盔", "王冠", "兜鍪",  }
                 ) },
             { "Body", (
-                new List<string>() { "Robe", "Cloak", "Coat", "Overcoat" },
-                new List<string>() { "Armor", "Plate", "Mail" }
+                new List<string>() { "长袍", "披风", "大衣", "外套" },
+                new List<string>() { "盔甲", "铠甲", "链甲" }
                 ) },
             { "Arms", (
-                new List<string>() { "Manchette", "Gloves" },
-                new List<string>() { "Gauntlets", "Bracelet" }
+                new List<string>() { "护手", "手套" },
+                new List<string>() { "臂甲", "手镯" }
                 ) },
             { "Legs", (
-                new List<string>() { "Pants", "Skirt", "Waistcloth", "Tights", "Trousers" },
-                new List<string>() { "Leggings", "Boots", "Anklet" }
+                new List<string>() { "裤子", "裙子", "腰巾", "紧身裤", "长裤" },
+                new List<string>() { "护腿", "靴子", "脚链" }
                 ) },
         };
         private readonly Random Rand;
@@ -271,12 +339,12 @@ namespace RoguelikeSouls.Installation
         public Dictionary<string, string> GetRandomSetNames(out string randomPart, bool isLegendary = false, bool exact = false)
         {
             // Generates a name for each armor piece type using the same random template.
-            
+
             bool isTitled = Rand.NextDouble() < titledNameOdds;
             Dictionary<string, string> pieceNames = new Dictionary<string, string>();
             foreach (string pieceType in PieceNameOptions.Keys)
                 pieceNames[pieceType] = GetRandomClassName(pieceType, isLegendary);
-            
+
             int actualMaxNameLength = pieceNames.Values.Min(name => maxNameLength - (name.Length + (isTitled ? 4 : 1)));
             int actualMinNameLength = Math.Min(minNameLength, actualMaxNameLength - 2);
 
@@ -437,7 +505,7 @@ namespace RoguelikeSouls.Installation
                 if (attempts >= MaxAttempts)
                     break;  // keep last name and trim
             } while (randomName.Length > MaxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
-            
+
             if (randomName.Length > MaxNameLength)
             {
                 //Console.WriteLine("Max attempts exceeded. Getting exact name.");

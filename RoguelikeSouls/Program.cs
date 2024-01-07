@@ -9,6 +9,7 @@ using RoguelikeSouls.ModProgram;
 using RoguelikeSouls.Extensions;
 using RoguelikeSouls.Installation;
 using System.Windows.Forms;
+using System.Resources;
 
 namespace RoguelikeSouls
 {
@@ -103,8 +104,8 @@ COMMANDS:
         [STAThread]
         static void Main()
         {
-            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
-
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("zh-CN");
+            //   System.Diagnostics.Process.Start("CMD.exe", "chcp5001");
             if (File.Exists("ROGUELIKE_SOULS.cfg"))
             {
                 MOD_PATH = File.ReadAllText("ROGUELIKE_SOULS.cfg");
@@ -132,7 +133,8 @@ COMMANDS:
                                  by Grimrukh
 ");
             Thread.Sleep(1000);
-            Console.WriteLine(@"  
+            Console.WriteLine(@" 
+  字符集测试
   BASIC INSTRUCTIONS:
 
      - Run the ""install"" command to generate a fresh set of parameters.
@@ -258,7 +260,8 @@ COMMANDS:
             random = inputSeed == "" ? new Random() : new Random(inputSeed.GetHashCode());
 
             MOD_PATH = GetGameDir();
-            if (MOD_PATH == null) {
+            if (MOD_PATH == null)
+            {
                 Console.WriteLine("No EXE selected. Cancelling installation.");
                 return;
             }
@@ -356,7 +359,7 @@ COMMANDS:
 #endif
             enemySetup.Install();
             Thread.CurrentThread.Join(0);
-            
+
             EnemyAnimationGenerator animSetup = new EnemyAnimationGenerator(mod, random);
 #if DEBUG
             Console.WriteLine("Modifying enemy animations...");

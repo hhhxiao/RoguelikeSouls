@@ -1,197 +1,142 @@
-Parrying
-Ghost
-Bandit's Knife
-Priscilla's
-Short
-Long
-Broad
-Broken
-Balder Side
-Crystal
-Sunlight
-Barbed
-Silver Knight
-Astora's
-Dark
-Drake
-Hilt
-Bastard
-Claymore
-Man-serpent
-Flamberge
-Crystal
-Stone
-Artorias
-Lord
-Moonlight
-Black Knight
-Artorias
-Artorias
-Lord
-Zweihander
-Demon
-Dragon
-Black Knight
-Scimitar
-Falchion
-Shotel
-Jagged Ghost
-Painting Guardian
-Quelaag's Fury
-Server
-Murakumo
-Gravelord
-Uchigatana
-Washing Pole
-Iaito
-Chaos
-Mail Breaker
-Rapier
-Estoc
-Velka's Rapier
-Ricard's Rapier
-Hand
-Battle
-Crescent
-Butcher Knife
-Golem
-Gargoyle Tail
-Demon's
-Dragon King
-Black Knight
-Club
-Mace
-Morning Star
-Warpick
-Pick
-Reinforced Club
-Blacksmith Hammer
-Blacksmith Giant Hammer
-Hammer Vamos
-Club
-Grant
-Demon's Hammer
-Dragon Tooth
-Large Club
-Smough's Hammer
-Fists
-Caestus
-Claw
-Dragon Bone Fist
-Dark Hand
-Winged
-Partizan
-Demon's
-Channeler's Trident
-Silver Knight
-Pike
-Dragonslayer
-Moonlight Butterfly Horn
-Dragonslayer
-Halberd
-Giant's
-Titanite Catch Pole
-Gargoyle's
-Black Knight
-Lucerne
-Lifehunt Scythe
-Short
-Longbow
-Black Pharis
-Dragonslayer
-Composite
-Darkmoon
-Light
-Heavy
-Avelyn
-Sniper
-Sorcerer's
-Beatrice's
-Tin Banishment
-Logan's
-Tin Darkmoon
-Oolacile Ivory
-Tin Crystallization
-Demon's
-Izalith
-Pyromancy Flame
-Talisman
-Canvas
-Thorolund
-Ivory
-Gwynevere's
-Sunlight
-Darkmoon
-Velka's
-Skull Lantern
-East-West
-Wooden
-Large Leather
-Small Leather
-Target
-Buckler
-Cracked Round
-Leather
-Plank
-Caduceus Round
-Crystal Ring
-Heater
-Knight
-Tower Kite
-Grass Crest
-Hollow Soldier
-Balder
-Crest
-Dragon Crest
-Warrior's Round
-Iron Round
-Spider
-Spiked
-Crystal
-Sunlight
-Silver Knight
-Black Knight
-Pierce
-Red and White Round
-Caduceus Kite
-Gargoyle's
-Eagle
-Tower
-Giant
-Stone
-Havel's
-Bonewheel
-Whip
-Notched Whip
-Standard
-Large
-Feather
-Fire
-Poison
-Moonlight
-Wooden
-Dragonslayer
-Gough's
-Arrow
-Standard
-Heavy
-Sniper
-Wood
-Lightning
-Bolt
-Effigy
-Sanctus
-Bloodshield
-Black Iron
-Gold Tracer
-Dark Silver Tracer
-Abyss
-Abyss
-Cleansing
-Stone
-Four-pronged Plow
-Manus
-Oolacile
-Guardian Tail
-Obsidian
-Gough's
+格挡
+亡灵
+盗贼
+普利希拉
+短
+长
+阔
+已折断的
+巴勒德尔
+太阳
+刺针
+银骑士
+亚斯特拉
+黑暗
+飞龙
+混种
+蛇人
+焰形
+石
+亚尔特留斯
+大王
+月光
+黑骑士
+双手
+恶魔
+古龙
+亡灵锯齿
+绘画守护者
+克拉格
+献祭
+墓王
+晾衣
+破甲
+细
+蓓尔嘉
+里卡尔
+手
+战
+弦月
+切肉
+巨偶
+石像鬼尾
+巨
+恶魔
+龙王
+锤
+晨星
+战
+十字
+强化
+铁匠
+巨人铁匠
+巴摩斯
+巨型
+神许
+大型
+斯摩
+拳头
+护手带
+龙骨
+黑暗之手
+雁翅
+游击
+传道者
+猎龙
+月光蝶
+巨人
+楔形
+石像鬼
+鹤嘴
+猎命
+法里斯
+复合
+暗月
+轻
+重
+狙击
+魔法师
+比阿特丽斯
+封印
+罗根
+暗月
+乌拉席露白枝
+伊札里斯
+粗布
+索尔隆德
+白
+双鸟纹木
+木
+大皮
+小皮
+小圆
+半坏木
+皮
+木板
+双蛇纹圆
+熨斗形
+骑士
+塔纹鸢形
+草纹
+游魂士兵
+巴勒德尔
+图纹
+龙图纹
+战士圆
+铁圆
+蜘蛛纹
+太阳纹
+突刺
+红白圆
+双蛇纹鸢形
+巨鹰纹
+塔
+哈维尔
+骸骨车轮
+荆棘
+普通
+羽毛
+火
+毒
+猎龙
+戈夫
+普通
+重弩
+狙击弩
+木弩
+雷弩
+邪神
+圣者
+血
+黑铁
+黄金
+暗银
+深渊
+结界
+岩石
+四齿
+马努斯
+乌拉席露树枝
+圣兽尾
+黑龙
+戈夫

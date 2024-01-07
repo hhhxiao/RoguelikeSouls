@@ -1,410 +1,291 @@
-Elementary sorcery.
-Fire soul arrow.
-Soul arrows inflict magic damage, making them
-effective against iron armor, tough scales,
-and other physically resilient materials.
-Sorcery which improves upon Soul Arrow.
-Fire strong soul arrow.
-At the Vinheim Dragon School,
-the acquisition of this spell marks an
-apprentice's coronation as a sorcerer.
-Soul sorcery emphasizing power.
-Fire heavy soul arrow.
-A more powerful, but also slower sorcery.
-Difficult to use due to a long cool down and
-a limitation on the number of castings.
-Sorcery which improves upon Heavy Soul Arrow.
-Fire strong heavy soul arrow.
-As difficult to use as Heavy Soul Arrow,
-but powerful enough to make it well worth it.
-Adored by certain sorcerers.
-Sorcery developed by Big Hat Logan.
-Fire homing soulmass.
-Life originates in the soul; no wonder the
-soulmass draws toward it. This sorcery is a
-window into seeker Logan's methods.
-Sorcery boosted by the knowledge
-Logan acquired at the Regal Archives.
-Fire homing crystal soulmass.
-The mysteries of souls, crystals, and the
-sorceries are deeply intertwined.
-Sorcery developed by Big Hat Logan.
-Fire piercing soul spear.
-A symbol of Logan's strength, the soul spear
-is referenced repeatedly in the legends, and
-is said to be on par with Lord Gwyn's lightning.
-Sorcery boosted by the knowledge
-Logan acquired at the Regal Archives.
-Fire piercing crystal soul spear.
-These pale magic spears, sharpened
-through crystallization, are on par with
-the armaments of the ancient lords.
-Sorcery for casters who wield swords.
-Magic augmentation: right weapon.
-The power of the magic swordsmen of Vinheim
-is predicated upon this and Magic Shield.
-Many warriors learn sorcery just for this.
-Sorcery which improves upon Magic Weapon.
-High magic augmentation: right weapon.
-At Vinheim Dragon School, only magic
-swordsmen on special orders are allowed
-to learn this spell which grants powerful
-augmentation to various weapons.
-Sorcery boosted by the knowledge
-Logan acquired at the Regal Archives.
-High magic + crystallization: right weapon.
-Logan's trials were successful, and the
-crystal medium facilitated a stronger bond
-between weapon and soul.
-Sorcery for casters who wield swords.
-Magic augmentation: left shield.
-Shields augmented by magic are resistant to
-magic attacks and have higher stability.
-This spell makes it possible to challenge
-powerful foes with a small shield.
-Sorcery which improves upon Magic Shield.
-High magic augmentation: left shield.
-At Vinheim Dragon School, only magic
-swordsmen on special orders are allowed
-to learn this spell which grants temporary
-strength to greatshields.
-Ancient sorcery of the lost land of Oolacile.
-Turns right weapon invisible.
-Not a simple augmentation, making it
-dependent on the skill of its caster. 
-An example of the capacity of Oolacile
-sorceries to control light.
-Ancient sorcery of the lost land of Oolacile.
-Turns body nearly invisible.
-Although perfect invisibility is unachievable
-due to the risk of dissipation, the caster
-need only stand still for a moment to blend
-in to environs with astounding camouflage.
-Ancient sorcery of the lost land of Oolacile.
-Cast a bright light upon surroundings.
-This light-producing sorcery is elementary
-but nonetheless demonstrates the achievements
-in mysticism of Oolacile. Such magic has
-not been developed even in Vinheim.
-Sorcery developed by a certain surreptitious
-sorcerer at Vinheim Dragon School.
-Masks all noises of caster.
-Effectively, Vinheim is controlled by the
-Dragon School, and it is no wonder that the
-town has its share of dark secrets.
-Sorcery used by playful sorcerers.
-Lure enemies away by creating a
-sound originating in the distance.
-This spell is not the first choice for
-serious sorcerers, but it has a surprising
-amount of applications, some of them
-extremely effective.
-Ancient sorcery of the lost land of Oolacile.
-Repair equipped weapons and armor.
-This sorcery was a part of everyday life in
-Oolacile. Its effects resemble Repair Powder,
-which must have found its way into the
-culture of this lost land.
-Sorcery developed by a certain surreptitious
-sorcerer at Vinheim Dragon School.
-Reduce damage and noise from fall.
-This sorcery, along with Hush, explains the
-extravagant cost of hiring Vinheim spooks.
-Ancient sorcery of the lost land of Oolacile.
-Transform into something inconspicuous.
-A separate stealth spell from Hidden Body.
-A skilled stealth sorcerer must be aware of
-his or her surroundings and of which
-objects are prime candidates for imitation.
-Sorcery of the red-robed remedician
-Ingward, guardian of the seal in New Londo.
-Sacrifice humanity to undo curse.
-Abhorrent curses eat away at the core of
-one's very existence, and cleansing oneself
-of curses is no easy task indeed.
-Sorcery of the red-robed Yulva,
-one of the Sealers of New Londo.
-Reduce bleeding and poison build-up,
-and undo various poisonous effects.
-One of New Londo's unique healing sorceries.
-Perhaps she abandoned her Sealer duty to
-take her healing arts back to Blighttown.
-Sorcery developed by Logan during his
-infatuation with Seath the Scaleless.
-Emit crystal breath of Seath the Scaleless.
-Although it no longer causes curses, what
-madness caused old Big Hat to appropriate
-this frightful power of the ancient dragons?
-Abyss sorcery discovered by an Oolacile
-sorcerer on the brink of madness.
-Fire giant Dark Orb.
-In contrast to standard soul sorceries,
-Abyss sorceries are weighty and inflict
-physical damage. Perhaps human souls,
-because of their humanity, produce
-sorceries with more tangible presence.
-Abyss sorcery discovered by an Oolacile
-sorcerer on the brink of madness.
-Fire successive Dark Orbs.
-In contrast to standard soul sorceries,
-Abyss sorceries are weighty and inflict
-physical damage. Perhaps a human soul is
-closer to matter in its humanity.
-Abyss sorcery discovered by an Oolacile
-sorcerer on the brink of madness.
-Create a cloud of Dark Fog.
-Although Dark Fog is, in theory, relatively
-close to humanity, it also happens to be a
-terrible poison for humans. Perhaps it
-reflects man's cruelty against his own.
-Sorcery of Manus, Father of the Abyss.
-Grant a fleeting will to the Dark of
-humanity, and volley the result.
-The will feels envy, or perhaps love,
-and despite the inevitably trite and
-tragic ending, the will sees no alternative,
-and is driven madly toward its target.
-Standard pyromancy of the Great Swamp.
-Hurl fireball.
-The fire damage caused by fireballs makes
-them effective against corporeal beasts and
-Undead, who by nature fear flame.
-Pyromancy which improves upon Fireball.
-Hurl fire orb.
-The flaming fire orb explodes upon impact,
-causing fire splash damage in a spectacle
-which seems to symbolize the strength of
-the fire-manipulating pyromancers.
-Ultimate fireball pyromancy.
-Hurl giant fireball.
-Salaman the Master Pyromancer, also called
-the Great Fireball after this spell, believed
-pyromancy was rooted in an adoration of fire.
-Those who acquire this spell usually agree.
-Primal pyromancy taught by Quelana of Izalith.
-Erect fire pillars in vicinity.
-The storm of flame is indiscriminate,
-and incinerates all nearby life.
-Primal pyromancy of Quelana of Izalith.
-Erect giant fire pillars in vicinity.
-The tempestuous raging flames resemble those
-summoned by the Daughters of Chaos when they
-challenged the ancient dragons and scorched
-the very earth.
-Pyromancy foreign to the Great Swamp.
-Create a surge of flame from palm of hand.
-Not all pyromancy originates in the Great
-Swamp. One hears rumors of unknown
-pyromancers inhabiting various lands, and
-this spell is the work of one such outlander.
-Primal pyromancy taught by Quelana of Izalith.
-Sweep foes with fire whip.
-The root pyromancy of Combustion,
-but much more difficult to wield.
-Elementary pyromancy.
-Create powerful flame in hand.
-One of the most basic pyromancies.
-For this very reason, the flame thus
-created is fierce.
-Pyromancy which improves upon Combustion.
-Create powerful, giant flame in hand.
-Great Combustion creates a powerful flame,
-but many sorcerers mock the simplicity of
-this spell.
-Unique pyromancy crafted by Eingyi,
-considered a heretic even at the Great Swamp.
-Create poison mist.
-Eingyi became an egg-bearing Undead who
-serves a deformed young girl who speaks
-an unintelligible tongue.
-Unique pyromancy crafted by Eingyi,
-considered a heretic even at the Great Swamp.
-Create intense poison mist.
-Why was Eingyi driven from the Great Swamp?
-One only need cast this pyromancy, a perverse
-diversion from the art of fire, to find out.
-Pyromancy foreign to the Great Swamp.
-Emit acid which corrodes weapons and armor.
-Not all pyromancy originates in the Great
-Swamp. One hears rumors of unknown
-pyromancers inhabiting various lands, and
-this spell is the work of one such outlander.
-Pyromancy of Carmina, who harnessed the power
-of flame to actualize the inner-self.
-Iron flesh boosts defense and resilience.
-Use of this pyromancy requires caution,
-as the caster becomes exceedingly heavy
-and unable to move freely.
-Pyromancy of Carmina, who harnessed the power
-of flame to actualize the inner-self.
-Intense sweating reduces flame damage.
-Carmina, the most accomplished pupil of
-Salaman the Master Pyromancer, pioneered
-new directions for the art of pyromancy.
-Advanced pyromancy of Quelana of Izalith.
-Charm Undead and gain temporary allies.
-The living are lured by flame, and this
-relationship is part and parcel to the art of
-pyromancy. Can be used by either gender.
-Pyromancy of Carmina, who harnessed the power
-of flame to actualize the inner-self.
-Short strength/endurance boost, but lose HP.
-Excessive power eats away the life-force of
-its caster, and like all dangerous spells,
-Power Within was kept secret for eons.
-Art of the Flame of Chaos, which engulfed
-the Witch of Izalith and her daughters.
-Hurl a giant chaos fireball.
-The Flame of Chaos can melt stone,
-producing a short-lived lava glob.
-Art of the Flame of Chaos, which engulfed
-the Witch of Izalith and her daughters.
-Erect localized chaos fire pillars.
-The Witch of Izalith, in an ambitious attempt
-to copy the First Flame, created instead the
-Flame of Chaos, a twisted bed of life.
-Art of the Flame of Chaos, which engulfed
-the Witch of Izalith and her daughters.
-Sweep foes with chaos fire whip.
-The fire whip was wielded by the
-eldest of the Daughters of Chaos.
-A pyromancy discovered from
-the Dark of the Abyss by a pyromancer
-who wandered into Oolacile.
-Conjure a great black flame in one's palm.
-Black flames are weighty, and inflict
-physical damage, enough to smack away
-the mightiest of shields.
-Elementary miracle cast by clerics.
-Restores HP.
-To cast a miracle, the caster learns a tale
-of the Gods, and says a prayer to be blessed
-by its revelations. Heal is the shortest
-of such miraculous tales.
-Great miracle cast by advanced clerics.
-Restores high HP.
-Great Heal is a long tale, only learned by a
-select few. No caster will be disappointed
-by the bountiful life that it yields.
-Great miracle cast by advanced clerics.
-Restores high HP.
-Great Heal Excerpt borrows from only
-several verses of Great Heal. As a result,
-it can only be cast a stark few times.
-Special miracle granted to the maidens
-of Gwynevere, Princess of the Sun.
-Restores high HP for self and vicinity.
-The miracles of Gwynevere, the princess 
-cherished by all, grant their blessing to
-a great many warriors.
-Common miracle amongst cleric knights.
-Gradual HP restoration.
-Beware of the cleric knight blessed by
-Replenishment, for he shall not fall easily.
-Special miracle granted to the maidens
-of Gwynevere, Princess of the Sun.
-Gradual HP restoration for self and vicinity.
-The miracles of Gwynevere, the princess 
-cherished by all, grant their blessing to
-a great many warriors.
-Miracle known only by the servants of
-the first dead, Gravelord Nito.
-Giant Gravelord swords jut out in vicinity.
-Nito sleeps deep within the Tomb of Giants,
-quietly overseeing all death, and waiting for
-his servants to usher in the Eye of Death.
-Miracle known only by the servants of
-the first dead, Gravelord Nito.
-Giant Gravelord swords jut out in vicinity.
-Many have died, and many eyes were claimed to
-realize the Greatsword Dance, a Gravelord
-ritual known only by his closest servants.
-Lost miracle, foreign to the Way of White
-While active, no losses incurred upon death
-The Way of White recognizes death itself,
-but admonishes the Undead. It is for this
-very reason that this miracle was lost.
-Great miracle cast by advanced clerics.
-Return to last bonfire rested at.
-Would normally link to one's homeland,
-only the curse of the Undead has distorted
-its power, redirecting casters to a bonfire.
-Or perhaps for Undead, this serves as home?
-Common miracle amongst cleric knights.
-Create shockwave.
-This quickly-acting miracle inflicts no
-damage, but propels foes back and defends
-against arrows. Cleric knights use this
-miracle when charging into enemy mobs.
-Primal form of Force.
-Create powerful shockwave.
-Wrath of the Gods was an epic tale that
-tattered over time and devolved into the
-modern Force. This primal form of Force
-emits a shockwave that also inflicts damage.
-Outland miracle, foreign to the Way of White.
-Emit shockwave.
-Considered an alternate branching of Force.
-Emits an expanding shockwave orb.
-Miracle of clerics on an Undead mission.
-Display more guidance from other worlds.
-Guidance facilitates communication between
-Undead, but their value varies greatly.
-A balance of faith and wisdom is required.
-Miracle passed down to those bound by
-the Warrior of Sunlight covenant.
-Hurl lightning spear.
-Lightning spears inflict rare lightning
-damage, and are very effective against
-magic, fire, and most of all, dragons.
-Miracle passed down to those bound by
-the Warrior of Sunlight covenant.
-Hurl giant lightning spear.
-The weapon of the God of War, who inherited
-the sunlight of Lord Gwyn, but had
-respect only for arms, and nothing else.
-Miracle born from the fading soul of Gwyn.
-Hurl sunlight spear.
-In the war that marked the dawn of the Age
-of Fire, Gwyn wielded these rays of sunlight,
-which remain fierce even as they fade.
-Miracle of Bishop Havel the Rock.
-Cover body in defensive magic coating.
-This coating greatly boosts magic defense,
-assisting warriors who must face the magic
-which Bishop Havel countered so proficiently.
-Miracle of Bishop Havel the Rock.
-Cover body in powerful def. magic coating.
-Havel the Rock, an old battlefield compatriot
-of Lord Gwyn, was the sworn enemy of Seath
-the Scaleless. He despised magic, and made
-certain to devise means of counteraction.
-Miracle of the black-haired witch Velka.
-Temporary auto counter vs. heavy damage.
-For each sin there is a punishment, and
-it is the task of Goddess Velka to define
-the sin, and mete out the punishment.
-Outland miracle, foreign to the Way of White.
-Slows all walking within effect area.
-This miracle is normally used to flee, as
-it slows walking but does not affect attacks,
-but nevertheless defines peace perfectly.
-Secret rite of the black-haired witch Velka.
-Prevents casting of magic within effect area.
-Velka, the Goddess of Sin, is a rogue deity,
-but she is versed in arts both new and old,
-and is considered to have a great range of
-influence even as gods are concerned.
-Miracle wielded by Lord Gwyn's firstborn.
-Boost right weapon with rays of Sun.
-The power of sunlight, manifested as
-lightning, is very effective against dragons.
-When the eldest son was stripped of his
-deific status, he left this on his father's
-coffin, perhaps as a final farewell.
-Miracle granted to those bound by covenant
-to Gwyndolin, Lord Gwyn's lastborn.
-Boost right weapon with rays of Darkmoon.
-The power of the rays of the Darkmoon are
-manifested in vengeance, and the deeper the
-animus, the more devastating the attack.
+基础魔法,能射出灵魂箭灵魂箭具备法术属性的攻击力,
+因此对铁铠甲与坚硬的鳞片等,
+抗物理属性能力强的对手相当有效.
+“灵魂箭”的高阶魔法,
+能射出威力更强的灵魂箭在彼海姆的龙学院中,
+得要学会这项魔法,才算是独当一面的魔法师.
+更加重视威力的灵魂魔法,
+能射出灵魂巨箭为了提升威力而牺牲施放速度的魔法
+使用时会露出很大的破绽,且可用次数不多,
+是种不好运用的魔法.
+“灵魂巨箭”的高阶魔法,
+能射出威力更强的灵魂巨箭虽然不好运用这点依旧没变,
+但其威力足以弥补这种缺点,
+因此有部分魔法师经常使用.
+“大帽子”罗根的独门魔法,
+能射出追踪性能优异的灵魂块既然灵魂是生命之源,
+会受生命吸引自是理所当然
+从这魔法中,能一窥求知若渴的罗根为人.
+罗根借着在神的书库获得的庞大知识,
+更进一步强化性能的魔法
+能射出追踪性能优异的灵魂结晶块可见灵魂、结晶、魔法,
+这三者似乎有十分密切的关系.
+“大帽子”罗根的独门魔法,
+能射出具贯穿能力的灵魂枪这魔法象征罗根在战斗时的实力,
+也是在传说中常被提及,有如他的代名词般的魔法
+有人形容其威力就像葛温王的雷电一样.
+罗根借着在神的书库获得的庞大知识,
+更进一步强化性能的魔法
+能射出具贯穿能力的灵魂结晶枪因为结晶而变得更为锋利的蓝白色法术枪,
+具备足以跟古代诸王武器并驾齐驱的威力.
+习剑魔法师用的魔法,
+能以法术强化右手武器此魔法与“法术盾,”
+乃是彼海姆法术剑士强大实力的两大靠山,
+光是为了这两招而学习魔法的战士不在少数.
+“法术武器”的高阶魔法,
+能以法术大幅强化右手武器由于这魔法可赋予所有武器强大威力,
+因此在彼海姆的龙学院之中,
+也仅传授给肩负使命的法术剑士.
+罗根借着在神的书库获得的庞大知识,
+更进一步强化性能的魔法
+能以结晶法术大幅强化右手武器罗根以结晶作为媒介,
+尝试让灵魂与武器更紧密结合,
+结果试验成功,因此成为新知的权威.
+习剑魔法师用的魔法,
+能以法术强化左手盾牌法术强化后的盾牌可抵御法术属性攻击,
+而且承受攻击的能力也大幅提升,
+因此甚至还能用小型盾牌来挑战实力强大的敌人.
+“法术盾”的高阶魔法,
+能以法术大幅强化左手盾牌此魔法跟“强力法术武器”一样,
+仅传授给肩负着使命的法术剑士
+可让盾牌暂时具备大型盾的强韧.
+已毁灭的乌拉席露王国古老魔法,
+能够让右手武器变透明这并非单纯强化武器,效果端看施术者如何使用
+乌拉席露的魔法十分擅长运用光线,
+从这魔法更是可见一斑.
+已毁灭的乌拉席露王国古老魔法,
+能够让全身变得近乎透明虽然为了避免让人完全消失,还是能隐约看到,
+但只要一不动,便会立刻融入周遭环境,
+相信不会轻易遭对手发觉.
+已毁灭的乌拉席露王国古老魔法,
+能够发出照亮周围的光线虽然这只是发出光线的单纯魔法,
+但正是乌拉席露的神秘所在
+直到现在,彼海姆都尚未研发成功.
+彼海姆的龙学院中
+潜藏暗处的魔法师所用的魔法,
+能彻底消除施术者发出的所有声响龙学院可说是彼海姆真正的控制者,
+有这种黑暗面自是理所当然.
+部分魔法师用来开玩笑的魔法,
+能在远处引发声响,吸引敌人注意虽然不是魔法师要学的正式魔法,
+但这种操控声响的效果,用途相当广,
+可随着使用者的创意而发挥很大功效.
+已毁灭的乌拉席露王国古老魔法,
+能够修理目前装备的武器、防具这魔法深植于乌拉席露的日常生活中,
+并与“修理光粉”有许多相似处,
+从中或许可以窥见他们的文化.
+彼海姆的龙学院中
+潜藏暗处的魔法师所用的魔法,
+能减轻坠落后的伤害,并降低坠落时发出的声响由于身负这魔法和“静音,”
+彼海姆的密探身价非凡.
+已毁灭的乌拉席露王国古老魔法,
+能够变身成融入周遭环境的某种物品这是跟“隐形身躯”不同的匿踪型魔法
+如果无法当下判断要变身成什么,
+就算不上是独当一面的拟态术师.
+拥有着“疗伤圣手”别名,
+小隆德封印者──红袍英果德的魔法,
+能减缓诅咒累积状态恐怖的咒死,会从根本持续地侵蚀受诅者
+这法术是抵抗诅咒,驱离咒死的少数手段之一.
+过去的小隆德封印者之一,红袍谕尔瓦的魔法,
+能减缓出血以及所有毒素累积,
+还能解除所有的中毒状态小隆德特有的治疗魔法之一,
+她可能是为了到病村发挥治疗魔法,
+而放弃封印的职责.
+遭到希斯的执着吞噬的罗根所创的魔法,
+能够喷出白龙希斯的结晶吐息“大帽子”将那已无恐怖的咒死效果,
+犹如神祇般的古龙技艺化为己有,
+到底有什么目的呢？.
+乌拉席露魔法师在疯狂中发现的深渊魔法,
+能放出巨大的黑暗弹与一般的灵魂魔法不同,
+暗魔法带有重量,并有物理性伤害
+以人性的角度而言,
+这可能更接近人类灵魂的原貌.
+乌拉席露魔法师在疯狂中发现的深渊魔法,
+能连续施放黑暗弹与一般的灵魂魔法不同,
+暗魔法带有重量,并有物理性伤害
+以人性的角度而言,
+这可能更接近人类灵魂的原貌.
+乌拉席露魔法师在疯狂中发现的深渊魔法,
+能释放黑暗雾照理来说,黑暗雾的性质与人性相近,
+但是对人类而言却是可怕的毒
+这就如同人们常会侵蚀他人一般.
+深渊之主马努斯的魔法,
+能将人性黑暗面暂时赋予意志施放那被赋予的意志是对人的羡慕或爱恋,
+即使结局只会是一个小小悲剧,
+仍旧执着地追寻目标.
+大沼咒术师最基本的咒术,
+能掷出火球火球具备火属性攻击力,
+因此对于具有肉体的不死人与野兽等,
+畏惧火焰的生物格外有效.
+进一步强化“火球”性能的咒术,
+能掷出火焰弹熊熊燃烧的火焰弹,在命中后便会爆炸,
+让周围的敌人也遭受火焰伤害
+这种情景正是操控火焰的咒术师特色.
+顶尖的“火球”类咒术
+能掷出巨大的火球这咒术是咒术王札拉曼的外号
+相信在接触这伟大的咒术后,
+就能充分了解他的教诲：
+“所谓咒术,便是对火焰的憧憬”.
+伊札里斯的克拉娜所传授的初始咒术,
+能在自身周围卷起数道火柱火焰风暴会不分敌我,
+将范围内的所有生物全数烧成灰烬.
+伊札里斯的克拉娜所拥有的初始咒术,
+能在自身周围卷起数道巨大火柱猛烈刮起的火焰大风暴,
+是她们过去与古龙交战时,
+用来将全世界焚烧殆尽的技艺.
+未在大沼流传的咒术,
+能从手掌喷出火焰咒术并非尽源于大沼,
+据说各地也有着无名的咒术师,
+这咒术应该就是那些咒术师的技艺吧.
+伊札里斯的克拉娜所传授的初始咒术,
+能以火焰鞭横扫对手虽说“引燃火焰”源自此咒术,
+但就控制火焰来说,
+两者间的难度差异判若云泥.
+咒术师最先学的咒术,
+能从手中引燃威力强大的火焰这是最为单纯的咒术之一,
+也因为如此,火焰本身的威力相当强.
+进一步强化“引燃火焰”性能的咒术,
+能从手中引燃威力强大的烈火虽然说火焰本身的威力相当强大,
+但因为这咒术性质单纯,
+所以也常受到咒术师轻视.
+即便在大沼也被视为异端分子的
+咒术师恩吉的独门技艺,
+能引发毒雾现已成为不死人且背着蛋的恩吉,
+据说正为一名连语言都不通的异形少女效力.
+即便在大沼也被视为异端分子的
+咒术师恩吉的独门技艺,
+能引发剧毒雾看到这种和探索火焰大异其趣的咒术,
+恩吉为何会被赶出大沼,也就不难理解了.
+未在大沼流传的咒术,
+能喷出损坏武器与防具的酸液咒术并非尽源于大沼,
+据说各地也有着无名的咒术师,
+这咒术应该就是那些咒术师的技艺吧.
+咒术师卡尔米纳的技艺,
+会吸纳火焰,活化自身内在潜力,
+全身将化为钢铁,能提升防御力与抵抗力由于重量将会大幅增加,行动也会变得迟钝,
+要谨慎选择使用的时机.
+咒术师卡尔米纳的技艺,
+会吸纳火焰,活化自身内在潜力,
+借由剧烈出汗,能降低火焰对自身的伤害卡尔米纳提出了咒术崭新型态,
+被誉为咒术王札拉曼的头号弟子.
+伊札里斯的克拉娜所传授的特殊咒术,
+能魅惑不死人,使其暂时成为我方同伴生命会受到火焰吸引,
+而这种技艺应该也算是咒术的其中一面吧
+无关性别都可以使用.
+咒术师卡尔米纳的技艺,
+会吸纳火焰,活化自身内在潜力,
+能暂时提升力气与耐力,但血量会持续减少力量过度强大,将会侵蚀本身的生命力,
+正因为如此,这种力量才会一直密而不传.
+吞噬伊札里斯魔女及其女儿的
+混沌火焰技艺,
+能掷出巨大的混沌火球混沌火焰是种连岩石都能熔化的高温火焰,
+在其烧过之处,将会暂时出现一滩岩浆.
+吞噬伊札里斯魔女及其女儿的
+混沌火焰技艺,
+能在自身周围卷起数道混沌火柱魔女试图创造出“初始之火”的野心,
+因而诞生出异形生命的温床,并孕育出混沌火焰.
+吞噬伊札里斯魔女及其女儿的
+混沌火焰技艺,
+能以混沌火焰鞭横扫对手,
+其威力视人性而定这种横扫火焰的咒术,
+据说是混沌的女儿中,较为年长的姊姊们所用.
+迷途误闯乌拉席露的咒术师
+在深渊黑暗中发现的咒术,
+能从手中引燃盛大的黑色火焰黑色火焰非常重,并带有物理性伤害,
+只凭一般盾牌可能会招架不住.
+圣职最初步的奇迹,
+能恢复血量所谓奇迹,便是学习诸神的故事,
+再借由祈祷,蒙受恩惠的技艺
+“恢复”是其中最短的故事.
+高阶圣职所使用的伟大奇迹之一,
+能大幅恢复血量“大恢复”是段庞杂的故事,
+因此习得的人也是屈指可数,
+其恢复量对人来说,已是绰绰有余.
+将高阶圣职使用的伟大奇迹
+简化成芸芸众生也能使用的奇迹
+能大幅恢复血量由于仅撷取“大恢复”中的部分故事内容,
+因此其使用次数也变得相当少.
+为阳光公主葛维艾薇雅效力的圣女们
+所传承的特殊奇迹
+能大幅恢复自身与邻近角色的血量广受万物爱戴的葛维艾薇雅,
+其奇迹的恩惠将雨露均沾地遍布战士之间,
+但要与之订立誓约才可使用.
+在圣职骑士之间极为普及的奇迹之一,
+能逐渐恢复血量蒙受“生命力涌现”恩惠的骑士,
+将非常勇敢顽强,绝不会轻易被打倒.
+为阳光公主葛维艾薇雅效力的圣女们
+所传承的特殊奇迹
+能渐渐恢复自身与邻近角色的血量广受万物爱戴的葛维艾薇雅,
+其奇迹的恩惠将雨露均沾地遍布战士之间,
+但要与之订立誓约才可使用.
+唯有“最初的死者”墓王尼特的手下才知道的奇迹,
+能从自身周围的地面,刺出无数把墓王之剑尼特身在诸神长眠的巨人墓地最深处,
+静静地掌管着一切死亡,
+并等待手下所带来的“死者眼眸”.
+唯有“最初的死者”墓王尼特的手下才知道的奇迹,
+能从自身周围的地面,刺出无数把巨大墓王之剑即便在手下之中,知道“大剑舞”的人也是寥寥无几
+这股力量乃是奠基在许多的死亡之上,
+究竟有多少死者的眼眸遭到墓王夺走呢？.
+白教不为人知的失传奇迹之一,
+在有效时间内死亡时,不会有任何损失白教对死亡本身抱持着肯定态度,
+认为应该要避讳的反而是“不死”
+正因为如此,这种奇迹才会失传.
+高阶圣职所使用的伟大奇迹之一,
+能返回最后休息的营火处这奇迹原本可以让人返回故乡,
+但不死的诅咒扭曲了效果,
+还是说营火便是不死人的故乡呢？.
+在圣职骑士间广为普及的奇迹之一,
+能引起冲击波虽不具伤害力,但就奇迹而言发动速度算是很快,
+可以弹飞周围敌人,并防范飞来的箭矢
+圣职骑士便是借助此奇迹,单枪匹马地朝敌阵突击.
+“原力”的古老原型,
+能引起强烈的冲击波“诸神之怒”原本是一段非常长的故事,
+在逐渐删减后,才成了现在的“原力”
+此原型奇迹引起的冲击波具有高杀伤力.
+白教不为人知的边境奇迹之一,
+能直接射出冲击波这算是以别种型态流传至今的“原力,”
+会把球形冲击波如向外推出般朝前方射出.
+唯有肩负着不死人使命的圣职方能学会的奇迹,
+能显示出许多来自其他世界的建言建言乃是不死人的沟通手段,
+内容虽然玉石混淆,但其中也有深具价值的建言,
+因此使用者的智慧与坚定的信仰便相当重要.
+订立“太阳战士”誓约的人才能学会的奇迹,
+能射出雷枪由于雷枪具备罕见的雷属性攻击力,
+因此对于抗法术或抗火能力强的对象也能生效
+特别是在对付龙族时,应该更能发挥强大的威力.
+订立“太阳战士”誓约的人才能学会的奇迹,
+能射出巨雷枪此为以战神闻名的太阳长男的武器
+继承葛温王阳光的长男,
+据说就武力而言,绝不会输给父亲.
+从乌薪王葛温的灵魂中孕育出的奇迹,
+能射出阳光之枪在火的时代肇始时的战役中,
+葛温王所用的雷电便是阳光之枪
+现在虽已有如风中残烛,但其威力仍旧无与伦比.
+将“坚石”哈维尔传授的奇迹,
+依照白教的需求调整而成的普遍奇迹
+能以法术防护膜覆盖全身上下防护膜可大幅提升法术属性防御力,
+是哈维尔的司祭赋予那些刚健战士
+对抗法术的手段.
+“坚石”哈维尔的司祭传授的奇迹,
+能以强力法术防护膜覆盖全身上下哈维尔身为葛温王的老战友,
+同时也是白龙希斯的敌手,对法术深恶痛绝,
+因此他十分注重对付法术的手段.
+黑发魔女蓓尔嘉流传下来的奇迹,
+在短时间内遭到重创,能自动反击如果说有所谓的“罪有应得,”
+那么裁定是否有罪,并执行惩罚,
+就是罪业女神蓓尔嘉的职责所在了.
+白教不为人知的边境奇迹之一,
+在其有效范围内,任何人的行走速度都会变慢因为仅会让行走速度变慢,并不会影响攻击,
+相信这奇迹大致上都是为了逃跑而用
+总之这样就算是和平了.
+黑发魔女蓓尔嘉流传下来的秘密仪式,
+在其有效范围内,将无法使用任何法术据说罪业女神蓓尔嘉虽是异端分子,
+但由于通晓古往今来的一切秘密仪式,
+在诸神中有相当强的影响力.
+阳光长男在过去所用的奇迹,
+能借由阳光的力量强化右手武器阳光的力量所指的就是雷电,
+在对付龙族时,特别能发挥威力放在大王空棺中的这个奇迹,
+或许是遭神放逐的他所留下的诀别话语吧.
+立誓效忠葛温王的么子──
+暗月之神葛温德林方能学会的特别奇迹,
+能通过暗月光的力量强化右手武器暗月光的力量所代表的就是复仇,
+越是优异的复仇者,便越能强化武器的威力.

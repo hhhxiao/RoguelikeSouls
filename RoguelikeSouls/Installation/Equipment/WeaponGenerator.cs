@@ -37,7 +37,7 @@ namespace RoguelikeSouls.Installation
         public int SpecialAttackAnimationCategory { get; }  // 50+
 
         public string NameID { get => $"{Name} ({ParamId})"; }
-        
+
         public WeaponStats(
             string weaponName, string weaponClass, string weaponSubclass,
             int paramId, int modelId, int behVarId,
@@ -99,431 +99,431 @@ namespace RoguelikeSouls.Installation
         public static Dictionary<string, WeaponStats> VanillaWeapons { get; } = new Dictionary<string, WeaponStats>()
         {
             // Daggers
-            { "Dagger", new WeaponStats("Dagger", 
+            { "Dagger", new WeaponStats("Dagger",
                 "Melee", "Dagger", 100000, 100, 2000, 0, 10, 20, 0) },
-            { "ParryingDagger", new WeaponStats("ParryingDagger", 
+            { "ParryingDagger", new WeaponStats("ParryingDagger",
                 "Melee", "Dagger", 101000, 107, 2000, 0, 10, 20, 71) },
-            { "GhostBlade", new WeaponStats("GhostBlade", 
+            { "GhostBlade", new WeaponStats("GhostBlade",
                 "Melee", "Dagger", 102000, 103, 2003, 0, 10, 20, 120) },
-            { "BanditsKnife", new WeaponStats("BanditsKnife", 
+            { "BanditsKnife", new WeaponStats("BanditsKnife",
                 "Melee", "Dagger", 103000, 101, 2001, 0, 10, 20, 72) },
-            { "PriscillasDagger", new WeaponStats("PriscillasDagger", 
+            { "PriscillasDagger", new WeaponStats("PriscillasDagger",
                 "Melee", "Dagger", 104000, 104, 2002, 0, 10, 20, 73) },
-            { "DarkSilverTracer", new WeaponStats("DarkSilverTracer", 
+            { "DarkSilverTracer", new WeaponStats("DarkSilverTracer",
                 "Melee", "Dagger", 9011000, 111, 2004, 0, 10, 20, 130) },
 
             // Straight Swords
-            { "Shortsword", new WeaponStats("Shortsword", 
+            { "Shortsword", new WeaponStats("Shortsword",
                 "Melee", "StraightSword", 200000, 207, 2300, 0, 10, 23, 0) },
-            { "Longsword", new WeaponStats("Longsword", 
+            { "Longsword", new WeaponStats("Longsword",
                 "Melee", "StraightSword", 201000, 201, 2300, 0, 10, 23, 0) },
-            { "Broadsword", new WeaponStats("Broadsword", 
+            { "Broadsword", new WeaponStats("Broadsword",
                 "Melee", "StraightSword", 202000, 204, 2301, 0, 10, 23, 53) },
-            { "BrokenStraightSword", new WeaponStats("BrokenStraightSword", 
+            { "BrokenStraightSword", new WeaponStats("BrokenStraightSword",
                 "Melee", "StraightSword", 203000, 200, 2300, 0, 10, 23, 0) },
-            { "BalderSideSword", new WeaponStats("BalderSideSword", 
+            { "BalderSideSword", new WeaponStats("BalderSideSword",
                 "Melee", "StraightSword", 204000, 202, 2302, 0, 10, 23, 54) },
-            { "CrystalStraightSword", new WeaponStats("CrystalStraightSword", 
+            { "CrystalStraightSword", new WeaponStats("CrystalStraightSword",
                 "Melee", "StraightSword", 205000, 203, 2300, 0, 10, 23, 0) },
-            { "SunlightStraightSword", new WeaponStats("SunlightStraightSword", 
+            { "SunlightStraightSword", new WeaponStats("SunlightStraightSword",
                 "Melee", "StraightSword", 206000, 231, 2300, 0, 10, 23, 0) },
-            { "BarbedStraightSword", new WeaponStats("BarbedStraightSword", 
+            { "BarbedStraightSword", new WeaponStats("BarbedStraightSword",
                 "Melee", "StraightSword", 207000, 264, 2301, 0, 10, 23, 53) },
-            { "SilvKnightStrSword", new WeaponStats("SilvKnightStrSword", 
+            { "SilvKnightStrSword", new WeaponStats("SilvKnightStrSword",
                 "Melee", "StraightSword", 208000, 212, 2303, 0, 10, 23, 55) },
-            { "AstorasStraightSword", new WeaponStats("AstorasStraightSword", 
+            { "AstorasStraightSword", new WeaponStats("AstorasStraightSword",
                 "Melee", "StraightSword", 209000, 271, 2300, 0, 10, 23, 0) },
-            { "Darksword", new WeaponStats("Darksword", 
+            { "Darksword", new WeaponStats("Darksword",
                 "Melee", "StraightSword", 210000, 260, 2304, 0, 10, 23, 57) },
-            { "DrakeSword", new WeaponStats("DrakeSword", 
+            { "DrakeSword", new WeaponStats("DrakeSword",
                 "Melee", "StraightSword", 211000, 291, 2305, 0, 10, 23, 58) },
-            { "StraightSwordHilt", new WeaponStats("StraightSwordHilt", 
+            { "StraightSwordHilt", new WeaponStats("StraightSwordHilt",
                 "Melee", "StraightSword", 212000, 272, 2301, 0, 10, 23, 53) },
 
             // Greatswords
-            { "BastardSword", new WeaponStats("BastardSword", 
+            { "BastardSword", new WeaponStats("BastardSword",
                 "Melee", "Greatsword",  300000, 206, 2500, 2, 12, 25, 0) },
-            { "Claymore", new WeaponStats("Claymore", 
+            { "Claymore", new WeaponStats("Claymore",
                 "Melee", "Greatsword",  301000, 266, 2505, 2, 12, 25, 74) },
-            { "ManserpentGreatsword", new WeaponStats("ManserpentGreatsword", 
+            { "ManserpentGreatsword", new WeaponStats("ManserpentGreatsword",
                 "Melee", "Greatsword",  302000, 210, 2500, 2, 12, 25, 0) },
-            { "Flamberge", new WeaponStats("Flamberge", 
+            { "Flamberge", new WeaponStats("Flamberge",
                 "Melee", "Greatsword",  303000, 211, 2502, 2, 12, 25, 75) },
-            { "CrystalGreatsword", new WeaponStats("CrystalGreatsword", 
+            { "CrystalGreatsword", new WeaponStats("CrystalGreatsword",
                 "Melee", "Greatsword",  304000, 263, 2500, 2, 12, 25, 0) },
-            { "StoneGreatsword", new WeaponStats("StoneGreatsword", 
+            { "StoneGreatsword", new WeaponStats("StoneGreatsword",
                 "Melee", "Greatsword",  306000, 220, 2503, 2, 12, 25, 77) },
-            { "GreatswordofArtorias", new WeaponStats("GreatswordofArtorias", 
+            { "GreatswordofArtorias", new WeaponStats("GreatswordofArtorias",
                 "Melee", "Greatsword",  307000, 267, 2506, 2, 12, 25, 78) },
-            { "MoonlightGreatsword", new WeaponStats("MoonlightGreatsword", 
+            { "MoonlightGreatsword", new WeaponStats("MoonlightGreatsword",
                 "Melee", "Greatsword",  309000, 258, 2504, 2, 12, 25, 79) },
-            { "BlackKnightSword", new WeaponStats("BlackKnightSword", 
+            { "BlackKnightSword", new WeaponStats("BlackKnightSword",
                 "Melee", "Greatsword",  310000, 259, 2501, 2, 12, 25, 80) },
-            { "GreatswordofArtoriasCursed", new WeaponStats("GreatswordofArtoriasCursed", 
+            { "GreatswordofArtoriasCursed", new WeaponStats("GreatswordofArtoriasCursed",
                 "Melee", "Greatsword",  311000, 269, 2506, 2, 12, 25, 78) },
-            { "GreatLordGreatsword", new WeaponStats("GreatLordGreatsword", 
+            { "GreatLordGreatsword", new WeaponStats("GreatLordGreatsword",
                 "Melee", "Greatsword",  314000, 268, 2507, 2, 12, 25, 97) },
-            { "ObsidianGreatsword", new WeaponStats("ObsidianGreatsword", 
+            { "ObsidianGreatsword", new WeaponStats("ObsidianGreatsword",
                 "Melee", "Greatsword", 9020000, 240, 2509, 2, 12, 25, 135) },
-            { "AbyssGreatsword", new WeaponStats("AbyssGreatsword", 
+            { "AbyssGreatsword", new WeaponStats("AbyssGreatsword",
                 "Melee", "Greatsword", 9012000, 274, 2508, 2, 12, 25, 131) },
 
             // Ultra Greatswords
-            { "Zweihander", new WeaponStats("Zweihander", 
+            { "Zweihander", new WeaponStats("Zweihander",
                 "Melee", "UltraGreatsword", 350000, 208, 2600, 2, 12, 26, 0) },
-            { "Greatsword", new WeaponStats("Greatsword", 
+            { "Greatsword", new WeaponStats("Greatsword",
                 "Melee", "UltraGreatsword", 351000, 251, 2602, 2, 12, 26, 95) },
-            { "DemonGreatMachete", new WeaponStats("DemonGreatMachete", 
+            { "DemonGreatMachete", new WeaponStats("DemonGreatMachete",
                 "Melee", "UltraGreatsword", 352000, 270, 2603, 2, 12, 26, 96) },
-            { "DragonGreatsword", new WeaponStats("DragonGreatsword", 
+            { "DragonGreatsword", new WeaponStats("DragonGreatsword",
                 "Melee", "UltraGreatsword", 354000, 281, 2601, 2, 12, 26, 98) },
-            { "BlackKnightGreatsword", new WeaponStats("BlackKnightGreatsword", 
+            { "BlackKnightGreatsword", new WeaponStats("BlackKnightGreatsword",
                 "Melee", "UltraGreatsword", 355000, 221, 2604, 2, 12, 26, 128) },
 
             // Curved Swords
-            { "Scimitar", new WeaponStats("Scimitar", 
+            { "Scimitar", new WeaponStats("Scimitar",
                 "Melee", "CurvedSword",  400000, 400, 2800, 0, 10, 28, 0) },
-            { "Falchion", new WeaponStats("Falchion", 
+            { "Falchion", new WeaponStats("Falchion",
                 "Melee", "CurvedSword",  401000, 401, 2800, 0, 10, 28, 0) },
-            { "Shotel", new WeaponStats("Shotel", 
+            { "Shotel", new WeaponStats("Shotel",
                 "Melee", "CurvedSword",  402000, 403, 2801, 0, 10, 28, 99) },
-            { "JaggedGhostBlade", new WeaponStats("JaggedGhostBlade", 
+            { "JaggedGhostBlade", new WeaponStats("JaggedGhostBlade",
                 "Melee", "CurvedSword",  403000, 102, 2802, 0, 10, 28, 100) },
-            { "PaintingGuardianSword", new WeaponStats("PaintingGuardianSword", 
+            { "PaintingGuardianSword", new WeaponStats("PaintingGuardianSword",
                 "Melee", "CurvedSword",  405000, 406, 2803, 0, 10, 28, 101) },
-            { "QuelaagsFurysword", new WeaponStats("QuelaagsFurysword", 
+            { "QuelaagsFurysword", new WeaponStats("QuelaagsFurysword",
                 "Melee", "CurvedSword",  406000, 213, 2804, 0, 10, 28, 56) },
-            { "GoldTracer", new WeaponStats("GoldTracer", 
+            { "GoldTracer", new WeaponStats("GoldTracer",
                 "Melee", "CurvedSword", 9010000, 110, 2805, 0, 10, 28, 132) },
 
             // Curved Greatswords
-            { "Server", new WeaponStats("Server", 
+            { "Server", new WeaponStats("Server",
                 "Melee", "CurvedGreatsword", 450000, 280, 5100, 2, 12, 25, 51) },
-            { "Murakumo", new WeaponStats("Murakumo", 
+            { "Murakumo", new WeaponStats("Murakumo",
                 "Melee", "CurvedGreatsword", 451000, 284, 5100, 2, 12, 25, 51) },
-            { "GravelordSword", new WeaponStats("GravelordSword", 
+            { "GravelordSword", new WeaponStats("GravelordSword",
                 "Melee", "CurvedGreatsword", 453000, 282, 5101, 2, 12, 25, 116) },
 
             // Piercing Swords
-            { "MailBreaker", new WeaponStats("MailBreaker", 
+            { "MailBreaker", new WeaponStats("MailBreaker",
                 "Melee", "ThrustingSword", 600000, 106, 2701, 0, 10, 27, 119) },
-            { "Rapier", new WeaponStats("Rapier", 
+            { "Rapier", new WeaponStats("Rapier",
                 "Melee", "ThrustingSword", 601000, 300, 2700, 0, 10, 27, 0) },
-            { "Estoc", new WeaponStats("Estoc", 
+            { "Estoc", new WeaponStats("Estoc",
                 "Melee", "ThrustingSword", 602000, 301, 2702, 0, 10, 27, 113) },
-            { "VelkasRapier", new WeaponStats("VelkasRapier", 
+            { "VelkasRapier", new WeaponStats("VelkasRapier",
                 "Melee", "ThrustingSword", 603000, 230, 2703, 0, 10, 27, 114) },
-            { "RicardsRapier", new WeaponStats("RicardsRapier", 
+            { "RicardsRapier", new WeaponStats("RicardsRapier",
                 "Melee", "ThrustingSword", 604000, 302, 2704, 0, 10, 27, 115) },
 
             // Katanas
-            { "Uchigatana", new WeaponStats("Uchigatana", 
+            { "Uchigatana", new WeaponStats("Uchigatana",
                 "Melee", "Katana", 500000, 402, 2900, 0, 10, 29, 0) },
-            { "WashingPole", new WeaponStats("WashingPole", 
+            { "WashingPole", new WeaponStats("WashingPole",
                 "Melee", "Katana", 501000, 450, 2900, 0, 10, 29, 0) },
-            { "Iaito", new WeaponStats("Iaito", 
+            { "Iaito", new WeaponStats("Iaito",
                 "Melee", "Katana", 502000, 452, 2901, 0, 10, 29, 89) },
-            { "ChaosBlade", new WeaponStats("ChaosBlade", 
+            { "ChaosBlade", new WeaponStats("ChaosBlade",
                 "Melee", "Katana", 503000, 451, 2902, 0, 10, 29, 90) },
 
             // Axes
-            { "HandAxe", new WeaponStats("HandAxe", 
+            { "HandAxe", new WeaponStats("HandAxe",
                 "Melee", "Axe", 700000, 502, 3001, 0, 10, 30, 102) },
-            { "BattleAxe", new WeaponStats("BattleAxe", 
+            { "BattleAxe", new WeaponStats("BattleAxe",
                 "Melee", "Axe", 701000, 505, 3000, 0, 10, 30, 0) },
-            { "CrescentAxe", new WeaponStats("CrescentAxe", 
+            { "CrescentAxe", new WeaponStats("CrescentAxe",
                 "Melee", "Axe", 702000, 503, 3000, 0, 10, 32, 118) },
-            { "ButcherKnife", new WeaponStats("ButcherKnife", 
+            { "ButcherKnife", new WeaponStats("ButcherKnife",
                 "Melee", "Axe", 703000, 252, 3003, 0, 10, 30, 103) },
-            { "GolemAxe", new WeaponStats("GolemAxe", 
+            { "GolemAxe", new WeaponStats("GolemAxe",
                 "Melee", "Axe", 704000, 508, 3002, 0, 10, 30, 104) },
-            { "GargoyleTailAxe", new WeaponStats("GargoyleTailAxe", 
+            { "GargoyleTailAxe", new WeaponStats("GargoyleTailAxe",
                 "Melee", "Axe", 705000, 509, 3004, 0, 10, 30, 125) },
 
             // Greataxes
-            { "Greataxe", new WeaponStats("Greataxe", 
+            { "Greataxe", new WeaponStats("Greataxe",
                 "Melee", "Greataxe",  750000, 504, 3200, 2, 12, 32, 0) },
-            { "DemonsGreataxe", new WeaponStats("DemonsGreataxe", 
+            { "DemonsGreataxe", new WeaponStats("DemonsGreataxe",
                 "Melee", "Greataxe",  751000, 651, 3202, 2, 12, 32, 105) },
-            { "DragonKingGreataxe", new WeaponStats("DragonKingGreataxe", 
+            { "DragonKingGreataxe", new WeaponStats("DragonKingGreataxe",
                 "Melee", "Greataxe",  752000, 506, 3201, 2, 12, 32, 106) },
-            { "BlackKnightGreataxe", new WeaponStats("BlackKnightGreataxe", 
+            { "BlackKnightGreataxe", new WeaponStats("BlackKnightGreataxe",
                 "Melee", "Greataxe",  753000, 507, 3203, 2, 12, 32, 107) },
-            { "StoneGreataxe", new WeaponStats("StoneGreataxe", 
+            { "StoneGreataxe", new WeaponStats("StoneGreataxe",
                 "Melee", "Greataxe", 9015000, 510, 3204, 2, 12, 32, 133) },
 
             // Hammers
-            { "Club", new WeaponStats("Club", 
+            { "Club", new WeaponStats("Club",
                 "Melee", "Hammer", 800000, 600, 3302, 0, 10, 33, 0) },
-            { "Mace", new WeaponStats("Mace", 
+            { "Mace", new WeaponStats("Mace",
                 "Melee", "Hammer", 801000, 606, 3300, 0, 10, 33, 59) },
-            { "MorningStar", new WeaponStats("MorningStar", 
+            { "MorningStar", new WeaponStats("MorningStar",
                 "Melee", "Hammer", 802000, 603, 3300, 0, 10, 33, 59) },
-            { "Warpick", new WeaponStats("Warpick", 
+            { "Warpick", new WeaponStats("Warpick",
                 "Melee", "Hammer", 803000, 604, 3301, 0, 10, 33, 60) },
-            { "Pickaxe", new WeaponStats("Pickaxe", 
+            { "Pickaxe", new WeaponStats("Pickaxe",
                 "Melee", "Hammer", 804000, 605, 3303, 0, 10, 33, 61) },
-            { "ReinforcedClub", new WeaponStats("ReinforcedClub", 
+            { "ReinforcedClub", new WeaponStats("ReinforcedClub",
                 "Melee", "Hammer", 809000, 602, 3302, 0, 10, 33, 0) },
-            { "BlacksmithHammer", new WeaponStats("BlacksmithHammer", 
+            { "BlacksmithHammer", new WeaponStats("BlacksmithHammer",
                 "Melee", "Hammer", 810000, 656, 3300, 0, 10, 33, 59) },
-            { "BlacksmithGiantHammer", new WeaponStats("BlacksmithGiantHammer", 
+            { "BlacksmithGiantHammer", new WeaponStats("BlacksmithGiantHammer",
                 "Melee", "Hammer", 811000, 657, 3302, 0, 10, 33, 0) },
-            { "HammerofVamos", new WeaponStats("HammerofVamos", 
+            { "HammerofVamos", new WeaponStats("HammerofVamos",
                 "Melee", "Hammer", 812000, 658, 3300, 0, 10, 33, 59) },
 
             // Great Hammers
-            { "GreatClub", new WeaponStats("GreatClub", 
+            { "GreatClub", new WeaponStats("GreatClub",
                 "Melee", "GreatHammer", 850000, 607, 3501, 2, 12, 35, 69) },
-            { "Grant", new WeaponStats("Grant", 
+            { "Grant", new WeaponStats("Grant",
                 "Melee", "GreatHammer", 851000, 608, 3500, 2, 12, 35, 62) },
-            { "DemonsGreatHammer", new WeaponStats("DemonsGreatHammer", 
+            { "DemonsGreatHammer", new WeaponStats("DemonsGreatHammer",
                 "Melee", "GreatHammer", 852000, 654, 3500, 2, 12, 35, 0) },
-            { "DragonTooth", new WeaponStats("DragonTooth", 
+            { "DragonTooth", new WeaponStats("DragonTooth",
                 "Melee", "GreatHammer", 854000, 655, 3500, 2, 12, 35, 0) },
-            { "LargeClub", new WeaponStats("LargeClub", 
+            { "LargeClub", new WeaponStats("LargeClub",
                 "Melee", "GreatHammer", 855000, 659, 3502, 2, 12, 35, 124) },
-            { "SmoughsHammer", new WeaponStats("SmoughsHammer", 
+            { "SmoughsHammer", new WeaponStats("SmoughsHammer",
                 "Melee", "GreatHammer", 856000, 652, 3503, 2, 12, 35, 70) },
 
             // Fists
-            { "Fists", new WeaponStats("Fists", 
+            { "Fists", new WeaponStats("Fists",
                 "Melee", "Fists", 900000, 1005, 4201, 0, 10, 42, 0) },
-            { "Caestus", new WeaponStats("Caestus", 
+            { "Caestus", new WeaponStats("Caestus",
                 "Melee", "Fists", 901000, 1000, 4200, 0, 10, 42, 0) },
-            { "Claw", new WeaponStats("Claw", 
+            { "Claw", new WeaponStats("Claw",
                 "Melee", "Fists", 902000, 1002, 4202, 0, 10, 42, 86) },
-            { "DragonBoneFist", new WeaponStats("DragonBoneFist", 
+            { "DragonBoneFist", new WeaponStats("DragonBoneFist",
                 "Melee", "Fists", 903000, 1003, 4204, 0, 10, 42, 87) },
-            { "DarkHand", new WeaponStats("DarkHand", 
+            { "DarkHand", new WeaponStats("DarkHand",
                 "Melee", "Fists", 904000, 1004, 4203, 0, 10, 42, 123) },
 
             // Spears
-            { "Spear", new WeaponStats("Spear", 
+            { "Spear", new WeaponStats("Spear",
                 "Melee", "Spear", 1000000, 700, 3600, 3, 13, 36, 0) },
-            { "WingedSpear", new WeaponStats("WingedSpear", 
+            { "WingedSpear", new WeaponStats("WingedSpear",
                 "Melee", "Spear", 1001000, 702, 3600, 3, 13, 36, 0) },
-            { "Partizan", new WeaponStats("Partizan", 
+            { "Partizan", new WeaponStats("Partizan",
                 "Melee", "Spear", 1002000, 703, 3604, 3, 13, 36, 63) },
-            { "DemonsSpear", new WeaponStats("DemonsSpear", 
+            { "DemonsSpear", new WeaponStats("DemonsSpear",
                 "Melee", "Spear", 1003000, 710, 3605, 3, 13, 36, 64) },
-            { "ChannelersTrident", new WeaponStats("ChannelersTrident", 
+            { "ChannelersTrident", new WeaponStats("ChannelersTrident",
                 "Melee", "Spear", 1004000, 720, 3602, 3, 13, 36, 65) },
-            { "FourprongedPlow", new WeaponStats("FourprongedPlow", 
+            { "FourprongedPlow", new WeaponStats("FourprongedPlow",
                 "Melee", "Spear", 9016000, 740, 3607, 3, 13, 36, 134) },
-            { "Pike", new WeaponStats("Pike", 
+            { "Pike", new WeaponStats("Pike",
                 "Melee", "Spear", 1050000, 1100, 3601, 3, 13, 36, 67) },
-            { "SilverKnightSpear", new WeaponStats("SilverKnightSpear", 
+            { "SilverKnightSpear", new WeaponStats("SilverKnightSpear",
                 "Melee", "Spear", 1006000, 1101, 3606, 3, 13, 36, 66) },
-            { "DragonslayerSpear", new WeaponStats("DragonslayerSpear", 
+            { "DragonslayerSpear", new WeaponStats("DragonslayerSpear",
                 "Melee", "Spear", 1051000, 1102, 3603, 3, 13, 36, 68) },
-            { "MoonlightButterflyHorn", new WeaponStats("MoonlightButterflyHorn", 
+            { "MoonlightButterflyHorn", new WeaponStats("MoonlightButterflyHorn",
                 "Melee", "Spear", 1052000, 1103, 3600, 3, 13, 36, 0) },
 
             // Halberds
-            { "TitaniteCatchPole", new WeaponStats("TitaniteCatchPole", 
+            { "TitaniteCatchPole", new WeaponStats("TitaniteCatchPole",
                 "Melee", "Halberd", 1102000, 730, 3804, 3, 13, 38, 111) },
-            { "BlackKnightHalberd", new WeaponStats("BlackKnightHalberd", 
+            { "BlackKnightHalberd", new WeaponStats("BlackKnightHalberd",
                 "Melee", "Halberd", 1105000, 731, 3805, 3, 13, 38, 112) },
-            { "Lucerne", new WeaponStats("Lucerne", 
+            { "Lucerne", new WeaponStats("Lucerne",
                 "Melee", "Halberd", 1106000, 802, 3802, 3, 13, 38, 109) },
-            { "Halberd", new WeaponStats("Halberd", 
+            { "Halberd", new WeaponStats("Halberd",
                 "Melee", "Halberd", 1100000, 804, 3800, 3, 13, 38, 108) },
-            { "GiantsHalberd", new WeaponStats("GiantsHalberd", 
+            { "GiantsHalberd", new WeaponStats("GiantsHalberd",
                 "Melee", "Halberd", 1101000, 805, 3803, 3, 13, 38, 110) },
-            { "GargoylesHalberd", new WeaponStats("GargoylesHalberd", 
+            { "GargoylesHalberd", new WeaponStats("GargoylesHalberd",
                 "Melee", "Halberd", 1103000, 811, 3800, 3, 13, 38, 0) },
 
             // Scythes (considered Halberds in-game)
-            { "GreatScythe", new WeaponStats("GreatScythe", 
+            { "GreatScythe", new WeaponStats("GreatScythe",
                 "Melee", "Scythe", 1150000, 801, 5000, 0, 13, 38, 50) },
-            { "Scythe", new WeaponStats("Scythe", 
+            { "Scythe", new WeaponStats("Scythe",
                 "Melee", "Scythe", 1107000, 803, 3801, 3, 13, 38, 0) },
-            { "LifehuntScythe", new WeaponStats("LifehuntScythe", 
+            { "LifehuntScythe", new WeaponStats("LifehuntScythe",
                 "Melee", "Scythe", 1151000, 810, 5000, 0, 13, 38, 50) },
             
             // Whips
-            { "Whip", new WeaponStats("Whip", 
+            { "Whip", new WeaponStats("Whip",
                 "Melee", "Whip", 1600000, 1200, 4300, 0, 10, 43, 0) },
-            { "NotchedWhip", new WeaponStats("NotchedWhip", 
+            { "NotchedWhip", new WeaponStats("NotchedWhip",
                 "Melee", "Whip", 1601000, 1201, 4300, 0, 10, 43, 0) },
-            { "GuardianTail", new WeaponStats("GuardianTail", 
+            { "GuardianTail", new WeaponStats("GuardianTail",
                 "Melee", "Whip", 9019000, 1210, 4300, 0, 10, 43, 0) },
 
             // Catalysts
-            { "DemonsCatalyst", new WeaponStats("DemonsCatalyst", 
+            { "DemonsCatalyst", new WeaponStats("DemonsCatalyst",
                 "Catalyst", "Catalyst", 1307000, 653, 4102, 0, 10, 41, 127) },
-            { "TinBanishmentCatalyst", new WeaponStats("TinBanishmentCatalyst", 
+            { "TinBanishmentCatalyst", new WeaponStats("TinBanishmentCatalyst",
                 "Catalyst", "Catalyst", 1302000, 721, 4102, 0, 10, 41, 127) },
-            { "LogansCatalyst", new WeaponStats("LogansCatalyst", 
+            { "LogansCatalyst", new WeaponStats("LogansCatalyst",
                 "Catalyst", "Catalyst", 1303000, 901, 4101, 0, 10, 41, 0) },
-            { "SorcerersCatalyst", new WeaponStats("SorcerersCatalyst", 
+            { "SorcerersCatalyst", new WeaponStats("SorcerersCatalyst",
                 "Catalyst", "Catalyst", 1300000, 910, 4101, 0, 10, 41, 0) },
-            { "BeatricesCatalyst", new WeaponStats("BeatricesCatalyst", 
+            { "BeatricesCatalyst", new WeaponStats("BeatricesCatalyst",
                 "Catalyst", "Catalyst", 1301000, 912, 4101, 0, 10, 41, 0) },
-            { "TinDarkmoonCatalyst", new WeaponStats("TinDarkmoonCatalyst", 
+            { "TinDarkmoonCatalyst", new WeaponStats("TinDarkmoonCatalyst",
                 "Catalyst", "Catalyst", 1304000, 913, 4101, 0, 10, 41, 0) },
-            { "OolacileIvoryCatalyst", new WeaponStats("OolacileIvoryCatalyst", 
+            { "OolacileIvoryCatalyst", new WeaponStats("OolacileIvoryCatalyst",
                 "Catalyst", "Catalyst", 1305000, 914, 4101, 0, 10, 41, 0) },
-            { "TinCrystallizationCtlyst", new WeaponStats("TinCrystallizationCtlyst", 
+            { "TinCrystallizationCtlyst", new WeaponStats("TinCrystallizationCtlyst",
                 "Catalyst", "Catalyst", 1306000, 915, 4102, 0, 10, 41, 127) },
-            { "IzalithCatalyst", new WeaponStats("IzalithCatalyst", 
+            { "IzalithCatalyst", new WeaponStats("IzalithCatalyst",
                 "Catalyst", "Catalyst", 1308000, 916, 4101, 0, 10, 41, 0) },
-            { "OolacileCatalyst", new WeaponStats("OolacileCatalyst", 
+            { "OolacileCatalyst", new WeaponStats("OolacileCatalyst",
                 "Catalyst", "Catalyst", 9018000, 920, 4101, 0, 10, 41, 0) },
-            { "ManusCatalyst", new WeaponStats("ManusCatalyst", 
+            { "ManusCatalyst", new WeaponStats("ManusCatalyst",
                 "Catalyst", "Catalyst", 9017000, 921, 4104, 0, 10, 41, 136) },
 
             // Talismans
-            { "Talisman", new WeaponStats("Talisman", 
+            { "Talisman", new WeaponStats("Talisman",
                 "Talisman", "Talisman", 1360000, 902, 4100, 0, 10, 41, 52) },
-            { "CanvasTalisman", new WeaponStats("CanvasTalisman", 
+            { "CanvasTalisman", new WeaponStats("CanvasTalisman",
                 "Talisman", "Talisman", 1361000, 903, 4100, 0, 10, 41, 52) },
-            { "ThorolundTalisman", new WeaponStats("ThorolundTalisman", 
+            { "ThorolundTalisman", new WeaponStats("ThorolundTalisman",
                 "Talisman", "Talisman", 1362000, 904, 4100, 0, 10, 41, 52) },
-            { "IvoryTalisman", new WeaponStats("IvoryTalisman", 
+            { "IvoryTalisman", new WeaponStats("IvoryTalisman",
                 "Talisman", "Talisman", 1363000, 905, 4100, 0, 10, 41, 52) },
-            { "SunlightTalisman", new WeaponStats("SunlightTalisman", 
+            { "SunlightTalisman", new WeaponStats("SunlightTalisman",
                 "Talisman", "Talisman", 1365000, 907, 4100, 0, 10, 41, 52) },
-            { "DarkmoonTalisman", new WeaponStats("DarkmoonTalisman", 
+            { "DarkmoonTalisman", new WeaponStats("DarkmoonTalisman",
                 "Talisman", "Talisman", 1366000, 908, 4100, 0, 10, 41, 52) },
-            { "VelkasTalisman", new WeaponStats("VelkasTalisman", 
+            { "VelkasTalisman", new WeaponStats("VelkasTalisman",
                 "Talisman", "Talisman", 1367000, 909, 4100, 0, 10, 41, 52) },
 
             // Pyromancy Flame
-            { "PyromancyFlame", new WeaponStats("PyromancyFlame", 
+            { "PyromancyFlame", new WeaponStats("PyromancyFlame",
                 "Flame", "Flame", 1330000, 911, 4100, 0, 10, 41, 52) },
 
             // Special
-            { "SkullLantern", new WeaponStats("SkullLantern", 
+            { "SkullLantern", new WeaponStats("SkullLantern",
                 "Special", "Special", 1396000, 1801, 4103, 0, 10, 41, 121) },
 
             // Bows
-            { "ShortBow", new WeaponStats("ShortBow", 
+            { "ShortBow", new WeaponStats("ShortBow",
                 "Bow", "Bow", 1200000, 1300, 4400, 0, 14, 44, 81) },
-            { "Longbow", new WeaponStats("Longbow", 
+            { "Longbow", new WeaponStats("Longbow",
                 "Bow", "Bow", 1201000, 1301, 4400, 0, 14, 44, 0) },
-            { "CompositeBow", new WeaponStats("CompositeBow", 
+            { "CompositeBow", new WeaponStats("CompositeBow",
                 "Bow", "Bow", 1204000, 1302, 4400, 0, 14, 44, 81) },
-            { "BlackBowofPharis", new WeaponStats("BlackBowofPharis", 
+            { "BlackBowofPharis", new WeaponStats("BlackBowofPharis",
                 "Bow", "Bow", 1202000, 1304, 4400, 0, 14, 44, 82) },
-            { "DarkmoonBow", new WeaponStats("DarkmoonBow", 
+            { "DarkmoonBow", new WeaponStats("DarkmoonBow",
                 "Bow", "Bow", 1205000, 1305, 4400, 0, 14, 44, 81) },
 
             // Greatbows
-            { "DragonslayerGreatbow", new WeaponStats("DragonslayerGreatbow", 
+            { "DragonslayerGreatbow", new WeaponStats("DragonslayerGreatbow",
                 "Bow", "Greatbow", 1203000, 1360, 4400, 0, 14, 44, 83) },
-            { "GoughsGreatbow", new WeaponStats("GoughsGreatbow", 
+            { "GoughsGreatbow", new WeaponStats("GoughsGreatbow",
                 "Bow", "Greatbow", 9021000, 1361, 4400, 0, 14, 44, 83) },
 
             // Crossbows
-            { "LightCrossbow", new WeaponStats("LightCrossbow", 
+            { "LightCrossbow", new WeaponStats("LightCrossbow",
                 "Crossbow", "Crossbow", 1250000, 1401, 4600, 0, 16, 46, 0) },
-            { "HeavyCrossbow", new WeaponStats("HeavyCrossbow", 
+            { "HeavyCrossbow", new WeaponStats("HeavyCrossbow",
                 "Crossbow", "Crossbow", 1251000, 1402, 4600, 0, 16, 46, 129) },
-            { "SniperCrossbow", new WeaponStats("SniperCrossbow", 
+            { "SniperCrossbow", new WeaponStats("SniperCrossbow",
                 "Crossbow", "Crossbow", 1253000, 1404, 4600, 0, 16, 46, 85) },
-            { "Avelyn", new WeaponStats("Avelyn", 
+            { "Avelyn", new WeaponStats("Avelyn",
                 "Crossbow", "Crossbow", 1252000, 1405, 4600, 0, 16, 46, 84) },
 
             // Shields
-            { "TargetShield", new WeaponStats("TargetShield", 
+            { "TargetShield", new WeaponStats("TargetShield",
                 "Shield", "Shield", 1404000, 1501, 4801, 0, 15, 48, 91) },
-            { "HollowSoldierShield", new WeaponStats("HollowSoldierShield", 
+            { "HollowSoldierShield", new WeaponStats("HollowSoldierShield",
                 "Shield", "Shield", 1454000, 1502, 4800, 0, 15, 48, 0) },
-            { "CrackedRoundShield", new WeaponStats("CrackedRoundShield", 
+            { "CrackedRoundShield", new WeaponStats("CrackedRoundShield",
                 "Shield", "Shield", 1406000, 1503, 4801, 0, 15, 48, 0) },
-            { "BalderShield", new WeaponStats("BalderShield", 
+            { "BalderShield", new WeaponStats("BalderShield",
                 "Shield", "Shield", 1455000, 1504, 4800, 0, 15, 48, 0) },
-            { "SpikedShield", new WeaponStats("SpikedShield", 
+            { "SpikedShield", new WeaponStats("SpikedShield",
                 "Shield", "Shield", 1470000, 1507, 4803, 0, 15, 48, 93) },
-            { "CrystalShield", new WeaponStats("CrystalShield", 
+            { "CrystalShield", new WeaponStats("CrystalShield",
                 "Shield", "Shield", 1471000, 1509, 4800, 0, 15, 48, 93) },
-            { "SunlightShield", new WeaponStats("SunlightShield", 
+            { "SunlightShield", new WeaponStats("SunlightShield",
                 "Shield", "Shield", 1472000, 1511, 4800, 0, 15, 48, 0) },
-            { "TowerKiteShield", new WeaponStats("TowerKiteShield", 
+            { "TowerKiteShield", new WeaponStats("TowerKiteShield",
                 "Shield", "Shield", 1452000, 1513, 4800, 0, 15, 48, 0) },
-            { "BlackKnightShield", new WeaponStats("BlackKnightShield", 
+            { "BlackKnightShield", new WeaponStats("BlackKnightShield",
                 "Shield", "Shield", 1474000, 1514, 4800, 0, 15, 48, 0) },
-            { "HeaterShield", new WeaponStats("HeaterShield", 
+            { "HeaterShield", new WeaponStats("HeaterShield",
                 "Shield", "Shield", 1450000, 1515, 4800, 0, 15, 48, 0) },
-            { "KnightShield", new WeaponStats("KnightShield", 
+            { "KnightShield", new WeaponStats("KnightShield",
                 "Shield", "Shield", 1451000, 1516, 4800, 0, 15, 48, 0) },
-            { "GrassCrestShield", new WeaponStats("GrassCrestShield", 
+            { "GrassCrestShield", new WeaponStats("GrassCrestShield",
                 "Shield", "Shield", 1453000, 1517, 4800, 0, 15, 48, 0) },
-            { "RedandWhiteRoundShield", new WeaponStats("RedandWhiteRoundShield", 
+            { "RedandWhiteRoundShield", new WeaponStats("RedandWhiteRoundShield",
                 "Shield", "Shield", 1476000, 1518, 4801, 0, 15, 48, 0) },
-            { "IronRoundShield", new WeaponStats("IronRoundShield", 
+            { "IronRoundShield", new WeaponStats("IronRoundShield",
                 "Shield", "Shield", 1461000, 1519, 4800, 0, 15, 48, 0) },
-            { "SpiderShield", new WeaponStats("SpiderShield", 
+            { "SpiderShield", new WeaponStats("SpiderShield",
                 "Shield", "Shield", 1462000, 1520, 4800, 0, 15, 48, 0) },
-            { "EastWestShield", new WeaponStats("EastWestShield", 
+            { "EastWestShield", new WeaponStats("EastWestShield",
                 "Shield", "Shield", 1400000, 1521, 4800, 0, 15, 48, 0) },
-            { "WoodenShield", new WeaponStats("WoodenShield", 
+            { "WoodenShield", new WeaponStats("WoodenShield",
                 "Shield", "Shield", 1401000, 1522, 4800, 0, 15, 48, 0) },
-            { "PlankShield", new WeaponStats("PlankShield", 
+            { "PlankShield", new WeaponStats("PlankShield",
                 "Shield", "Shield", 1409000, 1523, 4801, 0, 15, 48, 0) },
-            { "LargeLeatherShield", new WeaponStats("LargeLeatherShield", 
+            { "LargeLeatherShield", new WeaponStats("LargeLeatherShield",
                 "Shield", "Shield", 1402000, 1524, 4800, 0, 15, 48, 0) },
-            { "SmallLeatherShield", new WeaponStats("SmallLeatherShield", 
+            { "SmallLeatherShield", new WeaponStats("SmallLeatherShield",
                 "Shield", "Shield", 1403000, 1525, 4801, 0, 15, 48, 0) },
-            { "LeatherShield", new WeaponStats("LeatherShield", 
+            { "LeatherShield", new WeaponStats("LeatherShield",
                 "Shield", "Shield", 1408000, 1526, 4801, 0, 15, 48, 0) },
-            { "Buckler", new WeaponStats("Buckler", 
+            { "Buckler", new WeaponStats("Buckler",
                 "Shield", "Shield", 1405000, 1528, 4801, 0, 15, 48, 91) },
-            { "PierceShield", new WeaponStats("PierceShield", 
+            { "PierceShield", new WeaponStats("PierceShield",
                 "Shield", "Shield", 1475000, 1530, 4803, 0, 15, 48, 93) },
-            { "CrystalRingShield", new WeaponStats("CrystalRingShield", 
+            { "CrystalRingShield", new WeaponStats("CrystalRingShield",
                 "Shield", "Shield", 1411000, 1531, 4802, 0, 15, 48, 92) },
-            { "SilverKnightShield", new WeaponStats("SilverKnightShield", 
+            { "SilverKnightShield", new WeaponStats("SilverKnightShield",
                 "Shield", "Shield", 1473000, 1533, 4800, 0, 15, 48, 0) },
-            { "CrestShield", new WeaponStats("CrestShield", 
+            { "CrestShield", new WeaponStats("CrestShield",
                 "Shield", "Shield", 1456000, 1535, 4800, 0, 15, 48, 0) },
-            { "WarriorsRoundShield", new WeaponStats("WarriorsRoundShield", 
+            { "WarriorsRoundShield", new WeaponStats("WarriorsRoundShield",
                 "Shield", "Shield", 1460000, 1536, 4801, 0, 15, 48, 0) },
-            { "CaduceusKiteShield", new WeaponStats("CaduceusKiteShield", 
+            { "CaduceusKiteShield", new WeaponStats("CaduceusKiteShield",
                 "Shield", "Shield", 1477000, 1537, 4800, 0, 15, 48, 0) },
-            { "CaduceusRoundShield", new WeaponStats("CaduceusRoundShield", 
+            { "CaduceusRoundShield", new WeaponStats("CaduceusRoundShield",
                 "Shield", "Shield", 1410000, 1538, 4801, 0, 15, 48, 0) },
-            { "GargoylesShield", new WeaponStats("GargoylesShield", 
+            { "GargoylesShield", new WeaponStats("GargoylesShield",
                 "Shield", "Shield", 1478000, 1539, 4800, 0, 15, 48, 0) },
-            { "DragonCrestShield", new WeaponStats("DragonCrestShield", 
+            { "DragonCrestShield", new WeaponStats("DragonCrestShield",
                 "Shield", "Shield", 1457000, 1541, 4800, 0, 15, 48, 0) },
-            { "EffigyShield", new WeaponStats("EffigyShield", 
+            { "EffigyShield", new WeaponStats("EffigyShield",
                 "Shield", "Shield", 9000000, 1542, 4801, 0, 15, 48, 0) },
-            { "Sanctus", new WeaponStats("Sanctus", "Shield", 
+            { "Sanctus", new WeaponStats("Sanctus", "Shield",
                 "Shield", 9001000, 1543, 4800, 0, 15, 48, 0) },
-            { "Bloodshield", new WeaponStats("Bloodshield", 
+            { "Bloodshield", new WeaponStats("Bloodshield",
                 "Shield", "Shield", 9002000, 1544, 4800, 0, 15, 48, 0) },
 
             // Greatshields
-            { "TowerShield", new WeaponStats("TowerShield", 
+            { "TowerShield", new WeaponStats("TowerShield",
                 "Shield", "Greatshield", 1501000, 1505, 4700, 0, 15, 47, 0) },
-            { "StoneGreatshield", new WeaponStats("StoneGreatshield", 
+            { "StoneGreatshield", new WeaponStats("StoneGreatshield",
                 "Shield", "Greatshield", 1503000, 1510, 4700, 0, 15, 47, 0) },
-            { "GiantShield", new WeaponStats("GiantShield", "Shield", 
+            { "GiantShield", new WeaponStats("GiantShield", "Shield",
                 "Greatshield", 1502000, 1527, 4700, 0, 15, 47, 0) },
-            { "HavelsGreatshield", new WeaponStats("HavelsGreatshield", 
+            { "HavelsGreatshield", new WeaponStats("HavelsGreatshield",
                 "Shield", "Greatshield", 1505000, 1532, 4700, 0, 15, 47, 94) },
-            { "GreatshieldofArtorias", new WeaponStats("GreatshieldofArtorias", 
+            { "GreatshieldofArtorias", new WeaponStats("GreatshieldofArtorias",
                 "Shield", "Greatshield", 1507000, 1534, 4700, 0, 15, 47, 0) },
-            { "EagleShield", new WeaponStats("EagleShield", 
+            { "EagleShield", new WeaponStats("EagleShield",
                 "Shield", "Greatshield", 1500000, 1529, 4701, 0, 15, 47, 0) },
-            { "BonewheelShield", new WeaponStats("BonewheelShield", 
+            { "BonewheelShield", new WeaponStats("BonewheelShield",
                 "Shield", "Greatshield", 1506000, 1540, 4702, 0, 15, 47, 126) },
-            { "BlackIronGreatshield", new WeaponStats("BlackIronGreatshield", 
+            { "BlackIronGreatshield", new WeaponStats("BlackIronGreatshield",
                 "Shield", "Greatshield", 9003000, 1545, 4700, 0, 15, 47, 0) },
-            { "CleansingGreatshield", new WeaponStats("CleansingGreatshield", 
+            { "CleansingGreatshield", new WeaponStats("CleansingGreatshield",
                 "Shield", "Greatshield", 9014000, 1550, 4700, 0, 15, 47, 0) },
 
             // Ammo
-            { "GoughsGreatArrow", new WeaponStats("GoughsGreatArrow", 
+            { "GoughsGreatArrow", new WeaponStats("GoughsGreatArrow",
                 "Ammo", "Arrow", 2008000, 1399, 1008, 0, 0, 0, 0) },
-            { "Arrow", new WeaponStats("Arrow", 
+            { "Arrow", new WeaponStats("Arrow",
                 "Ammo", "Arrow", 2099000, 2025, 1000, 0, 0, 0, 0) },
-            { "Bolt", new WeaponStats("Bolt", 
+            { "Bolt", new WeaponStats("Bolt",
                 "Ammo", "Bolt", 2199000, 2026, 1100, 0, 0, 0, 0) },
-            { "LightningBolt", new WeaponStats("LightningBolt", 
+            { "LightningBolt", new WeaponStats("LightningBolt",
                 "Ammo", "Bolt", 2104000, 1700, 1104, 0, 0, 0, 0) },
         };
 
@@ -587,7 +587,7 @@ namespace RoguelikeSouls.Installation
             // Animations 900 to 908 are some kind of "Ryuken" Fists variant. Not using this special category (117).
         };
 
-        static Dictionary<string, (byte strength, byte dexterity, byte intelligence, byte faith)> BaseRequiredStats { get; } 
+        static Dictionary<string, (byte strength, byte dexterity, byte intelligence, byte faith)> BaseRequiredStats { get; }
             = new Dictionary<string, (byte strength, byte dexterity, byte intelligence, byte faith)>
         {
             { "Dagger", (9, 11, 8, 8) },
@@ -782,14 +782,14 @@ namespace RoguelikeSouls.Installation
             Weapon smallLeatherShield = StartingWeaponSetup(1403000, FixedWeapons["Small Leather Shield"], ref behaviorVarId);
             CreateAllShieldUpgrades(smallLeatherShield);
             StartingWeaponSetup(1300000, FixedWeapons["Sorcerer's Catalyst"], ref behaviorVarId);
-            
+
             // Cleric class
             Weapon mace = StartingWeaponSetup(801000, FixedWeapons["Mace"], ref behaviorVarId);
             CreateAllMeleeUpgrades(mace);
             Weapon eastWestShield = StartingWeaponSetup(1400000, FixedWeapons["East-West Shield"], ref behaviorVarId);
             CreateAllShieldUpgrades(eastWestShield);
             StartingWeaponSetup(1361000, FixedWeapons["Canvas Talisman"], ref behaviorVarId);
-            
+
             StartingWeaponSetup(1396000, FixedWeapons["Skull Lantern"], ref behaviorVarId);
 
             // Solaire
@@ -923,19 +923,19 @@ namespace RoguelikeSouls.Installation
                 // Give weapon a distinct R2 animation (that has not already been used).
                 var specialWeaponChoices = new List<KeyValuePair<string, WeaponStats>>(VanillaWeapons.Where(
                        kv => kv.Value.WeaponClass == "Melee"
-                    && kv.Value.SpecialAttackAnimationCategory > 0 
+                    && kv.Value.SpecialAttackAnimationCategory > 0
                     && !UsedSpecialCategories.Contains(kv.Value.SpecialAttackAnimationCategory)
                 ));
                 if (specialWeaponChoices.Count > 0)
                     specialWeaponStats = specialWeaponChoices.GetRandomElement(Rand).Value;
             }
-            
+
             isLegendary |= isAbyssal;
             LegendaryMeleeEffects legendaryEffects = isLegendary ? new LegendaryMeleeEffects(isAbyssal, specialWeaponStats != null, Rand) : null;
             double staminaCostMultiplier = legendaryEffects != null ? legendaryEffects.GetStaminaMultiplier() : 1.0;
 
             Weapon newWeapon = BasicWeaponSetup(weaponParamId, behaviorVarId, legendaryEffects, modelWeaponStats, baseWeaponStats, specialWeaponStats);
-            
+
             // Behaviors and Attacks are copied from special weapon if present, and base weapon otherwise,
             // except that Attack hitbox information is taken from model weapon. Special bullet (800) is ignored.
             if (!SkipBehaviors)
@@ -1367,7 +1367,7 @@ namespace RoguelikeSouls.Installation
                     int oldAttackParamID = Mod.VanillaGPARAM.BehaviorsPC[oldBehaviorParamID].RefID;
                     if (Mod.VanillaGPARAM.AttacksPC.Keys.Contains(oldAttackParamID))
                         Mod.GPARAM.AttacksPC.CopyRow(Mod.VanillaGPARAM.AttacksPC[oldAttackParamID], newAttackBaseID + i);
-                }               
+                }
             }
 
             newBehaviorVarId++;
@@ -1401,7 +1401,7 @@ namespace RoguelikeSouls.Installation
         void CreateCrystalVariant(Weapon weapon, int upgradeIdOffset = 0)
         {
             Weapon crystalWeapon = CreateWeaponUpgrade(weapon, 100, upgradeIdOffset);
-            crystalWeapon.Name = "Crys. " + weapon.Name;
+            crystalWeapon.Name = "结晶" + weapon.Name;
             crystalWeapon.Summary = weapon.Summary;
             crystalWeapon.Description = weapon.Description;
             crystalWeapon.InitialDurability = (ushort)(weapon.InitialDurability / 10);
@@ -1414,7 +1414,7 @@ namespace RoguelikeSouls.Installation
         void CreateLightningVariant(Weapon weapon, int upgradeIdOffset = 0)
         {
             Weapon lightningWeapon = CreateWeaponUpgrade(weapon, 200, upgradeIdOffset);
-            lightningWeapon.Name = "Ltn. " + weapon.Name;
+            lightningWeapon.Name = "雷电" + weapon.Name;
             lightningWeapon.Summary = weapon.Summary;
             lightningWeapon.Description = weapon.Description;
             lightningWeapon.StrengthScaling = 0.0f;
@@ -1431,7 +1431,7 @@ namespace RoguelikeSouls.Installation
         void CreateRefinedVariant(Weapon weapon, int upgradeIdOffset = 0)
         {
             Weapon refinedWeapon = CreateWeaponUpgrade(weapon, 300, upgradeIdOffset);
-            refinedWeapon.Name = "Refn. " + weapon.Name;
+            refinedWeapon.Name = "精制" + weapon.Name;
             refinedWeapon.Summary = weapon.Summary;
             refinedWeapon.Description = weapon.Description;
             refinedWeapon.BaseChangeCategory = 15;
@@ -1440,7 +1440,7 @@ namespace RoguelikeSouls.Installation
         {
             Weapon magicWeapon = CreateWeaponUpgrade(weapon, 400, upgradeIdOffset);
             // Total scaling stays the same, but 70% of current STR, DEX, and FAI scaling goes to INT.
-            magicWeapon.Name = "Mag. " + weapon.Name;
+            magicWeapon.Name = "魔力" + weapon.Name;
             magicWeapon.Summary = weapon.Summary;
             magicWeapon.Description = weapon.Description;
             magicWeapon.IntelligenceScaling += 0.35f * (magicWeapon.StrengthScaling + magicWeapon.DexterityScaling + magicWeapon.FaithScaling);
@@ -1456,7 +1456,7 @@ namespace RoguelikeSouls.Installation
             Weapon enchantedWeapon = CreateWeaponUpgrade(weapon, 500, upgradeIdOffset);
             // 70% of current STR, DEX, and FAI scaling goes to INT.
             // Then STR, DEX, and FAI are multiplied by 0.72 (so 0.21 combined), and INT is multiplied by 0.98.
-            enchantedWeapon.Name = "Ench. " + weapon.Name;
+            enchantedWeapon.Name = "附魔" + weapon.Name;
             enchantedWeapon.Summary = weapon.Summary;
             enchantedWeapon.Description = weapon.Description;
             enchantedWeapon.SpecialEffectOnHit0 = SpEffectGenerator.Effects["Enchanted (MOD HIT FLAG)"];  // Recharges spell usages (through mod hook).
@@ -1471,7 +1471,7 @@ namespace RoguelikeSouls.Installation
         void CreateDivineVariant(Weapon weapon, int upgradeIdOffset = 0)
         {
             Weapon divineWeapon = CreateWeaponUpgrade(weapon, 600, upgradeIdOffset);
-            divineWeapon.Name = "Div. " + weapon.Name;
+            divineWeapon.Name = "神圣" + weapon.Name;
             divineWeapon.Summary = weapon.Summary;
             divineWeapon.Description = weapon.Description;
             divineWeapon.FaithScaling += 0.35f * (divineWeapon.StrengthScaling + divineWeapon.DexterityScaling + divineWeapon.IntelligenceScaling);
@@ -1488,7 +1488,7 @@ namespace RoguelikeSouls.Installation
         void CreateDireVariant(Weapon weapon, int upgradeIdOffset = 0)
         {
             Weapon direWeapon = CreateWeaponUpgrade(weapon, 700, upgradeIdOffset);
-            direWeapon.Name = "Dire " + weapon.Name;
+            direWeapon.Name = "极端" + weapon.Name;
             direWeapon.Summary = weapon.Summary;
             direWeapon.Description = weapon.Description;
             direWeapon.EquippedSpecialEffect0 = SpEffectGenerator.Effects["Dire (EMEVD FLAG)"];
@@ -1498,7 +1498,7 @@ namespace RoguelikeSouls.Installation
         void CreateFireVariant(Weapon weapon, int upgradeIdOffset = 0)
         {
             Weapon fireWeapon = CreateWeaponUpgrade(weapon, 800, upgradeIdOffset);
-            fireWeapon.Name = "Fire " + weapon.Name;
+            fireWeapon.Name = "火焰" + weapon.Name;
             fireWeapon.Summary = weapon.Summary;
             fireWeapon.Description = weapon.Description;
             fireWeapon.StrengthScaling = 0.0f;
@@ -1513,7 +1513,7 @@ namespace RoguelikeSouls.Installation
         void CreateDraconicVariant(Weapon weapon, int upgradeIdOffset = 0)
         {
             Weapon draconicWeapon = CreateWeaponUpgrade(weapon, 900, upgradeIdOffset);
-            draconicWeapon.Name = "Drac. " + weapon.Name;
+            draconicWeapon.Name = "龙" + weapon.Name;
             draconicWeapon.Summary = weapon.Summary;
             draconicWeapon.Description = weapon.Description;
             draconicWeapon.StrengthScaling = 0.0f;
@@ -1709,11 +1709,11 @@ namespace RoguelikeSouls.Installation
             // Base stats that are <=8 are not randomized at all (these are "irrelevant" stats).
             if (!BaseRequiredStats.ContainsKey(weaponSubclass))
                 return;  // Leave as default (unknown weapon subclass).
-            
+
             (byte strength, byte dexterity, byte intelligence, byte faith) = BaseRequiredStats[weaponSubclass];
             weapon.RequiredStrength = strength > 8 ? (byte)(strength - randomRange + Rand.NextDouble() * 2 * randomRange) : strength;
             weapon.RequiredDexterity = dexterity > 8 ? (byte)(dexterity - randomRange + Rand.NextDouble() * 2 * randomRange) : dexterity;
-            weapon.RequiredIntelligence = intelligence > 8 ? (byte)(intelligence- randomRange + Rand.NextDouble() * 2 * randomRange) : intelligence;
+            weapon.RequiredIntelligence = intelligence > 8 ? (byte)(intelligence - randomRange + Rand.NextDouble() * 2 * randomRange) : intelligence;
             weapon.RequiredFaith = faith > 8 ? (byte)(faith - randomRange + Rand.NextDouble() * 2 * randomRange) : faith;
         }
 

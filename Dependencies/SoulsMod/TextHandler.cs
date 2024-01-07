@@ -108,8 +108,8 @@ namespace SoulsFormatsMod
             MenuOther.Save();
             Conversations.Save();
 
-            Item.Write(gameDir + @"msg\ENGLISH\item.msgbnd.dcx");
-            Menu.Write(gameDir + @"msg\ENGLISH\menu.msgbnd.dcx");
+            Item.Write(gameDir + @"msg\SCHINESE\item.msgbnd.dcx");
+            Menu.Write(gameDir + @"msg\SCHINESE\menu.msgbnd.dcx");
         }
 
         public class FMGHandler
@@ -193,5 +193,5 @@ namespace SoulsFormatsMod
         }
     }
 
-   
+
 }

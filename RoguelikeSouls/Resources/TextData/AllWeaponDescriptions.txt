@@ -1,3225 +1,3098 @@
+万能触媒【除错用／魔法奇迹两用】
+万能触媒【选单替身用】
+武器种类：短剑
 
+攻击属性：斩击／突刺
 
-This standard small dagger has only a modest
 
-attack but can be jabbed in rapid succession,
 
-and is effective in critical hits such as
+标准短剑。
 
-after a parry or when stabbing in the back.
+小巧，攻击力低，但攻击速度快，可以连续攻击。
 
-With both slash and thrust attacks, this
+格挡后或从背后使出致命一击的威力极高。
 
-dagger is useful in various situations.
 
 
+有斩击及突刺两种攻击属性，
 
-This dagger is useful after parrying and is
+足以应付各种情况。
+武器种类：短剑
 
-normally equipped in the left hand.
+攻击属性：斩击／突刺
 
 
 
-A favorite of the knights of Carim, who are
+专门用于格挡的短剑。
 
-famous for fighting without a shield.
+通常装备于左手。
 
 
 
-The ghosts of New Londo clutch this wickedly
+因卡利姆骑士经常使用而闻名，
 
-sharp dagger with their bony hands and make
+卡利姆骑士的特征就是不拿盾。
+武器种类：短剑
 
-mincemeat of the living.
+攻击属性：斩击／突刺
 
 
 
-One of the cursed weapons which can inflict
+小隆德的亡灵和尸骸所拿的锐利刀刃，
 
-damage upon ghosts.
+能把敌人切得支离破碎。
 
 
 
+受诅咒的武器之一，
 
+可以伤到亡灵。
+武器种类：短剑
 
+攻击属性：斩击
 
 
-This wide single-edged shortsword is
 
-the favorite of lowly thieves and bandits.
+宽剑身的单刃短剑，
 
+是盗贼或强盗等匪徒使用的武器。
 
 
-Primarily a slicing weapon, but highly
 
-effective when used for critical hits,
+虽然挥舞时都是挥砍式攻击，
 
-such as after parrying or from behind.
+但格挡后或从背后使出致命一击的威力极高。
+武器种类：短剑
 
+攻击属性：斩击
 
 
-This sword, one of the rare dragon weapons,
 
-came from the tail of Priscilla, the Dragon
+封印于艾雷米雅斯绘画中的禁忌──
 
-Crossbreed in the painted world of Ariamis.
+半龙普利希拉，其尾巴化成的武器。
 
-Possessing the power of lifehunt, it dances
+稀少的龙武器之一。　
 
-about when wielded, in a fashion reminiscent
 
-of the white-robed painting guardians.
 
+带有猎杀生命的力量，那有如舞动般的剑术，
 
+与白衣的绘画守护者相仿。
+武器种类：直剑
 
-This small straight sword is widely used,
+攻击属性：标准／突刺
 
-to an extent only matched by the longsword.
 
 
+小型直剑。
 
-An accessible sword which inflicts consistent
+和长剑一样，是人们常用的武器之一。
 
-regular damage and high thrust damage, making
 
-it applicable to a variety of situations.
 
+很好用，具有效果稳定的标准属性攻击，
 
+和高攻击力的突刺属性攻击，
 
-Widely-used standard straight sword, only
+极便于应付各种状况。
+武器种类：直剑
 
-matched in ubiquity by the shortsword.
+攻击属性：标准／突刺
 
 
 
-An accessible sword which inflicts consistent
+标准直剑。
 
-regular damage and high slash damage, making
+和短剑一样，是人们常用的武器之一。
 
-it applicable to a variety of situations.
 
 
+很好用，具有效果稳定的标准属性攻击，
 
-The wide blade of this straight sword
+和高攻击力的突刺属性攻击，
 
-emphasizes slicing and has no thrust attack.
+极便于应付各种状况。
+武器种类：直剑
 
+攻击属性：标准
 
 
-The horizontal sweeping motion makes this
 
-sword effective against multiple enemies.
+宽剑身的直剑。
 
+设计着眼在砍劈，不具突刺属性攻击。
 
 
-Half of the blade of this straight sword is
 
-broken off.
+猛力挥舞的横劈攻击
 
+在对付数量多的敌人时非常有效。
+武器种类：直剑
 
+攻击属性：标准／突刺
 
-Only the completely Hollowed would even
 
-consider using this as a weapon.
 
+剑身折断一半的直剑。
 
 
-The knights of the ancient kingdom of Balder
 
-wielded these rock-solid, long swords which
+已经不能算是武器，
 
-are excellent for thrust attacks.
+除了发狂的游魂以外，
 
-Balder was the home of Knight King Rendal,
+一般人应该不会拿来使用。
+武器种类：直剑
 
-but the kingdom was reduced to ruins after
+攻击属性：标准／突刺
 
-a widespread outbreak of Undead.
 
 
+古代王国巴勒德尔的骑士使用的直剑。
 
-A fully crystallized straight sword.
+剑身坚硬且长，突刺攻击的效果颇佳。
 
-How such a weapon was created
 
-is entirely unknown.
 
-The crystallization boosts its attack, but
+巴勒德尔是骑士王伦德尔的故乡，
 
-makes the blade brittle. The sword cannot be
+因为突然出现大量不死人而灭亡。
+武器种类：直剑
 
-used for long, as it cannot be repaired.
+攻击属性：标准／突刺
 
 
 
-This standard longsword, belonging to Solaire
+完全结晶化的直剑。
 
-of Astora, is of high quality, is well-
+该怎么做才能做出这种武器，
 
-forged, and has been kept in good repair.
+完全无迹可循。
 
 
 
-Easy-to-use and dependable, but unlikely to
+因为结晶的影响，攻击力较高，
 
-live up to its grandiose name.
+但容易损坏，也不能修理，
 
+无法长期使用。
+武器种类：直剑
 
+攻击属性：标准／突刺
 
 
 
-The choice weapon of the infamous Darkwraith
+“太阳骑士”亚斯特拉的索拉尔的直剑。
 
-Kirk, also known as the Knight of Thorns for
+虽然是把普通的长剑，
 
-the gnarly spikes on his favorite weapon.
+但用料佳，且经常冶炼，也保养得不错。
 
 
 
-This frightful sword deals only thrust
+很好用，是把可以安心倚靠的武器，
 
-attacks, and causes heavy bleeding.
+虽然名字可能夸大了些。
+武器种类：直剑
 
+攻击属性：标准／突刺
 
 
-The silver knights of Anor Londo guard the
 
-city using this beautifully slender weapon.
+臭名昭著的吸魂鬼“刺针骑士”寇克常用的剑。
 
+剑身上布满尖锐的刺针。
 
 
-Its chain attacks, in which the wielder takes
 
-great advancing steps and makes use of his
+其锐利的刺针会使敌人大量出血，
 
-bodyweight, are deadly even in single hits.
+是把充满祸害气息的武器。
+武器种类：直剑
 
+攻击属性：标准
 
 
-Straight sword of an unknown knight,
 
-likely one of Astora's superiors.
+守护亚诺尔隆德的银骑士使用的直剑。
 
+作工精细，造型优美的亲兵用武器。
 
 
-High-quality weapon with a powerful blessing.
 
+加上自身体重使出的大跨步连击，
 
+就算区区一下攻击，
 
-The sword of the knights of the Four Kings of
+也具有重创敌人的威力。
+武器种类：直剑
 
-New Londo. Its blade is wide and thick, and
+攻击属性：标准／突刺
 
-it is wielded in an unusual manner.
 
-When the Four Kings were seduced by evil,
 
-their knights became Darkwraiths, servants
+无名骑士的直剑。
 
-of the Dark who wielded these darkswords.
+可能是亚斯特拉上级骑士使用的直剑。
 
 
 
+是被赐予强大祝福，质量优良的武器。
+武器种类：直剑
 
+攻击属性：标准
 
 
 
-This sword, one of the rare dragon weapons,
+听命于小隆德四王的骑士使用的剑。
 
-is formed by a drake's tail. Drakes are
+剑身厚又宽，因此发展出独特的剑术。
 
-seen as undeveloped imitators of the dragons,
 
-but in they are likely their distant kin.
 
-The sword is imbued with a mystical power,
+四王堕入黑暗后，
 
-to be released when held with both hands.
+骑士们变成黑暗手下“吸魂鬼，”
 
+而他们持有的剑也变成了黑暗剑。
+武器种类：直剑
 
+攻击属性：标准
 
-The hilt of this lost sword was found
 
-discarded in the Undead Asylum.
 
+由飞龙海尔凯特的尾巴化成的武器。
 
+稀少的龙武器之一。
 
-Only slightly better than one's bare hands,
+据说飞龙是成不了龙的生物，
 
-and not recommended for extensive use.
+但应该还是不朽古龙的后裔。
 
-Be certain to find a replacement quickly.
 
 
+带有不可思议的力量，
 
-This standard greatsword is normally wielded
+双手共持可以释放那股力量。
+武器种类：直剑
 
-with two hands due to its great weight.
+攻击属性：标准／突刺
 
 
 
-Usually swung in large arcs and effective
+剑身完全断裂，只剩剑柄的直剑。
 
-against multiple foes. Far from ideal when
+被丢弃在不死院的监牢里。
 
-fighting in tight quarters.
 
 
+虽然有武器总比没有好，
 
-This larger type of greatsword is normally
+不过最好还是快点找到其他替代品，
 
-wielded with two hands due to its weight.
+继续使用这武器没有意义。
+武器种类：大剑
 
+攻击属性：标准
 
 
-This highly flexible greatsword can be used
 
-to attack in swings or thrusts.
+标准大剑。
 
+很沉重，使用时须双手共持。
 
 
-This single-bladed blood-stained greatsword
 
-is the choice weapon of the slithering 
+攻击方式大多是猛力挥舞。
 
-serpent men of Sen's Fortress.
+在对付数量多的敌人时非常有效，
 
+但在狭窄的地方使用时要特别注意。
+武器种类：大剑
 
+攻击属性：标准／突刺
 
-An ordinary human will have great difficulty
 
-swinging this heavy beast effectively.
 
+比平常大了一圈的大剑
 
+很沉重，使用时须双手共持。
 
-This greatsword with an undulating blade is
 
-the choice weapon of the slithering serpent
 
-men of Sen's Fortress.
+除了砍劈攻击，还可以突刺攻击，
 
+是便于应付各种状况的大剑。
+武器种类：大剑
 
+攻击属性：标准
 
-This weapon is designed to flay the skin and
 
-causes heavy bleeding.
 
+因血锈蚀的单刃大剑。
 
+潜伏在赛恩古城的蛇人武器。
 
 
 
-A fully crystallized greatsword.
+因为有点重量，
 
-How such a weapon was created
+要以人的力量挥舞有相当难度。
+武器种类：大剑
 
-is entirely unknown.
+攻击属性：斩击
 
-The crystallization boosts its attack, but
 
-makes the blade brittle. The sword cannot be
 
-used for long, as it cannot be repaired.
+剑身形状呈蜿蜒状的大剑。
 
+潜伏在赛恩古城的蛇人武器。
 
 
-The stone knights who guard the Darkroot
 
-Garden wield this moss-covered greatsword.
+是专门用来扩大皮肤伤口的武器，
 
+会导致敌人大量出血。
+武器种类：大剑
 
+攻击属性：标准
 
-The same magic which created the stone
 
-knights is imbued in the sword. Unleash this
 
-power by wielding the sword with two hands.
+完全结晶化的大剑。
 
+该怎么做才能做出这种武器，
 
+完全无迹可循。
 
-Sword born from the soul of the great grey
 
-wolf Sif, guardian of the grave of the
 
-Abysswalker Knight Artorias.
+因为结晶的影响，攻击力较高，
 
+但容易损坏，也不能修理，
 
+无法长期使用。
+武器种类：大剑
 
-Sir Artorias hunted the Darkwraiths, and his
+攻击属性：标准
 
-sword strikes harder against dark servants.
 
 
+黑森林庭院的守护者，
 
-Greatsword born from the soul of Gwyn,
+长满青苔的石骑士大剑。
 
-Lord of Cinder. As bearer of the ultimate
 
-soul, Gwyn wielded the bolts of the sun,
 
-but before linking the fire, divided that
+石骑士是古老法术的产物，
 
-power amongst his children, and set off with
+所以这把剑也带有法术的力量。
 
-only this greatsword as his companion.
+双手共持可以释放那股力量。
+武器种类：大剑
 
+攻击属性：标准／突刺
 
 
-This sword, one of the rare dragon weapons,
 
-came from the tail of Seath the Scaleless,
+为“漫步深渊”的骑士亚尔特留斯守墓的
 
-the pale white dragon who betrayed his own.
+灰色大狼希夫，其灵魂所生的大剑。
 
-Seath is the grandfather of sorcery, and this
 
-sword is imbued with his magic, which shall
 
-be unleashed as a wave of moonlight.
+亚尔特留斯专门猎杀吸魂鬼，
 
+而这把剑也对黑暗的手下有极大杀伤力。
+武器种类：大剑
 
+攻击属性：标准
 
-Greatsword of the black knights who wander
 
-Lordran. Used to face chaos demons.
 
+乌薪王葛温的灵魂所生的大剑。
 
 
-The large motion that puts the weight of the
 
-body into the attack reflects the great size
+有最强灵魂的葛温王，
 
-of their adversaries long ago.
+虽然有如同阳光的雷电作为武器，
 
+但在外出传火前，就把那力量分给了族人，
 
+自己只带着这把大剑踏上旅途。
+武器种类：大剑
 
+攻击属性：标准
 
 
-Sword born from the soul of the great grey
 
-wolf Sif, guardian of the grave of the
+过去背叛同胞的“无鳞”古龙──
 
-Abysswalker Knight Artorias.
+白龙希斯，其尾巴化成的武器。
 
-The sword can damage ghosts, as it was
+稀少的龙武器之一。
 
-cursed when Artorias joined a covenant
 
-with the creatures of the Abyss.
 
+为魔法始祖希斯的魔力结晶，
 
+那股力量能化为月光波动释放出来。
+武器种类：大剑
 
-Sword born from the soul of the great grey
+攻击属性：标准／突刺
 
-wolf Sif, guardian of the grave of the
 
-Abysswalker Knight Artorias.
 
-The sword can damage ghosts, as it was
+于罗德兰四处徘徊的黑骑士大剑。
 
-cursed when Artorias joined a covenant
+对抗混沌恶魔用的武器。
 
-with the creatures of the Abyss.
 
 
+大动作再加上自身体重使出的攻击，
 
-Greatsword born from the soul of Gwyn,
+是因应当时的强敌而出现的战法。
+武器种类：大剑
 
-Lord of Cinder. As bearer of the ultimate
+攻击属性：标准／突刺
 
-soul, Gwyn wielded the bolts of the sun,
 
-but before linking the fire, divided that
 
-power amongst his children, and set off with
+为“漫步深渊”的骑士亚尔特留斯守墓的
 
-only this greatsword as his companion.
+灰色大狼希夫，其灵魂所生的大剑。
 
 
 
-Greatsword born from the soul of Gwyn,
+亚尔特留斯曾与深渊魔物缔结契约，
 
-Lord of Cinder. As bearer of the ultimate
+受到契约产生的诅咒影响，可以伤害到亡灵。
+武器种类：特大剑
 
-soul, Gwyn wielded the bolts of the sun,
+攻击属性：标准
 
-but before linking the fire, divided that
 
-power amongst his children, and set off with
 
-only this greatsword as his companion.
+超大型的直剑，特大剑的一种。
 
 
 
-One of the gigantic straight greatswords.
+剑如其名，是专为双手持剑而设计的武器，
 
+但如果没有过人的力气，还是无法顺利使用。
 
+若能活用重量，攻击时可以把敌人击飞。
+武器种类：特大剑
 
-As the name suggests, the Zweihander is held
+攻击属性：标准／突刺
 
-with two hands, but its wielder must still be
 
-inhumanly strong. It is this great weight
 
-that sends foes flying when hit solidly.
+超大型的直剑，特大剑的一种。
 
 
 
-One of the gigantic straight greatswords.
+极度沉重，攻击力也高的武器，
 
+但几乎没人可以灵活运用。
 
+除了以重装闻名的伯尼斯骑士团之外，
 
-Very few have what it takes to wield this
+也是黑铁的塔尔卡斯的常用剑，因而闻名。
+武器种类：特大剑
 
-incredibly heavy, damage-dealing monster.
+攻击属性：标准
 
-A favorite of the Knights Berenike, known for
 
-their heavy armor, and Black Iron Tarkus.
 
+附有镰钩，厚实铸铁刀身的恶魔武器。
 
+山羊头低阶恶魔是双手各拿一把。
 
-The lesser Capra demons use these greatswords
 
-in pairs. The blade is cast iron and hooked.
 
+虽然武器本身并没有特殊魔力，
 
+但如果有足够力气挥舞，
 
-The sword is imbued with no particular magic,
+就是最适合痛快杀敌的武器之一。
+武器种类：特大剑
 
-but for those who have the strength, its
+攻击属性：标准
 
-great weight will smash foes mercilessly.
 
 
+在灰烬湖的不朽古龙后代──
 
-This sword, one of the rare dragon weapons,
+石身古龙，其尾巴化成的武器。
 
-came from the tail of the stone dragon of
+稀少的龙武器之一。
 
-Ash Lake, descendant of the ancient dragons.
 
 
+带有不可思议的力量，
 
-Its great mystical power will be unleashed
+双手共持可以释放那股力量。
+武器种类：特大剑
 
-when wielded with two hands.
+攻击属性：标准／突刺
 
 
 
-Greatsword of the black knights who wander
+于罗德兰四处徘徊的黑骑士大剑。
 
-Lordran. Used to face chaos demons.
+对抗混沌恶魔用的武器。
 
 
 
-The large motion that puts the weight of the
+大动作再加上自身体重使出的攻击，
 
-body into the attack reflects the great size
+是因应当时的强敌而出现的战法。
+武器种类：曲剑
 
-of their adversaries long ago.
+攻击属性：斩击
 
 
 
+小型曲剑。
 
+单招攻击力低，
 
+迅速连续攻击才能发挥威力。
 
 
-Small curved sword. Each hit inflicts little
 
-damage, but fluid chain attacks are deadly.
+以利刃划伤敌人的斩击攻击，
 
+对柔软的衣服和皮肤等很有效果，
 
+但是对金属铠甲或坚硬鳞片之类效果较差。
+武器种类：曲剑
 
-The scimitar's sharp slashing attacks are
+攻击属性：斩击
 
-effective against cloth and flesh, but not
 
-against metal armor or tough scales.
 
+标准曲剑。
 
+单招攻击力低，
 
+迅速连续攻击才能发挥威力。
 
 
 
+用法是以利刃划伤敌人的斩击，
 
+对柔软的衣服和皮肤很有效果，
 
+但是对金属铠甲或硬鳞之类的效果较低。
+武器种类：曲剑
 
-Small curved sword. Each hit inflicts little
+攻击属性：斩击
 
-damage, but fluid chain attacks are deadly.
 
 
+有大幅度弯刃的曲剑。 
 
-The falchion's sharp slashing attacks are
 
-effective against cloth and flesh, but not
 
-against metal armor or tough scales.
+卡利姆伯爵阿尔斯特的作品之一，
 
+要有相当程度的敏捷才能上手的武器。
 
+可以绕过盾牌伤到敌人。
+武器种类：曲剑
 
-Curved sword with sharply curved blade.
+攻击属性：斩击／突刺
 
 
 
-Created by Arstor, Earl of Carim.
+小隆德的亡灵所拿的锯齿刀刃，
 
-Requires great skill to wield, but evades
+能对敌人展开疯狂刺击。
 
-shield defense to sneak in damage.
 
 
+受诅咒的武器之一，
 
-Jagged blade wielded by New Londo ghosts.
+可以伤到亡灵。
+武器种类：曲剑
 
-Violent thrust attack.
+攻击属性：斩击
 
 
 
-One of the cursed weapons.
+亚诺尔隆德的绘画守护者曲剑。
 
-Inflicts damage to ghosts.
+具有剑尖平直的独特形状。
 
 
 
-Curved sword of Anor Londo painting guards.
+如同舞蹈般画圆的连续攻击，
 
-Unique shape with flat tip.
+是绘画守护者代代相传的招式，
 
-The guardians, who strike down those who
+用来斩杀威胁大绘画的敌人。
+武器种类：曲剑
 
-dare threaten the paintings, attack in a
+攻击属性：斩击
 
-continuous, circular dancing motion,
 
-a technique passed down through generations.
 
+化成混沌恶魔的伊札里斯魔女的女儿──
 
+克拉格，其灵魂所生的曲剑。
 
-A curved sword born from the soul of
 
-Quelaag, daughter of the Witch of Izalith,
 
-who was transformed into a chaos demon.
+整把剑有如克拉格的下半身，
 
-Like Quelaag's body, the sword features
+除了有坚硬外壳和刺，还带有混沌火焰。
 
-shells, spikes, and a coating of chaos fire.
+威力会随使用者的人性而增加。
+武器种类：大曲剑
 
-Power affected by wielder's humanity.
+攻击属性：斩击
 
 
 
+原来是用于仪式的巨大曲剑。
 
 
 
+带有可怕的邪教力量，
 
-A curved greatsword used in a
+打到敌人时会吸收敌人的血量。
+武器种类：大曲剑
 
-mysterious ancient rite.
+攻击属性：斩击
 
+ 
 
+在东方国度特别制作的巨大曲剑。
 
-Imbued with a frightful occult energy
 
-which restores HP with each hit.
 
+具有刀的锋利度，
 
+但有高于柴刀重量的独特武器。
 
-Giant curved sword forged using special
+如果想妥善运用，
 
-methods in an Eastern land.
+必须要有超乎常人的力气、敏捷，和精力。
+武器种类：大曲剑
 
-This unparalleled weapon cuts like a Katana
+攻击属性：斩击／突刺
 
-but is heavier than a Nata machete.
 
-Requires extreme strength, dexterity,
 
-and stamina to wield.
+只有“最初的死者”墓王尼特的手下持有，
 
+用众多死者骨头制成的剑。
 
 
 
+剑上带有浓烈的死亡瘴气，
 
-Sword wielded only by servants of
+对所有的生命来说，是要命的剧毒。
+武器种类：刀
 
-Gravelord Nito, the first of the dead.
+攻击属性：斩击／突刺
 
-Crafted from the bones of the fallen.
 
 
+在东方国度制作的刀剑，
 
-The miasma of death exudes from the sword,
+以利落的独特造型闻名。
 
-a veritable toxin to any living being.
 
 
+有极佳的锋利度和出血效果，
 
-King's Greatswords
+但缺点是刀刃很容易钝。
+武器种类：刀
 
+攻击属性：斩击／突刺
 
 
-Katana forged in an Eastern land.
 
-Known for its brisk slashing motions.
+在东方国度制作的刀剑之中，
 
+属于刀身特别长的逸品。
 
 
-The Uchigatana cuts beautifully and causes
 
-bleeding, but its blade is easily nicked.
+因为刀刃极长，
 
+刀容易坏的缺点就更加显著了。
+武器种类：刀
 
+攻击属性：斩击
 
 
 
+在东方国度制作的刀剑之一，
 
+是称作“居合”的剑术流派所用的刀。
 
+会先收刀入鞘，再使出光速般的斩击。
 
 
 
+使出“居合”时，往前一踏的距离颇长，
 
+因此可以瞬间砍倒有段距离的敌人。
+武器种类：刀
 
+攻击属性：斩击
 
 
 
+化成混沌恶魔的伊札里斯魔女的女儿──
 
+克拉格，其灵魂所生的刀。
 
-Katana forged in an Eastern land.
 
-Very unusual specimen with a long blade.
 
+只将克拉格的混沌性质保留下来，
 
+刀身有特殊的斑状纹路，
 
-The blade is extremely long,
+是会同时侵蚀敌人和装备者的魔剑。
+武器种类：刺剑
 
-but as a result, quite easily broken.
+攻击属性：突刺
 
 
 
+极小型的刺剑。
 
+刀身坚硬而无刃，可刺穿坚硬的铠甲。
 
 
 
+可以利用自身体重向前刺，
 
+而在致命一击时也能发挥威力。
+武器种类：刺剑
 
+攻击属性：突刺
 
 
 
+标准的刺剑。
 
-Katana forged in an Eastern land.
+架盾防御时可以使出单手的一般攻击，
 
-The Katana is drawn from the scabbard at
+左手装备时则可以用来格挡。
 
-lightning speed, using an Iaijutsu technique.
 
 
+以尖刃穿敌的突刺攻击
 
-Iaijutsu allows the wielder to charge
+对装备较为坚固的敌人很有效，
 
-forward to swiftly cut down distant foes.
+一抓到敌人的攻击破绽就可以重创敌人。
+武器种类：刺剑
 
+攻击属性：标准／突刺
 
 
 
+最大型的刺剑。
 
-A curved sword born from the soul of
+可以连同铠甲，将骑士一起刺穿的武器。
 
-Quelaag, daughter of the Witch of Izalith,
 
-who was transformed into a chaos demon.
 
-This blade inherits only the chaotic nature
+坚硬的刀身具有利刃，
 
-of Quelaag, and has a unique speckled design.
+也可以用来挥砍。
+武器种类：刺剑
 
-Blade wielder erodes along with opponents.
+攻击属性：标准／突刺
 
 
 
-Standard small thrusting sword.
+罪业女神蓓尔嘉的教诲师所装备，
 
-Unsharpened but pointed solid
+带有强烈象征性质的刺剑。
 
-shaft can pierce tough armor.
 
 
+不过这并不是徒具象征的装饰品，
 
-Can be thrust using the weight of one's body,
+剑身带有魔力，再加上教诲师的独特剑术，
 
-and is very effective for critical attacks.
+使其同时身为卓越的剑士。
+武器种类：刺剑
 
+攻击属性：突刺
 
 
 
+有精美装饰的细剑。
 
+有名不死人王子──里卡尔的武器。
 
 
-Standard thrusting sword. Regular one-handed
 
-attack can be delivered with shield held up.
+里卡尔王子的故事是一则贵族落难记──
 
-Can parry with use of left hand.
+出身王室却受尽命运折磨，因此到处流浪，
 
+最后以变成不死人，并往北方继续流浪作结。
+武器种类：斧
 
+攻击属性：标准
 
-Thrusting attacks pierce and are effective
 
-against foes with hard exteriors, but the
 
-wielder is left open to damage after a swing.
+小型手斧。
 
+看起来和樵夫的吃饭家伙没两样，
 
+重量、威力适中，是很好用的武器。
 
 
 
-The largest of the thrusting swords.
+挥空的话会露出很大的破绽，
 
-Can pierce an armored knight in one thrust.
+使用时要切实抓好距离。
+武器种类：斧
 
+攻击属性：标准
 
 
-The blade is also sharp,
 
-allowing slicing as well.
+标准战斧。
 
+为标准攻击属性，因此用起来不刁钻，
 
+方便在各种状况下运用。
 
 
 
-A symbolic, powerful thrusting sword used
+因为重量很重，攻击起来颇有威力，
 
-by the Pardoner serving Velka,
+但挥空会露出很大的破绽，
 
-Goddess of Sin.
+使用时要切实抓好距离。
+武器种类：斧
 
-It is no mere symbol to be sure; the Pardoner
+攻击属性：标准
 
-is an inhuman swordsman, and wields this
 
-enchanted blade with special sword technique.
 
+具有弦月状刀刃及长柄，
 
+已使用有段时间的老旧铜制战斧。
 
-A rapier with intricate decorations. Chosen
 
-weapon of the infamous Undead Prince Ricard.
 
-Ricard's exploits are told in a monomyth.
+白教所传的受祝福的武器之一，
 
-He was born into royalty, but wandered the
+只赐给特别受肯定的圣职战士。
+武器种类：斧
 
-lands in a fateful ill-conceived journey.
+攻击属性：标准
 
-He became Undead, and disappeared up North.
 
 
+住在底层的不死人食人女
 
+所使用的巨大切肉菜刀。
 
 
 
+说是武器，还不如说是肢解猎物用的工具。
 
-Small hand axe. Appears identical to a
+随性挥舞这把菜刀的模样，
 
-lumberjack's tool, but has an ideal weight
+能唤起人类那遗忘已久，对掠食者的恐惧。
+武器种类：斧
 
-and strength, and is easy to handle.
+攻击属性：标准
 
-One wrong swing leaves the wielder wide
 
-open, so timing and proximity to the enemy
 
-must be judged carefully.
+专门屠杀想前往亚诺尔隆德的英雄，
 
+赛恩古城的防卫者──
 
+钢铁巨偶，其灵魂所生的斧。
 
-Standard battle axe. Inflicts regular damage,
 
-making it effective in various situations.
 
-Powerful attack due to its weight, but one
+单手重攻击可以使出巨偶的风刃，
 
-wrong swing leaves the wielder wide open,
+但是铁斧刃相当沉重，难以活用。
+武器种类：斧
 
-so timing and proximity to the enemy must
+攻击属性：标准
 
-be judged carefully.
 
 
+在不死教堂钟楼守护苏醒之钟的石像鬼，
 
-Well-used old bronze battle axe with a
+切下其尾巴而成的斧。
 
-long hilt and a crescent-shaped blade.
 
 
+可以当做青铜战斧使用。
 
-One of the blessed weapons of the Way of
+可能因为原来是尾巴，所以当重攻击时，
 
-White. The Crescent Axe is bequeathed to
+柄会像鞭子一样延伸变长。
+武器种类：大斧
 
-cleric warriors who have proven their faith.
+攻击属性：标准
 
 
 
-Giant butcher knife wielded by the Undead
+像铁块般的大斧。
 
-man-eating cook lurking in the Depths.
+非常重，没有超乎常人的力气没办法使用，
 
-More a tool for subduing and preparing live
+如能活用此重量，将可轻易地把敌人打飞。
 
-catches than an actual weapon. Those who
 
-have faced this deadly blade have a deeper
 
-sense of how helpless prey must feel.
+因为会使用全身的力量挥动，
 
+所以挥空时的风险也相对变大。
+武器种类：大斧
 
+攻击属性：标准
 
 
 
-An axe born from the soul of the Iron Golem,
+用同族的骨头制成的恶魔武器。
 
-guardian of Sen's Fortress who repelled
+由牛头低阶恶魔所使用。
 
-countless heroes who sought Anor Londo.
 
-Its powerful one-handed attack imitates the
 
-golem's blade of wind, but the heavy iron
+虽然武器本身并没有特殊魔力，
 
-blade makes it quite unwieldy.
+但如果有足够力气挥舞，
 
+就是最适合痛快杀敌的武器之一。
+武器种类：大斧
 
+攻击属性：标准
 
 
 
-Sliced tail of the gargoyle guarding the
+由变成异形的不朽古龙后裔──
 
-Bell of Awakening in the Undead Church
+贪食魔龙，其尾巴化成的武器。
 
-or patrolling in Anor Londo.
+稀少的龙武器之一。
 
 
 
-Can be used as a bronze battle axe.
+带有不可思议的力量，
 
-Bends dramatically during large attacks,
+双手共持可以释放那股力量。
+武器种类：大斧
 
-owing to its nature as a tail.
+攻击属性：标准
 
 
 
-This greataxe is a veritable mass of iron.
+于罗德兰四处徘徊的黑骑士大斧。
 
-Its weight sends foes flying, but makes it
+对抗混沌恶魔用的武器。
 
-difficult to handle without inhuman strength.
 
 
+大动作再加上自身体重使出的攻击，
 
-Any miss makes one very vulnerable, as each
+是因应当时的强敌而出现的战法。
+武器种类：槌
 
-swing requires the full force of the body.
+攻击属性：打击
 
 
 
+粗制的木棒。
 
 
 
+不靠刀刃的单纯打击武器
 
-Carved from the bones of fellow demons.
+大多很好上手，还可以瓦解盾牌防御，
 
-Wielded by the lesser Taurus demons.
+但是只要一挥空，就会露出大破绽，
 
+使用时要切实抓好距离。
+武器种类：槌
 
+攻击属性：打击
 
-This axe is imbued with no special power,
 
-but can merrily beat foes to a pulp,
 
-providing you have the strength to wield it.
+柄头上有刺的铁锤。
 
+知名的圣职标准装备。
 
 
-This axe, one of the rare dragon weapons,
 
-is formed by the tail of the Gaping Dragon,
+不靠刀刃的单纯打击武器
 
-a distant, deformed descendant of the
+大多很好上手，还可以瓦解盾牌防御，
 
-everlasting dragons.
+但是只要一挥空，就会露出大破绽，
 
-The axe is imbued with a mystical power,
+使用上必需多加注意。
+武器种类：槌
 
-to be released when held with both hands.
+攻击属性：打击
 
 
 
-Greataxe of the black knights who wander
+柄头上有尖锐尖刺的铁锤，
 
-Lordran. Used to face chaos demons.
+在圣职的武器中，属于比较残酷的种类。
 
 
 
-The large motion that puts the weight of the
+虽然是打击属性，
 
-body into the attack reflects the great size
+但那尖锐的突刺带有出血效果。
+武器种类：槌
 
-of their adversaries long ago.
+攻击属性：突刺
 
 
 
+拥有大型坚硬喙状尖刺的战锤。
 
+是改良为战斗用的十字镐。
 
-A simple wooden club.
 
-This simple bladeless strike weapon is
 
-effective against most foes, is easily
+虽然构造简单，却是恐怖的武器。
 
-handled, and can break the guard of a shield.
+能用重突刺攻击贯穿金属铠甲。
+武器种类：槌
 
-However, a single miss makes one wide open,
+攻击属性：突刺
 
-so timing and proximities are crucial.
 
 
+矿工用来挖土的道具。
 
-Iron hammer with a protrusive pommel.
+坚硬喙状尖刺的攻击效果很好。
 
-Standard weapon for clerics.
 
-This simple bladeless strike weapon is
 
-effective against most foes, and can
+那能凿开巨大岩石，全力挥下的攻击，
 
-break the guard of a shield. However,
+要粉碎人类的头应该是轻而易举。
+武器种类：槌
 
-one miss leaves one wide open.
+攻击属性：打击
 
 
 
+在棍棒头绑皮革，并钉上钉子的棍棒。
 
+城外不死人商人的热卖商品，
 
+但是“强化”的字眼是子虚乌有。
 
 
 
+虽然有提升攻击力，但是变得容易损坏。
+武器种类：槌
 
+攻击属性：打击
 
 
 
+在古老教堂冶炼武器的铁匠──
 
-Hammer with a sharp spike on its pommel.
+亚斯特拉的安德烈的铁锤。
 
-One of the more barbaric cleric weapons.
 
 
+虽然可以作为打击武器使用，
 
-Uniquely, this hammer inflicts thrust damage,
+但这铁锤还是要在安德烈的手上，
 
-and causes bleeding.
+才能发挥它真正的价值。
+武器种类：槌
 
+攻击属性：打击
 
 
 
+在亚诺尔隆德打造雷电武器的
 
-Hammer with a large beak-shaped pommel.
+巨人铁匠使用的巨大木槌。
 
-Originally a pickaxe; redesigned for battle.
 
 
+打造雷电武器时，绝对不能使用金属锤，
 
-This simple but deadly weapon hits heavily
+因此巨人铁匠一直使用木制槌子。
+武器种类：槌
 
-with thrust damage, such that it easily
+攻击属性：打击
 
-cracks metal armor.
 
 
+在地下墓地专心打造火焰武器的
 
+骸骨铁匠巴摩斯使用的铁锤。
 
 
 
+虽然可以作为打击武器使用，
 
-Traditionally a mining tool, but the hard
+但这铁锤还是要在巴摩斯的手上，
 
-cone on the pommel is effective in battle.
+才能发挥它真正的价值。
+武器种类：大槌
 
+攻击属性：打击
 
 
-A downward swing of the Pickaxe can crush
 
-stone; a human head would be an afterthought.
+巨大的木质棍棒。
 
+是直接拿又硬又重的大树枝干来挥舞，
 
+并从敌人的头上重重打下去。
 
 
 
+也可以使出棍棒特有的跳跃攻击。
+武器种类：大槌
 
+攻击属性：打击
 
 
 
+很久以前，成为不死人的圣骑士被托付的
 
+白教传说宝物之一。
 
 
 
+是一般人连拿都拿不动的铁块，
 
+本身已受到祝福，对黑暗物种特别有杀伤力。
+武器种类：大槌
 
+攻击属性：打击
 
 
-A club with leather nailed to the pommel.
 
-The burg Undead merchant proudly peddles
+用岩石大树加工制成的恶魔武器。
 
-this club, but its reinforcement is shoddy.
+由北方不死院的低阶恶魔使用。
 
-Indeed, its attack is stronger, but the
 
-club is no longer dependably sturdy.
 
+虽然武器本身并没有特殊魔力，
 
+但如果有足够力气挥舞，
 
+就是最适合痛快杀敌的武器之一。
+武器种类：大槌
 
+攻击属性：打击
 
 
 
-Metal hammer of Andre of Astora,
+据说是把不朽古龙的牙直接当成武器，
 
-blacksmith at the Old Church.
+“坚石”哈维尔的传说大槌。
 
 
 
-Can be used as a strike weapon, but better
+龙牙比一般的岩石还要硬，绝对不会断，
 
-left in the hands of its talented owner.
+也会提升装备者的法术和火焰的抵抗力。
+武器种类：大槌
 
+攻击属性：打击
 
 
 
+大型的木质棍棒。
 
-Wooden hammer of the giant blacksmith in
 
-Anor Londo who handles lightning weapons.
 
+病村的不死巨人使用的武器，
 
+因为长期放置该地，武器带有毒。
+武器种类：大槌
 
-The giant blacksmith forges with this wooden
+攻击属性：打击
 
-hammer, as it would be hazardous to handle
 
-lightning weapons with metals.
 
+在被遗弃的亚诺尔隆德，守护教堂的
 
+“刽子手”斯摩，其灵魂所生的大锤。
 
-Metal hammer of Vamos, a skeleton blacksmith
 
-deep within the Catacombs who rarely speaks.
 
+斯摩对处刑乐此不疲，
 
+甚至认为借由碾碎牺牲者的血肉，
 
-Can be used as a strike weapon, but better
+化作自己的食粮，就是上上之策。
 
-left in the hands of its talented owner.
+因为性格如此残忍，才未能挤身四骑士之列。
+拳头
+武器种类：拳套
 
+攻击属性：打击
 
 
 
+在厚皮革嵌入铁锥，
 
+以强化拳击的武器。
 
 
-Giant tree branch serves as a wooden club.
 
-Smashes enemies from upside the head.
+攻击距离短，但是攻击速度快，
 
+力气越大，攻击力就越高。
+武器种类：拳套
 
+攻击属性：斩击
 
-The leaping attack is a trademark of clubs,
 
-and this giant club is no exception.
 
+在手套上附有三支锐利爪子的武器。
 
 
 
+攻击有出血效果，伤口不易愈合，
 
+是东方国度的密探爱用的武器。
+武器种类：拳套
 
+攻击属性：打击
 
 
 
-A legendary weapon of the Way of White,
+专门屠杀想前往亚诺尔隆德的英雄，
 
-granted to an Undead paladin long ago.
+赛恩古城的防卫者──
 
+钢铁巨偶，其灵魂所生的武器。
 
 
-This mass of iron can only be lifted by those
 
-with inhuman strength, but it is blessed,
+诸神把古龙大骨与灵魂的魔力相结合，
 
-and very effective against agents of Dark.
+创造出强大的巨偶核心。
+武器种类：拳套
 
+攻击属性：打击
 
 
 
+遭到卡斯唆使的吸魂鬼之常见行径，
 
-Demon weapon built from the stone archtrees.
+可借由黑暗灵魂，使用夺取人性的吸魂技艺。
 
-Used by lesser demons at North Undead Asylum.
+也可以当作特殊的盾使用。
 
 
 
-This hammer is imbued with no special power,
+一旦成为伟大古代物种的同类，
 
-but can merrily beat foes to a pulp,
+就算是圣人那丰富的人性，
 
-providing you have the strength to wield it.
+相信都能一次吸取到手。
+武器种类：枪
 
+攻击属性：突刺
 
+ 
 
+广为士兵所用的标准枪。
 
+攻击距离远，可以架着盾使用。
 
-Created from an everlasting dragon tooth.
 
-Legendary great hammer of Havel the Rock.
 
+以尖刃穿敌的突刺攻击
 
+对装备较为坚固的敌人很有效，
 
-The dragon tooth will never break as it is
+一抓到敌人的攻击破绽就可以重创敌人，
 
-harder than stone, and it grants its wielder
+但攻击范围窄，对付架着盾的敌人也较棘手。
+武器种类：枪
 
-resistance to magic and flame.
+攻击属性：突刺
 
+ 
 
+在枪前端设有“防护翼”的枪。
 
+攻击距离长，可以架着盾使用。
 
 
 
+以尖刃穿敌的突刺攻击
 
-Large wooden club.
+对装备较为坚固的敌人很有效，
 
+一抓到敌人的攻击破绽就可以重创敌人，
 
+但攻击范围窄，对付架着盾的敌人也较棘手。
+武器种类：枪
 
-The giant Undead of Blighttown wield these
+攻击属性：标准／突刺
 
-clubs, which became poisonous from the
 
-influence of their surroundings.
 
+枪头宽，边锋磨成利刃的枪。
 
+攻击距离长，可以挥砍。
 
 
 
-Great hammer from the soul of executioner
+攻击方式多元，便于应付各种状况。
 
-Smough, who guards the cathedral in the forsaken city of Anor Londo.
+长度就枪来说虽然实用，
 
-Smough loved his work, and ground the bones
+不过在小巷道挥砍的话，很容易打到墙。
+武器种类：枪
 
-of his victims into his own feed, ruining his
+攻击属性：突刺
 
-hopes of being ranked with the Four Knights.
 
 
+用同族的骨头制成的恶魔武器。
 
+由蝙蝠翅膀型削瘦的低阶恶魔所使用。
 
 
 
+虽然同是混沌恶魔，
 
+但栖息于亚诺尔隆德的他们，
 
+使用的武器与其他恶魔用的不同，带有雷电力量。
+武器种类：枪
 
-Great hammer from the soul of executioner
+攻击属性：突刺
 
-Smough, who guards the cathedral in the forsaken city of Anor Londo.
 
-Smough loved his work, and ground the bones
 
-of his victims into his own feed, ruining his
+侍奉白龙希斯，会掳人的魔法师──
 
-hopes of being ranked with the Four Knights.
+六眼传道者的三股叉。
 
 
 
+能用转动的枪头刺向敌人，
 
+还能跳独特的舞蹈，
 
+以狂乱气息鼓舞周围的同伴。
+武器种类：枪
 
+攻击属性：标准／突刺
 
-Bare fists
 
 
+守护亚诺尔隆德的银骑士使用的枪。
 
-The weapon augments one's bare hands
+作工精细，造型优美的亲兵用武器。
 
-with thick, studded leather.
 
 
+除了瞄准目标后，
 
-The Caestus has a short reach, but quick
+利用自身体重以双手突刺之外，
 
-cool down. Amount of damage inflicted is
+还有猛力横扫敌人的攻击方法。
+武器种类：枪
 
-dependent on its wearer's strength.
+攻击属性：突刺
 
 
 
+枪柄长度极长的红柄长枪。
 
+本来是用于团体战术上，
 
+为了让士兵刺杀远方敌人的特制武器。
 
 
-A weapon formed by three sharp claws.
 
+除了射击武器之外，是攻击距离最长的武器，
 
+但就是因为如此，有些时候反而难用。
+武器种类：枪
 
-Attacks cause bleeding, and the wounds
+攻击属性：突刺
 
-inflicted are not easily mended. Preferred
 
-weapon of the spooks of an Eastern land.
 
+在被遗弃的亚诺尔隆德，守护教堂的
 
+“猎龙者”骑士──翁斯坦，其灵魂所生的十字枪。
 
-A weapon from the soul of the Iron Golem,
 
-guardian of Sen's Fortress who repelled
 
-countless heroes who sought Anor Londo.
+带有对龙族十分有效的雷电力量，
 
-The Gods fused the power of the soul with
+因此握住十字握柄，以双手使出全力突刺后，
 
-the great bones of the dragons, forming an
+可以把枪深深刺入龙的身体，
 
-appropriate core for the giant golem.
+以人类肉身承受攻击，可能会被刺飞。
+武器种类：枪
 
+攻击属性：突刺
 
 
 
+在黑森林庭院内翩翩飞舞的神秘生物──
 
+月光蝶，其灵魂所生的武器。
 
 
-The Darkwraiths, incited by Kaathe, use the
 
-power of the dark soul to absorb humanity, an
+希斯创造出来的月光蝶，
 
-art shared by this weapon, which also acts as
+其触角带有纯粹的法术力量。
+武器种类：戟
 
-a special shield. The ancients, particularly,
+攻击属性：标准／突刺
 
-could sap the humanity of even a replete
 
-saint in the blink of an eye.
 
+具有斧和枪两种功用的长柄武器。
 
+难以使用，很要求力气和敏捷两种能力。
 
-Standard spear used commonly by soldiers.
 
-Long reach, and can be used with shield up.
 
-Effective against hard exteriors, and can hit
+攻击方式基本上有如枪般的突刺攻击，
 
-for high damage at the right moment of an
+以及大范围的横扫攻击，
 
-enemy's swing. But the hit radius is small,
+但如果挥空的话，要注意会露出很大的破绽。
+武器种类：戟
 
-and it is easily blocked by shields.
+攻击属性：标准／突刺
 
 
 
-A long-hilted spear with a barbed point.
+用老旧黄铜制成的大型戟。
 
-Long reach, and can be used with shield up.
+守护亚诺尔隆德的巨人卫兵使用的装备。
 
-Effective against hard exteriors, and hits
 
-for high damage at the right moment of an
 
-enemy's swing. But the hit radius is small,
+黄铜带有微量的雷电力量，
 
-and it is easily blocked by shields.
+但因为是考虑巨人的体能而制成的装备，
 
+对人来说大概过于沉重。
+武器种类：戟
 
+攻击属性：标准
 
 
 
+从楔形石原盘诞生的无脸石像魔物──
 
+楔形石恶魔使用的武器。
 
 
 
+可能因为是原盘的魔力残渣，
 
+是原来就具有法术力量的武器之一。
 
-Spear with blade attached to broad point.
+猛力往前跳，并往头顶刺下的攻击是一大特色。
+武器种类：戟
 
-Boasts long reach, and can slice.
+攻击属性：标准
 
 
 
-The wide range of this spear makes it
+在不死教堂钟楼守护苏醒之钟的石像鬼武器。
 
-adaptable to many situations. Its strength
+ 
 
-lies in its length, but in cramped quarters,
+很普通的青铜戟，
 
-this backfires, and slices ricochet off walls.
+本身不具有什么强大的威力。
+武器种类：戟
 
+攻击属性：斩击
 
 
 
+于罗德兰四处徘徊的黑骑士戟。
 
+对抗混沌恶魔用的武器。
 
 
 
+大动作再加上自身体重使出的攻击，
 
+是因应当时的强敌而出现的战法。
+武器种类：戟
 
+攻击属性：突刺
 
-Carved from the bones of fellow demons.
 
-Wielded by the slim lesser Batwing demons.
 
+拥有坚硬、锐利喙状尖刺的戟。
 
+攻击属性变为突刺属性。
 
-The weapon of these chaos demons wandering
 
-Anor Londo are different from those of other
 
-chaos demons, and are imbued with lightning.
+并不是像枪一样的突刺攻击，
 
+而是像挥舞十字镐一样，
 
+用坚硬的喙状尖刺朝敌人脑袋敲下去。
+武器种类：戟
 
-Trident of the Six-eyed Channelers,
+攻击属性：斩击
 
-sorcerers who serve Seath the Scaleless
 
-in collecting human specimens.
 
-Thrusted in circular motions in a unique
+有大型刀刃的戟，
 
-martial arts dance that stirs nearby allies
+改良成战斗用的镰刀。
 
-into a bloodthirsty frenzy.
 
 
+此武器专用来斩击，
 
-The silver knights of Anor Londo guard the
+但挥空时的破绽很大，一定要小心。
+武器种类：戟
 
-city using this beautifully slender weapon.
+攻击属性：斩击
 
 
 
-The spear can be wielded by both hands in a
+用有弯曲长刀刃的农具改良的武器。
 
-focused thrust that uses one's body weight,
+原来是用来割麦之类的用具。
 
-or swung in a large sweeping motion.
 
 
+弯曲的锐利刀刃散发出可怕的气息，
 
+可以让敌人心寒而害怕胆怯。
 
+会如此心生恐惧，或许是人的本能作祟吧。
+武器种类：戟
 
+攻击属性：斩击
 
 
-Long spear with a very long red hilt.
 
-Traditionally used by groups of soldiers.
+被囚禁于艾雷米雅斯绘画世界里的
 
-Specially designed for distance thrusting.
+纯白半龙普利希拉，其灵魂所生的镰刀。
 
-Has the longest range of the non-projectile
 
-weapons, but its very length makes it
 
-somewhat difficult to handle.
+拥有连诸神都感到畏惧的猎杀生命力量，
 
+但如果不是半龙使用这把镰刀，
 
+那股力量将会反噬装备者。
+武器种类：弓
 
+攻击属性：无
 
 
 
+小型的弓，标准射击武器。
 
-Cross spear born from the soul of Ornstein, a
+射击时必须要装备箭。
 
-Dragonslayer guarding Anor Londo cathedral.
 
-Inflicts lightning damage; effective against
 
-dragons. Two-handed thrust relies on cross
+拿起弓按下<?platmsg@10002?>，就可以狙击，
 
-and buries spear deep within a dragon's hide,
+如果是人型敌人，可以尝试射击头部。
 
-and sends human foes flying.
+按下<?platmsg@10003?>／<?platmsg@10004?>可以更换使用的箭。
+武器种类：弓
 
+攻击属性：无
 
 
 
+大型的弓，熟练的猎人使用的射击武器。
 
+射击时必须要装备箭。
 
 
-Weapon born from the mystical creature of
 
-the Darkroot Garden, the Moonlight Butterfly.
+拿起弓按下<?platmsg@10002?>，就可以狙击，
 
+如果是人型敌人，可以尝试射击头部。
 
+按下<?platmsg@10003?>／<?platmsg@10004?>可以更换使用的箭。
+武器种类：弓
 
-The horns of the butterfly, a being created
+攻击属性：无
 
-by Seath, are imbued with a pure magic power.
 
 
+使弓英雄──法里斯常使用的黑弓。
 
-Weapon born from the mystical creature of
 
-the Darkroot Garden, the Moonlight Butterfly.
 
+虽然射程距离会比普通的弓更远，
 
+但因为使用难度高，能力不够的人用起来
 
-The horns of the butterfly, a being created
+威力会比使用普通的弓还要弱。
+武器种类：大弓
 
-by Seath, are imbued with a pure magic power.
+攻击属性：无
 
 
 
-Cross spear born from the soul of Ornstein, a
+葛温王四骑士──
 
-Dragonslayer guarding Anor Londo cathedral.
+“鹰眼”戈夫率领的猎龙队使用的大弓。
 
-Inflicts lightning damage; effective against
 
-dragons. Two-handed thrust relies on cross
 
-and buries spear deep within a dragon's hide,
+因为比一般的弓大上许多，
 
-and sends human foes flying.
+射击时，需要将弓下方的锚插到地上固定。
 
+只能使用专用的大箭射击。
+武器种类：弓
 
+攻击属性：无
 
 
 
+重视威力而改造成的复合弓。
 
+比一般的弓更要求力气。
 
-Long-hilted weapon mixing spear and axe is
 
-difficult to handle, requiring both strength
 
-and dexterity. The Halberd has two elementary
+但是箭的射程比较短，
 
-attacks: spear-like thrusting and large
+不太适合用在远距离狙击上。
+武器种类：弓
 
-sweeping swings. However, one false swing
+攻击属性：无
 
-and the wielder is left wide open.
 
 
+守护被遗弃的亚诺尔隆德的暗月之神──
 
+黯影太阳葛温德林，其灵魂所生的弓。
 
 
-Large halberd made of old brass, used by
 
-the giant sentinels of Anor Londo.
+带有强烈法术力量的黄金弓，
 
+使用月光箭时，才能发挥真正的威力。
+武器种类：弩
 
+攻击属性：无
 
-Brass contains traces of lightning,
 
-but as the halberd is designed for the giant
 
-sentinels, its weight is unbearable.
+士兵使用的标准弩。
 
+和弓不同的是可以单手使用，
 
+但是装上弩箭时，比较花时间。
 
 
 
-Weapon of the titanite demon, a faceless
+射击时必须装备弩箭，
 
-stone monster born from titanite slab.
+按<?platmsg@10003?>／<?platmsg@10004?>可以更换使用的弩箭。
+武器种类：弩
 
-One of the enchanted weapons, perhaps from
+攻击属性：无
 
-residual power of the titanite slab.
 
-Known for its leaping attack which comes
 
-smashing down on foes from above.
+威力较强的大型弩。
 
+和弓不同的是可以单手使用，
 
+但是装上弩箭时，比较花时间。
 
-Halberd of the gargoyle guarding the
 
-Bell of Awakening in the Undead Church.
 
+射击时必须装备弩箭，
 
+按<?platmsg@10003?>／<?platmsg@10004?>可以更换使用的弩箭。
+武器种类：弩
 
-Perfectly standard bronze halberd
+攻击属性：无
 
-without any special power.
 
 
+武器工匠艾亚戴斯制作的连射式弩。
 
+外观设计高贵，要说是武器倒不如说是艺术品。
 
 
-Halberd of the black knights who wander
 
-Lordran. Used to face chaos demons.
+精心设计的机关可以连续射出三支弩箭。
 
+虽然可以靠连续命中来重创敌人，
 
+但单发攻击的伤害比较低。
+武器种类：弩
 
-The large motion that puts the weight of the
+攻击属性：无
 
-body into the attack reflects the great size
 
-of their adversaries long ago.
 
+卡利姆狙击手使用的
 
+射程较远的大型弩，
 
+通常都是装备狙击弩箭射击。
 
 
-Halberd with a large, hard beak-like
 
-protrusion. Inflicts thrust damage.
+要够敏捷才用得上手，
 
-Instead of thrusting like a spear, the
+这点就弩来说，算是很少见。
+武器种类：杖
 
-wielder of the Lucerne aims to club
+攻击属性：打击
 
-the head with its hard beak.
 
 
+彼海姆龙学院的魔法师使用的杖。
 
+使用魔法时的触媒。
 
 
 
+使用魔法必须先装备杖，
 
+并在营火处先记住咒文书中的魔法。
 
+大部分的魔法都有限制使用次数。
+武器种类：杖
 
+攻击属性：打击
 
 
-Halberd with a large blade.
 
-Scythe adjusted for battle.
+异端魔女比阿特丽斯的杖。
 
+与彼海姆的杖不一样。
 
 
-Designed especially for slicing. However,
 
-one false swing leaves one wide open.
+杖本身很旧，也看得出有古代魔法的纹路痕迹，
 
+应该是代代相传的物品。
+武器种类：杖
 
+攻击属性：突刺
 
 
 
+将小隆德沉入水中，
 
+封印住堕入黑暗的小隆德四王与吸魂鬼的
 
+封印魔法师们的锡杖。
 
 
 
+和其他的杖不同，是金属制，
 
+因此有攻击力，勉强可以拿来当作武器。
+武器种类：杖
 
+攻击属性：打击
 
 
 
-Weapon with a long curved blade. Converted
+伟大的魔法探求者──
 
-from a wheat-harvesting tool.
+“大帽子”罗根的杖。
 
 
 
-The magnificent sharp curved blade
+材质和彼海姆的魔法杖相同，
 
-instills fear in opponents. Perhaps it is
+但因为罗根常使用的影响而受到强化，
 
-their survival instinct at work.
+智力越高的人使用，威力会越强。
+武器种类：杖
 
+攻击属性：打击
 
 
-Scythe born from the soul of Priscilla, the
 
-stark white crossbreed trapped inside the
+守护被遗弃的亚诺尔隆德的暗月之神──
 
-Painted World of Ariamis.
+黯影太阳葛温德林，其灵魂所生的锡杖。
 
-Even the Gods feared Priscilla's lifehunt
 
-ability, and in the hands of a mortal, its
 
-power will turn upon its wielder.
+葛温德林身为葛温王的么子，
 
+不但是神，也是月亮魔法师。
 
+他所使用的锡杖不是依照智力，
 
+而是借由信仰来强化魔法。
+武器种类：杖
 
+攻击属性：打击
 
 
 
-Small bow. Standard projectile weapon.
+已灭亡的古代王国──乌拉席露的魔法杖。
 
-Equip arrows to use.
+由带有魔力的白皮树枝制成。
 
 
 
-Hold bow and press <?platmsg@10002?> to aim.
+其带有的魔力会提升魔法威力，
 
-Aim for heads of humanoid foes.
+但其实乌拉席露的魔法原来不具攻击性质，
 
-Press <?platmsg@10003?>/<?platmsg@10004?> to change type of arrows.
+所以无法依装备者的智力提升攻击威力。
+武器种类：杖
 
+攻击属性：突刺
 
 
 
+遭到希斯的执着吞噬的罗根使用的锡杖。
 
-Large bow. Projectile weapon for experienced
+带有惊人结晶魔力的触媒。
 
-hunters. Equip arrows to use.
 
 
+虽然可以大幅提升所有魔法的威力，
 
-Hold bow and press <?platmsg@10002?> to aim.
+但是极度要求装备者的智力，
 
-Aim for heads of humanoid foes.
+而且魔法的使用次数将会减半。
+武器种类：杖
 
-Press <?platmsg@10003?>/<?platmsg@10004?> to change type of arrows.
+攻击属性：突刺
 
 
 
+用伊札里斯的溶岩石制成的恶魔杖。
 
+具有火属性攻击力，可当作武器使用。
 
-The preferred black bow of the heroic
 
-archer Pharis.
 
+恶魔火焰司祭是最早的恶魔，
 
+也是最后一个会使用
 
-Has a longer range than standard bows,
+伊札里斯魔女被混沌吞噬前，
 
-but is more difficult to use. Without proper
+不是咒术，而是火焰魔法的恶魔。
+武器种类：杖
 
-abilities, results will be underwhelming.
+攻击属性：打击
 
 
 
+伊札里斯魔女被混沌火焰吞噬前，
 
+其女儿们还是火焰魔女时使用的杖。
 
-Bow of the Dragonslayers, led by Hawkeye
 
-Gough, one of Gwyn's Four Knights.
 
+当咒术还未诞生时，
 
+她们的杖也是使用魔法的触媒，
 
-This bow's unusual size requires that it be
+但是那火焰魔法已经完全失传了。
+武器种类：咒术之火
 
-anchored to the ground when fired.
+攻击属性：打击
 
-Only uses specialized great arrows.
 
 
+大沼咒术师使用的火的触媒。
 
+咒术师会先燃起火，再使出各种火的技艺。
 
 
-Composite bow emphasizing power.
 
-Requires more strength than standard bows.
+使用咒术必须先装备咒术之火，
 
+并在营火处先记住咒文书中的咒术。
 
+大部分的咒术都有限制使用次数。
+武器种类：咒术之火
 
-However, its range is shorter, making it
+攻击属性：打击
 
-unfit for sniping.
 
 
+咒术始祖，伊札里斯的克拉娜
 
+亲自引出潜在能力的咒术之火。
 
 
-Bow born from the soul of the Dark Sun
 
-Gwyndolin, Darkmoon deity who watches over
+对咒术师来说，火十分特殊，
 
-the abandoned city of Gods, Anor Londo.
+大致上会与火共度生涯，并细心照顾它。
 
+对他们而言，火就是半个自己，
 
+将火分给他人，双方就拥有火的血缘关系。
+武器种类：护符
 
-This golden bow is imbued with powerful magic
+攻击属性：打击
 
-and is most impressive with Moonlight Arrows.
 
 
+引发神祇奇迹的触媒。
 
+一般信徒都能拿到的常见物品。
 
 
-Standard crossbow issued to soldiers.
 
-While bows require both hands, a crossbow is
+使用奇迹必须先装备护符，
 
-held in one, but arming each bolt takes time.
+并在营火处记住书中的奇迹。
 
+大部分的奇迹都有限制使用次数。
+武器种类：护符
 
+攻击属性：打击
 
-Equip bolts to use.
 
-Press <?platmsg@10003?>/<?platmsg@10004?> to change type of bolt.
 
+引发神祇奇迹的触媒。
 
+以粗糙布料制成，
 
-Powerful large crossbow.
+是旅行圣职持有的质朴护符。
 
-While bows require both hands, a crossbow is
 
-held in one, but arming each bolt takes time.
 
+使用奇迹必须先装备护符，
 
+并在营火处记住书中的奇迹。
 
-Equip bolts to use.
+大部分的奇迹都有限制使用次数。
+武器种类：护符
 
-Press <?platmsg@10003?>/<?platmsg@10004?> to change type of bolt.
+攻击属性：打击
 
 
 
-Repeating crossbow cherished by the weapon
+引发神祇奇迹的触媒。
 
-craftsman Eidas. Its elaborate design makes
+索尔隆德护符只赋予高位圣职，
 
-it closer to a work of art than a weapon.
+因为受到庇佑，不需依靠信仰就能增强威力。
+武器种类：护符
 
-Intricate mechanism makes heavy damage
+攻击属性：打击
 
-possible through triple-shot firing of bolts,
 
-but in fact each bolt inflicts less damage.
 
+引发神祇奇迹的触媒。
 
+白色护符只赋予女性圣职，
 
+装备者的信仰越高，其价值就越高。
+武器种类：护符
 
+攻击属性：打击
 
 
 
+引发神祇奇迹的触媒。
 
+“太阳骑士”亚斯特拉的索拉尔的护符，
 
-Large crossbow with long distance used by
+上头有他自己画的圣徽，
 
-Carim snipers. Often used with sniper bolts.
+是他信仰非常坚定的证明。
+武器种类：护符
 
+攻击属性：打击
 
 
-But while crossbows are normally easy to
 
-use, the Sniper Crossbow requires dexterity.
+引发神祇奇迹的触媒。
 
+黯影太阳葛温德林
 
+赋予立誓效忠的暗月之剑骑士的护符，
 
+装备者必须有坚定的信仰，
 
+伴随而来的威力增强效果极为可观。
+武器种类：护符
 
-Sorcery catalyst used by sorcerers of
+攻击属性：打击
 
-Vinheim Dragon School.
 
 
+引发神祇奇迹的触媒。
 
-Equip catalyst to use sorceries.
+罪业女神蓓尔嘉的护符是由其黑发制成，
 
-Attune sorceries from a scroll at a bonfire.
+不依靠信仰，而是以智力作为奇迹的能量。
+武器种类：提灯
 
-Most sorceries have limited no. of uses.
+攻击属性：打击
 
 
 
-Catalyst belonging to Beatrice, the rogue
+地下墓地的尸术师持有的头盖骨提灯。
 
-witch. Contrasts with Vinheim catalysts.
+长长的头发变成了提灯用的绳子。
 
 
 
-This ancient catalyst shows signs of being
+墓王尼特的死亡领域会吞噬一般的光，
 
-used for age-old sorceries. It has passed
+而此提灯可以照亮巨人墓地，
 
-the hands of many generations to get here.
+也还可以作为火属性的打击武器。
+武器种类：盾
 
+攻击属性：打击
 
 
-Catalyst of the banishment sorcerers who
 
-flooded New Londo to seal off away the
+木制的盾。
 
-Darkwraiths and the Kings who fell to Dark.
+画有双头黄鸟这种老旧的图纹。
 
-In contrast to other catalysts, the metal
 
-catalyst qualifies as a weapon, as it
 
-inflicts physical damage, however small.
+比金属的盾轻，
 
+但是物理减伤率及抵挡能力低。
+武器种类：盾
 
+攻击属性：打击
 
 
 
-Catalyst of Big Hat Logan, the great sorcerer
+直长形的木制盾。
 
-and seeker of knowledge.
+盾上画有白龙。
 
-Originally the same catalyst employed by the
 
-Vinheim sorcerers, only terribly strengthened
 
-over time due to Logan's use. Very powerful
+比金属的盾轻，
 
-when used by one of superior intelligence.
+但是物理减伤率及抵挡能力低。
+武器种类：盾
 
+攻击属性：打击
 
 
 
+圆形的大皮盾。
 
-Catalyst born from the soul of the Dark Sun
+因广受猎人使用而有名。
 
-Gwyndolin, Darkmoon deity who watches over
 
-the abandoned city of Gods, Anor Londo.
 
-Gwyndolin is Gwyn's lastborn and a legitimate
+比金属的盾轻，
 
-god, but he is also a Moon sorcerer, and this
+但是物理减伤率及抵挡能力低。
+武器种类：小型盾
 
-wand is boosted by faith, not intelligence.
+攻击属性：打击
 
 
 
+圆形的小皮盾。
 
+重要部位有用金属补强。
 
 
 
+小型盾的抵挡能力终究比较差，
 
+但是比较容易发动格挡后的致命一击。
+武器种类：小型盾
 
+攻击属性：打击
 
 
 
+圆形的小金属盾。
 
-Sorcery catalyst of lost land of Oolacile.
+有四个用来架开攻击的突起部位。
 
-Formed by enchanted whitebark branches.
 
 
+小型盾的抵挡能力终究比较差，
 
-The whitebark boosts sorcery adjustment,
+但是比较容易发动格挡后的致命一击。
 
-but the sorceries of this lost land are
+这面盾是特别为了格挡而制成的。
+武器种类：小型盾
 
-gentle and not affected by intelligence.
+攻击属性：打击
 
 
 
+非常小的圆形金属盾。
 
+中间有较突起的部位，用来架开攻击。
 
 
 
+小型盾的抵挡能力终究比较差，
 
+但是比较容易发动格挡后的致命一击。
 
+这面盾是特别为了格挡而制成的。
+武器种类：小型盾
 
+攻击属性：打击
 
 
 
+圆形木盾。
 
+已经松脱得快要坏掉。
 
 
 
+比金属的盾轻，但是因为快要损坏，
 
+物理减伤率及抵挡能力低。
+武器种类：小型盾
 
-Catalyst imbued in terrifying crystal magic.
+攻击属性：打击
 
-Used by Logan after his fixation on Seath.
 
 
+圆形皮盾。
 
-Makes all sorceries incredibly powerful, but
+广为普及的标准盾之一。
 
-demands extremely high intelligence from its
 
-wielder, and halves sorcery usages.
 
+小型盾的抵挡能力终究比较差，
 
+但是比较容易发动格挡后的致命一击。
+武器种类：小型盾
 
+攻击属性：打击
 
 
-Demon catalyst formed from Izalith molten
 
-rock. Can be used as fire weapon.
+用木板拼凑在一起的应急用盾。
 
-The Demon Firesage was the first demon,
+只有最低限度的防御效果，
 
-and the last master of the original fire
+不要太过依赖，否则就是自找苦吃。
+武器种类：小型盾
 
-arts, before the Witch of Izalith was
+攻击属性：打击
 
-engulfed by Chaos, creating pyromancy.
 
 
+在罗德兰一地制成的圆形木盾。
 
-Catalyst of the Witch of Izalith of long ago,
+画有蓝色孪生蛇的老旧图纹。
 
-when her daughters were still flame witches,
 
-before they were engulfed by the Chaos Flame.
 
-Before the birth of pyromancy, their wands
+罗德兰的树木是岩石大树的远房子孙，
 
-were mediums for sorcery, but knowledge of
+因为些微继承到岩石大树的特质，
 
-this flame sorcery has long since vanished.
+所以法术减伤率较高。
+武器种类：小型盾
 
+攻击属性：打击
 
 
 
+在黑森林庭院内翩翩飞舞的神秘生物──
 
+月光蝶，其灵魂所生的盾。
 
 
 
+与希斯创造出来的月光蝶一样，
 
+带有强大的结晶魔力，可以释放出结晶光环。
+武器种类：盾
 
+攻击属性：打击
 
-Flame medium used by Great Swamp pyromancers.
 
-Pyromancers arouse this flame to produce
 
-various fire arts.
+小型金属盾。
 
-Equip pyromancer flame to produce pyromancy.
+广为普及的标准盾之一。
 
-Attune pyromancies from a scroll at bonfire.
 
-Most pyromancies have limited no. of uses.
 
+在物理减伤率100％的盾之中，
 
+是最小的一种，很好用。
+武器种类：盾
 
+攻击属性：打击
 
 
 
+盾面有精细雕刻及上色的中型金属盾。
 
+应该是古代贵族骑士使用的盾，
 
+但是防御效果和普通的盾没有差异。
+武器种类：盾
 
-Flame medium used by Great Swamp pyromancers.
+攻击属性：打击
 
-Pyromancers arouse this flame to produce
 
-various fire arts.
 
-Equip pyromancer flame to produce pyromancy.
+中型金属盾。
 
-Attune pyromancies from a scroll at bonfire.
+盾面画有塔的图纹，此为守护者的象征。
 
-Most pyromancies have limited no. of uses.
+广为普及的标准盾之一。
+武器种类：盾
 
+攻击属性：打击
 
 
 
+来历不明的老旧中型金属盾。
 
+草纹上附有微弱的魔力，
 
+能稍微提升精力的恢复速度。
+武器种类：盾
 
+攻击属性：打击
 
 
-Pyromancy flame drawing upon the latent power
 
-of Quelana of Izalith, mother of pyromancy.
+游魂士兵持有的金属盾。
 
-For the pyromancer, a flame is a precious
+盾锈蚀得很严重，不过还很牢固，
 
-thing indeed, to be nurtured, often for an
+防御效果好。
+武器种类：盾
 
-entire lifetime. When the flame is shared, it
+攻击属性：打击
 
-creates an eternal bond between the parties.
 
 
+古代王国巴勒德尔的骑士使用的盾。
 
-Medium for casting miracles of the Gods.
+有特别加强过抵挡能力。
 
-Standard talisman issued to common believers.
 
 
+巴勒德尔是骑士王伦德尔的故乡，
 
-Equip talisman to cast miracles. 
+因为突然出现大量不死人而灭亡。
+武器种类：盾
 
-Attune miracles from a scroll at a bonfire.
+攻击属性：打击
 
-Most miracles have limited no. of uses.
 
 
+无名骑士的盾。
 
+很可能是亚斯特拉上级骑士的物品。
 
 
-Medium for casting miracles of the Gods.
 
-Canvas Talisman is for clerics on pilgrimage.
+是质量优良，带有魔力的蓝盾之一，
 
+其中图纹盾的法术减伤率特别高。
+武器种类：盾
 
+攻击属性：打击
 
-Equip talisman to cast miracles. 
 
-Attune miracles from a scroll at a bonfire.
 
-Most miracles have limited no. of uses.
+无名骑士的盾。
 
+很可能是亚斯特拉上级骑士的物品。
 
 
-Medium for casting miracles of the Gods.
 
-This talisman is only granted to high-
+是质量优良，带有魔力的蓝盾之一，
 
-ranking Thorolund clerics. Has high
+其中龙图纹盾的火焰减伤率特别高。
+武器种类：小型盾
 
-miracle adjustment which, thanks to divine
+攻击属性：打击
 
-protection, is not dependent upon faith.
 
 
+在罗德兰一地制成的圆形木盾。
 
+画有象征战士的双头斧图纹。
 
 
-Medium for casting miracles of the Gods.
 
-Ivory Talismans are granted only to female
+罗德兰的树木是岩石大树的远房子孙，
 
-clerics, and their value is affected
+因为些微继承到岩石大树的特质，
 
-dramatically by their owner's faith.
+所以法术减伤率较高。
+武器种类：盾
 
+攻击属性：打击
 
 
-Dragon Talismans
 
+东方的芝持有的极厚铁盾。
 
+在普通盾之中是最重的，可以挥开敌人的攻击。
 
-Medium for casting miracles of the Gods.
 
-The talisman of Solaire of Astora, the Knight
 
-of Sunlight, is decorated with a holy symbol,
+这是芝的收藏品，似乎是有名的盾，
 
-illustrated by Solaire himself.
+但可以述说这些事情的男人已经不在了。
+武器种类：盾
 
-This talisman is a projection of Solaire's
+攻击属性：打击
 
-upstanding, unwavering faith.
 
 
+野蛮山贼所用的盾。
 
+形状独特，还画有黑色的大蜘蛛，
 
+对毒有抵抗力。
+武器种类：盾
 
+攻击属性：打击
 
 
-Medium for casting miracles of the Gods.
 
-Granted to Darkmoon Blade knights, adherents
+臭名昭著的吸魂鬼“刺针骑士”寇克的盾。
 
-to the Covenant of the Dark Sun Gwyndolin.
+盾面布满尖锐的刺针。
 
-This talisman demands dutiful faith from its
 
-owner, but has very high miracle adjustment.
 
+可以当作武器使用，
 
+锐利的刺针容易使敌人大量出血。
+武器种类：盾
 
+攻击属性：打击
 
 
-Medium for casting miracles of the Gods.
 
-This black tuft of hair that serves as a
+完全结晶化的盾。
 
-talisman belongs to Velka, Goddess of Sin.
+该怎么做才能做出这种武器，
 
-It casts miracles not by drawing upon
+完全无迹可循。
 
-faith, but intelligence.
 
 
+因为结晶的影响，防御力较高，
 
-Skull Lantern of the Catacombs necromancer.
+但容易损坏，也不能修理，
 
-Droops from his long beard locks.
+无法长期使用。
+武器种类：盾
 
+攻击属性：打击
 
 
-This lantern alights the Tomb of the Giants,
 
-Nito's light-devouring domain of death.
+“太阳骑士”亚斯特拉的索拉尔的圆盾。
 
-Also serves as a fire damage strike weapon.
+画有大大的太阳圣徽，
 
+但因为是自己画的，并不具神圣力量。
 
 
-Wooden shield.
 
-Decorated with the ancient symbol of
+索拉尔能成为优秀的战士，
 
-a double-headed eagle, painted yellow.
+靠的是自己的严格训练。
+武器种类：盾
 
+攻击属性：打击
 
 
-Wood shields are lighter than metal shields,
 
-but with lower physical damage reduction,
+守护亚诺尔隆德的银骑士盾。
 
-and reduced shield stability.
+盾面刻有深沟槽。
 
 
 
-Vertically elongated wooden shield.
+银骑士们留在王都，持续守护幻影女神，
 
-Decorated with a white dragon.
+他们的盾还留有女神的庇佑。
+武器种类：盾
 
+攻击属性：打击
 
 
-Wood shields are lighter than metal shields,
 
-but with lower physical damage reduction,
+于罗德兰四处徘徊的黑骑士盾。
 
-and reduced shield stability.
+盾面刻有深沟槽。
 
 
 
-Large, leather-covered round shield.
+黑骑士过去曾对抗混沌恶魔，
 
-Choice shield for hunters.
+他们的盾因此熏黑，对火焰有高防御效果。
+武器种类：盾
 
+攻击属性：突刺
 
 
-Wood shields are lighter than metal shields,
 
-but with lower physical damage reduction,
+据说是部分卡塔利纳骑士使用的盾。
 
-and reduced shield stability.
+盾面中央有大型尖刺，可用于攻击。
 
 
 
-Small, leather-covered round shield,
+可以当作突刺属性的武器使用。
+武器种类：小型盾
 
-reinforced in critical spots with metal.
+攻击属性：打击
 
 
 
-Small shields are always less stable, but
+在罗德兰一地制成的圆形木盾。
 
-landing critical hits after parry is easier.
+涂有红白两色，制作手法精细。
 
 
 
-Small round metal shield.
+罗德兰的树木是岩石大树的远房子孙，
 
-Four protrusions used to parry attacks.
+因为些微继承到岩石大树的特质，
 
+所以法术减伤率较高。
+武器种类：盾
 
+攻击属性：打击
 
-Small shields are always less stable, but
 
-landing critical hits after parry is easier.
 
-This shield is specialized for parrying.
+中型金属盾，
 
+画有蓝色孪生蛇的老旧图纹。
 
+广为普及的标准盾之一。
+武器种类：盾
 
+攻击属性：打击
 
 
-Very small round metal shield.
 
-Parry attacks with large center protrusion.
+在不死教堂钟楼守护苏醒之钟的
 
+石像鬼青铜盾。
 
 
-Small shields are always less stable, but
 
-landing critical hits after parry is easier.
+因为石像鬼的皮肤本来就够硬，
 
-This shield is specialized for parrying.
+牠们会持盾也只是当作装饰。
 
+是面物理减伤率不到100％的罕见金属盾。
+武器种类：大型盾
 
+攻击属性：打击
 
 
 
+画有巨鹰的木制大型盾。
 
+是大型盾之中最轻的盾，很好用。
 
 
 
+大型盾的抵挡能力佳，可以挥开攻击，
 
+虽然不能格挡，但可以使出盾牌冲击。
+武器种类：大型盾
 
-Round wooden shield.
+攻击属性：打击
 
-Cracked and nearly broken.
 
 
+大型金属盾。
 
-Wood shields are lighter than metal shields,
+以重装闻名的伯尼斯骑士的装备，
 
-but this one has lower physical damage
+是重量和防御效果无与伦比的厚实铁板。
 
-reduction stability, partly due to cracking.
 
 
+大型盾的抵挡能力佳，可以挥开攻击，
 
-Round leather-covered shield.
+虽然不能格挡，但可以使出盾牌冲击。
+武器种类：大型盾
 
-A standard, widely-used shield.
+攻击属性：打击
 
 
 
-Small shields are always less stable, but
+用老旧黄铜和白铁打造而成的大型盾。
 
-landing critical hits after parry is easier.
+守护亚诺尔隆德的巨人卫兵使用的装备。
 
 
 
+因为加入白铁，
 
+提升了对物理攻击以外的防御能力，
 
-Makeshift shield built from wood planks.
+但因为是考虑巨人的体能而制成的装备，
 
-Provides minimal protection,
+对人来说大概过于沉重。
+武器种类：大型盾
 
-but at a cost of moderate humiliation.
+攻击属性：打击
 
 
 
+黑森林庭院的守护者，
 
+长满青苔的石骑士大盾。
 
-Round wooden shield crafted in Lordran.
 
-Decorated by an ancient blue Caduceus.
 
-The giant trees in Lordran are distant
+石骑士是古老法术的产物，
 
-offspring of the great stone archtrees.
+所以这面盾也带有法术的力量。
 
-This shield inherits their properties,
+重量非常重。
+武器种类：大型盾
 
-and the wood greatly reduces magic damage.
+攻击属性：打击
 
 
 
+用岩石刻制出来的大型盾──
 
+“坚石”哈维尔传说中的盾。
 
-Weapon born from the mystical creature of
 
-the Darkroot Garden, the Moonlight Butterfly.
 
-Imbued with a powerful crystal power, like
+沉重异常，不过防御效果非常好，
 
-the butterfly created by Seath the Scaleless.
+还带有哈维尔的魔力。
 
-Can emit crystal light rings.
+和大龙牙同为哈维尔本人遗留的圣物。
+武器种类：大型盾
 
+攻击属性：打击
 
 
 
+外缘有刺针的巨大木制车轮。
 
-Weapon born from the mystical creature of
+有一半已经和奇怪的骸骨融合在一起。
 
-the Darkroot Garden, the Moonlight Butterfly.
 
-Imbued with a powerful crystal power, like
 
-the butterfly created by Seath the Scaleless.
+可以当作大型盾用，但充满空隙，
 
-Can emit crystal light rings.
+还可以旋转车轮，用刺针来攻击，
 
+是一面颇奇特的盾。
+武器种类：大型盾
 
+攻击属性：打击
 
 
 
-Weapon born from the mystical creature of
+为“漫步深渊”的骑士亚尔特留斯守墓的
 
-the Darkroot Garden, the Moonlight Butterfly.
+灰色大狼希夫，其灵魂所生的大盾。
 
-Imbued with a powerful crystal power, like
 
-the butterfly created by Seath the Scaleless.
 
-Can emit crystal light rings.
+具有稳定的防御效果，再加上有庇佑效果，
 
+给予装备者抵抗各种异常状态的力量。
+武器种类：软鞭
 
+攻击属性：标准
 
 
 
-Weapon born from the mystical creature of
+条索状的皮鞭。
 
-the Darkroot Garden, the Moonlight Butterfly.
+本来不是用来战斗的物品。
 
-Imbued with a powerful crystal power, like
 
-the butterfly created by Seath the Scaleless.
 
-Can emit crystal light rings.
+对铠甲或坚硬鳞片等几乎没有攻击效果，
 
+但是对露出皮肤的敌人就可以发挥威力。
+武器种类：软鞭
 
+攻击属性：标准
 
 
 
-Small metal shield.
+布满尖锐刺针的条索状软鞭。
 
-A standard, widely-used shield.
+对铠甲或坚硬鳞片等攻击效果不大，
 
+但是对露出皮肤的敌人就可以发挥威力，
 
+容易使敌人大量出血。
+武器种类：箭
 
-This shield is easy to use, and is one of
+攻击属性：突刺
 
-the smallest shields that offers
 
-100% physical damage reduction.
 
+标准箭。
 
+弓不装备箭的话，无法射击。
+武器种类：箭
 
-This medium metal shield is elegantly
+攻击属性：突刺
 
-carved and painted.
 
-Although it is thought to have been used by
 
-ancient knights of the nobility, its defense
+大型箭。
 
-capabilities are similar to other shields.
+有重量，威力又强，但是射程短。
+武器种类：箭
 
+攻击属性：突刺
 
 
-Medium metal shield. Decorated with a tower,
 
-the symbol of protection.
+王的猎人使用的红羽毛箭。
 
-A standard, widely-used shield.
+射程长，适合用于狙击。
+武器种类：箭
 
+攻击属性：突刺
 
 
 
+在箭头上点火射击的箭。
 
+能给予火属性的伤害。
+武器种类：箭
 
+攻击属性：突刺
 
 
 
-Old medium metal shield of unknown origin.
+在箭头上涂毒射击的箭。
 
-The grass crest is lightly imbued with magic,
+为了让狩猎和暗杀能切实成功而制成的物品，
 
-which slightly speeds stamina recovery.
+敌人中毒之后，接下来只要静静等就行了。
+武器种类：箭
 
+攻击属性：突刺
 
 
 
+立誓效忠葛温王的么子──
 
-Metal shield wielded by Hollow soldiers.
+黯影太阳葛温德林后得到的法术箭。
 
-Heavily rusted but sturdy, providing a
+箭带有银色光芒，可以给予法术伤害。
+武器种类：箭
 
-strong defense.
+攻击属性：突刺
 
 
 
+标准箭。
 
+威力和射程都很普通，
 
-Shield of the knights of the ancient kingdom
+但是很便宜，适合大量使用。
+武器种类：大箭
 
-of Balder. Tweaked for improved stability.
+攻击属性：突刺
 
-Balder was the home of Knight King Rendal,
 
-but the kingdom was reduced to ruins after
 
-a widespread outbreak of Undead.
+猎龙大弓专用，如铁枪般巨大的箭，
 
+是“鹰眼”戈夫率领的猎龙队装备，
 
+可以轻易把人射穿。
 
 
 
-Shield of a nameless knight, likely a
+这种大箭只能用在猎龙大弓上，
 
-high-ranked knight of Astora.
+而猎龙大弓也只能用这种大箭。
+武器种类：大箭
 
+攻击属性：突刺
 
 
-One of the enchanted blue shields.
 
-The Crest Shield greatly reduces
+葛温王四骑士──
 
-magic damage.
+“鹰眼”戈夫使用的猎龙大箭。
 
+为大弓专用。
 
 
 
+这石制箭头以及紧紧缠绕的树皮，
 
-Shield of a nameless knight, likely a
+都是由戈夫亲手制作而成。
+武器种类：弩箭
 
-high-ranked knight of Astora.
+攻击属性：突刺
 
 
 
-One of the enchanted blue shields.
+标准弩箭。
 
-The Dragon Crest Shield greatly reduces
+主要是轻弩用。
 
-fire damage.
 
 
+弩不装备弩箭的话，无法射击。
+武器种类：弩箭
 
+攻击属性：突刺
 
 
-Round wooden shield crafted in Lordran.
 
-Decorated with the ancient Labrys axe.
+大型弩箭。
 
-The giant trees in Lordran are distant
+主要是重弩用。
 
-offspring of the great stone archtrees.
 
-This shield inherits their properties, 
 
-and the wood reduces magic damage.
+有重量，威力又强，但是射程短。
+武器种类：弩箭
 
+攻击属性：突刺
 
 
 
+狙击弩使用的红羽毛弩箭。
 
+射程长，适合用于狙击。
+武器种类：弩箭
 
+攻击属性：突刺
 
-Thick iron shield of Shiva of the East.
 
-Heaviest of the standard shields.
 
-Deflects enemy attacks. A famous specimen
+木制的简易弩箭。
 
-from Shiva's collection, but none who have
+威力和射程都很普通，
 
-faced it have lived to tell the tale.
+但是很便宜、适合大量使用。
+武器种类：弩箭
 
+攻击属性：突刺
 
 
-Shield of the savage mountain bandits.
 
-Uniquely-shaped with a large black spider
+亚诺尔隆德的巨人铁匠所制作的，
 
-etched upon it.
+带有雷电力量的特殊弩箭。
 
-Has resistance to poison.
 
 
+不知弩为何的巨人铁匠之所以制作弩箭，
 
+是因为他记得以前有人请求订制的关系。
+武器种类：小型盾
 
+攻击属性：打击
 
-Shield of the infamous Darkwraith Kirk,
 
-Knight of Thorns. Covered with spikes.
 
+不祥的邪教盾。
 
+可以防御神的武器，还有雷电的攻击。
 
-Can be used as a weapon.
 
-Sharp spikes cause heavy bleeding.
 
+与神为敌的邪教徒可能是为了弒神，
 
+而前往盗取“最初的死者”墓王尼特的力量，
 
-A fully crystallized straight shield.
+但结果却是功败垂成。
+武器种类：盾
 
-How such a weapon was created
+攻击属性：打击
 
-is entirely unknown.
 
-The crystallization boosts its defense, but
 
-makes the shield brittle. The shield cannot
+很久以前，成为不死人的圣骑士被托付的
 
-be used for long, as it cannot be repaired.
+白教传说宝物之一。
 
 
 
+虽然被赋予祝福，还拥有白色火焰的庇佑，
 
+但因为其祝福效果大都已消失，
 
+如今只剩下恢复极少量血量的效果。
+武器种类：盾
 
+攻击属性：打击
 
-Shield of Solaire of Astora, Knight of
 
-Sunlight. Decorated with a holy symbol,
 
-but Solaire illustrated it himself, and it
+失落传说中提到的血盾。
 
-has no divine powers of its own. As it turns
+如血般的红色似乎附有微弱魔力，
 
-out, Solaire's incredible prowess is a product
+能提升所有抵抗力。
+武器种类：大型盾
 
-of his own training, and nothing more.
+攻击属性：打击
 
 
 
+知名的力大无穷骑士，塔尔卡斯的大型盾。
 
 
-Shield of the Silver Knights of Anor Londo.
 
-A flowing canal is carved deep into its face.
+由特殊的黑铁制成，
 
-The Silver Knights stayed behind in Anor
+比伯尼斯骑士使用的塔盾还要重。
 
-Londo to defend the illusory goddess,
+对火属性的防御力较高，
 
-and their shields are blessed with her
+而且盾牌冲击的效果也很好。
+武器种类：曲剑
 
-divine protection.
+攻击属性：斩击
 
 
 
+葛温王四骑士──
 
+“王的先锋”基亚蓝使用的黄金曲剑。
 
 
 
-Shield of the Black Knights that wander
+她的剑术有如舞蹈一般，
 
-Lordan. A flowing canal is chiseled deeply
+在黑暗中舞出不祥的金色残影。
+武器种类：短剑
 
-into its face. 
+攻击属性：斩击／突刺
 
-Long ago, the black knights faced the chaos
 
-demons, and were charred black, but their
 
-shields became highly resistant to fire.
+葛温王四骑士──
 
+“王的先锋”基亚蓝使用的暗银短刀。
 
 
-Shield of certain knights of Catarina, used
 
-in attacks with a large protrusion in center.
+刀身涂有猛烈剧毒。
 
+在敌人被黄金残影夺去目光时，
 
+短刀会藏在那残影下，切实收拾掉敌人。
+武器种类：大剑
 
-Can be used as a thrust weapon.
+攻击属性：标准
 
 
 
+被深渊吞噬的葛温王骑士──
 
+亚尔特留斯，其灵魂所生的大剑。
 
-Round wooden shield crafted in Lordran
 
-featuring an impressive red and white design.
 
-The giant trees in Lordran are distant
+这把剑伴随主人直到最后，因此被黑暗吞噬，
 
-offspring of the great stone archtrees.
+而完全变成深渊武器。
 
-This shield inherits their properties, and
+能借由装备者的人性增加威力。
+武器种类：大型盾
 
-the wood greatly reduces magic damage.
+攻击属性：打击
 
 
 
+被深渊吞噬的葛温王骑士──
 
+亚尔特留斯，其使用的钢制大盾。
 
-Medium metal shield.
 
-Decorated by an ancient blue Caduceus.
 
-A standard, widely-used shield.
+他身受重伤，逐渐受到深渊侵蚀时，
 
+以这面盾作为守护挚友希夫的结界供应源。
 
+因此盾本身受损严重，变得很脆弱，
 
+但对法术却有极高的防御效果。
+武器种类：大斧
 
+攻击属性：标准
 
 
 
+灵庙森林的守护者，
 
+石骑士持有的巨岩斧。
 
-Bronze shield of the gargoyle guarding the
 
-Bell of Awakening in the Undead Church.
 
-The gargoyle's skin is tough by itself, and
+需要有非比寻常的体能才能使用的武器，
 
-perhaps its shield may have been a prop,
+与其说用于战斗，不如说适合用于土木工程。
 
-for it is a rare example of a metal shield
+如果想用来把人捣烂，也已经十分够格了。
+武器种类：枪
 
-that does not reduce physical damage 100%.
+攻击属性：突刺
 
 
 
+灵庙森林的园丁，
 
+有如稻草人的木人持有的四齿钉耙。
 
 
 
+从“园丁”的职称可以知道，
 
+这原来并非用于战斗，
 
+但那锐利的边缘仍是危险凶器。
+武器种类：杖
 
+攻击属性：打击
 
 
 
-Greatshield with an eagle design. Lightest
+深渊之主马努斯，其灵魂所生的魔法触媒。
 
-and easiest greatshield to handle.
+多节的古木杖，
 
+而因为杖够大，可以作为打击武器使用。
 
 
-Greatshields are very stable, and deflect
 
-attacks. But one cannot parry, and instead
+与结晶锡杖的特质相近，可以提升魔法威力。
 
-bashes with the shield.
+现在以人的肉身装备，会减少使用次数。
+武器种类：杖
 
+攻击属性：打击
 
 
 
+相当普遍的乌拉席露魔法杖。
 
-Metal greatshield. Used by Knight Berenike,
+用带有魔力的树枝捆扎而成。
 
-known for his heavy armor. This thick plate
 
-of iron is heavily defensive but ultra heavy.
 
-Greatshields are very stable, and deflect
+杖本身带有魔力，可以大幅提升魔法威力。
 
-attacks. However, one cannot parry,
+但因为该国的魔法原本就不具有攻击性，
 
-and instead bashes with the shield.
+所以无法将智力用于提升攻击威力。
+武器种类：软鞭
 
+攻击属性：标准
 
 
 
+切下灵庙圣兽的尾巴而成的武器。
 
 
 
-Greatshield made of bronze and marcasite.
+柔韧度强，表面密布尖锐刺针，
 
-Used by giant sentinels of Anor Londo.
+并带有强烈的毒。
 
-Marcasite, or white iron, is effective
+作为武器使用，必定十分惹人厌吧。
+武器种类：大剑
 
-against non-physical damage, but as the
+攻击属性：标准
 
-shield is designed for the giant sentinels,
 
-its weight is unbearable.
 
+幸存的最后一只不朽古龙──
 
+独眼黑龙，喀拉弥特的尾巴化成的武器。
 
-Mossy round greatshield used by the guardian
+稀少的龙武器之一。
 
-of the Darkroot Garden, the Stone Knight.
 
-The Stone Knight is a creation of ancient
 
-magic, and this shield is imbued with the
+黑曜剑身带有不可思议的力量，
 
-same power, but is also extremely heavy.
+双手共持可以释放那股力量。
+武器种类：大弓
 
+攻击属性：无
 
 
 
+葛温王四骑士──
 
-Greatshield of the legendary Havel the Rock.
+“鹰眼”戈夫使用的猎龙大弓。
 
-Cut straight from a great slab of stone.
 
-This greatshield is imbued with the magic
 
-of Havel, provides strong defense, and is
+戈夫自下野以来使用的武器。
 
-incredibly heavy. A true divine heirloom
+比猎龙队使用的大弓还要更大，
 
-on par with the Dragon Tooth.
-
-
-
-
-
-Giant wooden wheel encircled by spikes.
-
-Half-melded to a strange skeleton.
-
-
-
-Can be used as a greatshield, only for the
-
-great gaps. But at least the spikes turn into
-
-weapons with a good spin. Strange indeed!
-
-
-
-Shield born from the soul of the great grey
-
-wolf Sif, guardian of the grave of the
-
-Abysswalker Knight Artorias.
-
-Boasts consistent defense and divine
-
-protection against various status effects.
-
-
-
-
-
-
-
-
-
-Shield born from the soul of the great grey
-
-wolf Sif, guardian of the grave of the
-
-Abysswalker Knight Artorias.
-
-Boasts consistent defense and divine
-
-protection against various status effects.
-
-
-
-
-
-
-
-
-
-Shield born from the soul of the great grey
-
-wolf Sif, guardian of the grave of the
-
-Abysswalker Knight Artorias.
-
-Boasts consistent defense and divine
-
-protection against various status effects.
-
-
-
-
-
-
-
-
-
-Shield born from the soul of the great grey
-
-wolf Sif, guardian of the grave of the
-
-Abysswalker Knight Artorias.
-
-Boasts consistent defense and divine
-
-protection against various status effects.
-
-
-
-
-
-
-
-
-
-Leather whip.
-
-Not intended for battle.
-
-
-
-Virtually ineffective against armor and tough
-
-scales, but quite formidable against enemies
-
-with exposed skin.
-
-
-
-Whip with sharp spikes.
-
-
-
-Only slightly effective against armor and
-
-tough scales, but quite formidable against
-
-enemies with exposed skin.
-
-Also causes heavy bleeding.
-
-
-
-Standard arrow.
-
-Arrows must be equipped to be fired.
-
-
-
-
-
-Large arrow.
-
-Heavier arrows cause more damage,
-
-but have a shorter range.
-
-
-
-
-
-Red feather arrows of the Lord's hunters.
-
-Their long range makes them effective for
-
-sniping.
-
-
-
-
-
-
-
-Arrows fired with flaming tips.
-
-Inflicts fire damage.
-
-
-
-Arrow with point dipped in poison.
-
-Ensures the demise of prey in a hunt,
-
-or the target in an assassination.
-
-Once an enemy is poisoned, one need
-
-only wait.
-
-
-
-Arrow granted to those bound by
-
-Covenant to the Dark Sun Gwyndolin,
-
-Lord Gwyn's lastborn.
-
-Moonlight Arrows glow silver,
-
-and inflict magic damage.
-
-
-
-Standard arrow.
-
-These arrows do not fly particularly far,
-
-nor do they inflict a terrible amount of
-
-damage, but their cheap cost makes them
-
-useful when volume is required.
-
-
-
-Giant dragon-hunting arrows, resembling
-
-iron spears. Used by Hawkeye Gough and
-
-his Dragonslayers, they puncture human
-
-flesh easily. Dragonslayer Arrows can only
-
-be used with the Dragonslayer Greatbow,
-
-and vice-versa. 
-
-
-
-Great arrow used by Hawkeye Gough,
-
-one of Lord Gwyn's Four Knights,
-
-for dragon slaying. Requires Greatbow.
-
-
-
-Gough personally crafts each stone tip,
-
-and wraps the shaft tightly with tree bark.
-
-
-
-Standard crossbow bolt.
-
-Used mainly with the Light Crossbow.
-
-
-
-Equip crossbow with a bolt to fire.
-
-
-
-
-
-Large bolt.
-
-Used mainly with the Heavy Crossbow.
-
-
-
-These weighty bolts inflict high damage,
-
-but have reduced range.
-
-
-
-
-
-Red feather bolts used with the Sniper
-
-Crossbow. Their long range makes them
-
-effective for sniping.
-
-
-
-
-
-
-
-Basic wood bolt.
-
-
-
-These bolts do not fly particularly far,
-
-nor do they inflict a terrible amount of
-
-damage, but their cheap cost makes them
-
-useful when volume is required.
-
-
-
-
-
-
-
-Special bolts imbued with lightning, crafted
-
-by the giant blacksmith of Anor Londo.
-
-
-
-The giant blacksmith has never seen a
-
-crossbow, but remembers the specifications
-
-of the bolts requested by ancient warriors.
-
-
-
-
-
-
-
-Frightful occult shield. Defends against
-
-divine weapons and lightning.
-
-
-
-In an ill-fated plot to destroy the very
-
-gods, the followers of the occult once
-
-attempted to steal the power of
-
-Gravelord Nito, the first of the dead.
-
-
-
-A legendary weapon of the Way of White,
-
-granted to an Undead paladin long ago.
-
-
-
-Once blessed with the protection of a white
-
-flame, but its power has all but faded, so
-
-that it provides only slight HP recovery.
-
-
-
-
-
-The bloodshield spoken of in the lost
-
-legends. The red of blood is slightly
-
-enchanted, and boosts various resistances.
-
-
-
-
-
-Greatshield of the mighty knight Tarkus.
-
-
-
-Built of special black iron and even heavier
-
-than Knight Berenike's tower shield.
-
-Especially resistant to fire attacks and
-
-effective for shield bashing.
-
-
-
-Curved sword used by the Lord's Blade
-
-Ciaran, one of Lord Gwyn's Four Knights.
-
-
-
-Ciaran brandishes her sword in
-
-a mesmerizing dance, etching the
-
-darkness with dire streaks of gold.
-
-
-
-A dark silver dagger used by the
-
-Lord's Blade Ciaran, of Gwyn's Four Knights.
-
-
-
-The victim is first distracted by dazzling
-
-streaks of the Gold Tracer, then stung by
-
-the vicious poison of this dagger.
-
-
-
-This greatsword belonged to Lord Gwyn's
-
-Knight Artorias, who fell to the Abyss.
-
-
-
-Swallowed by the Dark with its master, this
-
-sword is tainted by the Abyss, and now its
-
-strength reflects its wielder's humanity.
-
-
-
-This greatsword belonged to Lord Gwyn's
-
-Knight Artorias, who fell to the Abyss.
-
-
-
-Swallowed by the Dark with its master, this
-
-sword is tainted by the Abyss, and now its
-
-strength reflects its wielder's humanity.
-
-
-
-The steel greatshield used by Knight Artorias,
-
-who succumbed to the Abyss.
-
-Artorias, deeply scarred by the Abyss, used
-
-this to form a barrier to protect his
-
-compatriot Sif. Although this drained the
-
-shield, its magic defense remains high.
-
-
-
-Greataxe borne by the stone knights
-
-who guard the forest Sanctuary.
-
-
-
-This greataxe, requiring inhuman strength to
-
-wield and more fitted to manual labor than
-
-battle, is nevertheless completely lethal.
-
-
-
-Four-pronged Plow wielded by the wooden
-
-scarecrows, serfs of the forest Sanctuary.
-
-
-
-The scarecrow serfs would not normally use
-
-these four-pronged plows as weapons, but
-
-their sharpness makes them very deadly.
-
-
-
-A sorcery catalyst born from the soul of
-
-Manus, Father of the Abyss.
-
-A rough, old wooden catalyst large enough
-
-to be used as a strike weapon.
-
-Similar to the Tin Crystallization Catalyst,
-
-it boosts the strength of sorceries,
-
-but limits the number of castings.
-
-
-
-Everyday Oolacile sorcery catalyst
-
-formed by several enchanted branches.
-
-
-
-Boosts sorcery adjustment, but lost land
-
-sorceries are not offensive, and attacks
-
-are not boosted by intelligence.
-
-
-
-Sliced tail of the Sanctuary Guardian.
-
-
-
-This flexible, spiked, and highly
-
-poisonous tail would make a rather
-
-obnoxious weapon.
-
-
-
-This greatsword, one of the rare dragon
-
-weapons, is formed by the tail of the
-
-one-eyed black dragon Kalameet,
-
-the last of the ancient dragons.
-
-The mystical power of its obsidian blade
-
-will be released when held with both hands.
-
-
-
-
-
-Greatbow used by Hawkeye Gough, of Lord
-
-Gwyn's Four Knights, for dragon slaying.
-
-
-
-This bow is larger than even those used by
-
-the famed Dragonslayers. Only their leader,
-
-Gough, had the strength to handle it.
+必须要有超乎常人的体能才能使用。
