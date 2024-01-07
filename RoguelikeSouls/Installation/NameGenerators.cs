@@ -188,52 +188,66 @@ namespace RoguelikeSouls.Installation
         const int maxAttempts = 50;
         const double titledNameOdds = 0.2; //有名字的概率
 
+        ZHWordGenerator Generator;
+
+
         public WeaponNameGenerator(Random random)
         {
             Rand = random;
-            MarkovNames = new MarkovWordGenerator(Resources.TextData.AllWeaponNamesNoSuffix, unitSize: nameUnitSize, random: Rand);
+            //  MarkovNames = new MarkovWordGenerator(Resources.TextData.AllWeaponNamesNoSuffix, unitSize: nameUnitSize, random: Rand);
+            this.Generator = new ZHWordGenerator(Resources.TextData.AllWeaponNamesNoSuffix.Split('\n').ToList());
         }
+
 
         public string GetRandomName(out string randomPart, string weaponClass = "", bool isLegendary = false, bool exact = false)
         {
-            bool isTitled = Rand.NextDouble() < titledNameOdds; //是否有原主人
+            // bool isTitled = Rand.NextDouble() < titledNameOdds; //是否有原主人
             string className = weaponClass != "" ? GetRandomClassName(weaponClass, isLegendary) : "";
-            int actualMaxNameLength = className != "" ? (maxNameLength - (className.Length + (isTitled ? 4 : 1))) : maxNameLength;
-            int actualMinNameLength = Math.Min(minNameLength, actualMaxNameLength - 2);
-            if (actualMaxNameLength < 3)
-            {
-                className = "";
-                actualMaxNameLength = maxNameLength;
-            }
+            int min = 5 - className.Length;
+            if (min == 0) min += 1;
+            randomPart = this.Generator.RandomWord(this.Rand, min, 6);
+            var fullName = $"{randomPart}{className}";
+            Console.WriteLine($"生成武器: <{fullName}>");
+            // int actualMaxNameLength = className != "" ? (maxNameLength - (className.Length + (isTitled ? 4 : 1))) : maxNameLength;
+            //  randomPart = "";
+            return fullName;
+            //int actualMinNameLength = Math.Min(minNameLength, actualMaxNameLength - 2);
 
-            // Keeps trying to get a name that is naturally under the absolute max limit (which is affected by class name).
-            string randomName;
-            int attempts = 0;
-            do
-            {
-                randomName = MarkovNames.Generate(actualMinNameLength, exact);
-                // Console.WriteLine($"Random name: {randomName}");
-                attempts++;
-                if (attempts >= maxAttempts)
-                    break;
-            } while (randomName.Length > actualMaxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
-            if (randomName.Length > actualMaxNameLength)
-            {
-                // If max attempt number is exceeded (unlikely), just trim the last name.
-                randomName = TrimName(randomName, actualMaxNameLength);
-            }
-            //    Console.WriteLine($"Random Name = {randomName}");
+            //if (actualMaxNameLength < 3)
+            //{
+            //    className = "";
+            //    actualMaxNameLength = maxNameLength;
+            //}
 
-            randomPart = randomName;  // Can use output to affect description (TODO).
+            //// Keeps trying to get a name that is naturally under the absolute max limit (which is affected by class name).
+            //string randomName;
+            //int attempts = 0;
+            //do
+            //{
+            //    randomName = MarkovNames.Generate(actualMinNameLength, exact);
+            //    // Console.WriteLine($"Random name: {randomName}");
+            //    attempts++;
+            //    if (attempts >= maxAttempts)
+            //        break;
+            //} while (randomName.Length > actualMaxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
+            //if (randomName.Length > actualMaxNameLength)
+            //{
+            //    // If max attempt number is exceeded (unlikely), just trim the last name.
+            //    randomName = TrimName(randomName, actualMaxNameLength);
+            //}
+            ////    Console.WriteLine($"Random Name = {randomName}");
 
-            if (className == "")
-                return randomName;
-            else if (isTitled)
-                return $"{randomName}的{className}";
-            else
-                return $"{randomName} {className}";
+            //randomPart = randomName;  // Can use output to affect description (TODO).
+
+            //if (className == "")
+            //    return randomName;
+            //else if (isTitled)
+            //    return $"{randomName}的{className}";
+            //else
+            //    return $"{randomName} {className}";
         }
 
+        //返回武器类名(后缀)
         string GetRandomClassName(string weaponClass, bool isLegendary)
         {
             if (weaponClass.ToLower() == "random")
@@ -255,20 +269,20 @@ namespace RoguelikeSouls.Installation
             }
         }
 
-        static string TrimName(string randomName, int randomNameLengthLimit)
-        {
-            while (randomName.Length > randomNameLengthLimit)
-                // Shave off letters (and trailing space) as needed.
-                randomName = randomName.Substring(0, randomName.Length - 1).TrimEnd(' ');
-            if (randomName.EndsWith("'"))
-                // Shave off abandoned apostrophes.
-                randomName = randomName.Substring(0, randomName.Length - 1);
-            if (randomName[randomName.Length - 2] == ' ')
-                // Shave off one-letter word.
-                randomName = randomName.Substring(0, randomName.Length - 2);
-            randomName = randomName.Trim(' ');  // Probably redundant, but just in case.
-            return randomName;
-        }
+        //static string TrimName(string randomName, int randomNameLengthLimit)
+        //{
+        //    while (randomName.Length > randomNameLengthLimit)
+        //        // Shave off letters (and trailing space) as needed.
+        //        randomName = randomName.Substring(0, randomName.Length - 1).TrimEnd(' ');
+        //    if (randomName.EndsWith("'"))
+        //        // Shave off abandoned apostrophes.
+        //        randomName = randomName.Substring(0, randomName.Length - 1);
+        //    if (randomName[randomName.Length - 2] == ' ')
+        //        // Shave off one-letter word.
+        //        randomName = randomName.Substring(0, randomName.Length - 2);
+        //    randomName = randomName.Trim(' ');  // Probably redundant, but just in case.
+        //    return randomName;
+        //}
     }
 
     class WeaponDescriptionGenerator
@@ -307,7 +321,7 @@ namespace RoguelikeSouls.Installation
         {
             { "Head", (
                 new List<string>() { "兜帽", "帽子", "面具" },
-                new List<string>() { "头盔", "王冠", "兜鍪",  }
+                new List<string>() { "头盔", "头冠", "兜鍪",  }
                 ) },
             { "Body", (
                 new List<string>() { "长袍", "披风", "大衣", "外套" },
@@ -331,11 +345,13 @@ namespace RoguelikeSouls.Installation
         const int maxNameLength = 20;  // TODO: Confirm. Should be equal to true limit minus 6 (for modifier prefixes).
         const int maxAttempts = 50;
         const double titledNameOdds = 0.2;
+        ZHWordGenerator Generator;
 
         public ArmorNameGenerator(Random random)
         {
             Rand = random;
-            MarkovNames = new MarkovWordGenerator(Resources.TextData.AllArmorNames, unitSize: nameUnitSize, random: Rand);
+            //   MarkovNames = new MarkovWordGenerator(Resources.TextData.AllArmorNames, unitSize: nameUnitSize, random: Rand);
+            this.Generator = new ZHWordGenerator(Resources.TextData.AllArmorNames.Split('\n').ToList());
         }
 
         public Dictionary<string, string> GetRandomSetNames(out string randomPart, bool isLegendary = false, bool exact = false)
@@ -347,31 +363,38 @@ namespace RoguelikeSouls.Installation
             foreach (string pieceType in PieceNameOptions.Keys)
                 pieceNames[pieceType] = GetRandomClassName(pieceType, isLegendary);
 
-            int actualMaxNameLength = pieceNames.Values.Min(name => maxNameLength - (name.Length + (isTitled ? 4 : 1)));
-            int actualMinNameLength = Math.Min(minNameLength, actualMaxNameLength - 2);
+            //int actualMaxNameLength = pieceNames.Values.Min(name => maxNameLength - (name.Length + (isTitled ? 4 : 1)));
+            //int actualMinNameLength = Math.Min(minNameLength, actualMaxNameLength - 2);
 
-            // Tries to get a name that is naturally under the actual maximum length.
-            string randomName;
-            int attempts = 0;
-            do
-            {
-                randomName = MarkovNames.Generate(actualMinNameLength, exact);
-                attempts++;
-                if (attempts >= maxAttempts)
-                    break;
-            } while (randomName.Length > actualMaxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
-            if (randomName.Length > actualMaxNameLength)
-            {
-                // If max attempt number is exceeded (unlikely), just trim the last name.
-                randomName = TrimName(randomName, actualMaxNameLength);
-            }
+            //// Tries to get a name that is naturally under the actual maximum length.
+            //string randomName;
+            //int attempts = 0;
+            //do
+            //{
+            //    randomName = MarkovNames.Generate(actualMinNameLength, exact);
+            //    attempts++;
+            //    if (attempts >= maxAttempts)
+            //        break;
+            //} while (randomName.Length > actualMaxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
+            //if (randomName.Length > actualMaxNameLength)
+            //{
+            //    // If max attempt number is exceeded (unlikely), just trim the last name.
+            //    randomName = TrimName(randomName, actualMaxNameLength);
+            //}
 
-            randomPart = randomName;  // Can use output to affect description (TODO).
+            randomPart = this.Generator.RandomWord(this.Rand, 3, 6);  // Can use output to affect description (TODO).
 
             Dictionary<string, string> pieceFullNames = new Dictionary<string, string>();
             foreach (string pieceType in PieceNameOptions.Keys)
-                pieceFullNames[pieceType] = isTitled ? $"{pieceNames[pieceType]} of {randomName}" : $"{randomName} {pieceNames[pieceType]}";
+            {
+                var fullName = $"{randomPart}{pieceNames[pieceType]}";
+                Console.WriteLine($"生成盔甲: <{fullName}>");
+                pieceFullNames[pieceType] = fullName;
+            }
+
+            //pieceFullNames[pieceType] = isTitled ? $"{pieceNames[pieceType]} of {randomName}" : $"{randomName} {pieceNames[pieceType]}";
             return pieceFullNames;
+
         }
 
         string GetRandomClassName(string armorClass, bool isHeavy)
