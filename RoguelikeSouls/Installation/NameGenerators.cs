@@ -6,6 +6,8 @@ using RoguelikeSouls.Extensions;
 using RoguelikeSouls.Utils;
 using WeaponNameOptionDict = System.Collections.Generic.Dictionary<string, (System.Collections.Generic.List<string> common, System.Collections.Generic.List<string> legendary)>;
 using ArmorNameOptionDict = System.Collections.Generic.Dictionary<string, (System.Collections.Generic.List<string> light, System.Collections.Generic.List<string> heavy)>;
+using JiebaNet.Segmenter;
+using System.IO;
 
 namespace RoguelikeSouls.Installation
 {
@@ -184,7 +186,7 @@ namespace RoguelikeSouls.Installation
         const int minNameLength = 10;
         const int maxNameLength = 20;  // TODO: Confirm. Should be equal to true limit minus 6 (for modifier prefixes).
         const int maxAttempts = 50;
-        const double titledNameOdds = 0.2;
+        const double titledNameOdds = 0.2; //有名字的概率
 
         public WeaponNameGenerator(Random random)
         {
@@ -559,38 +561,65 @@ namespace RoguelikeSouls.Installation
     class SpellNameGenerator
     {
         private readonly Random Rand;
-        private readonly MarkovWordGenerator MarkovNames;
-        private readonly List<string> CensoredWords = new List<string>() { "fuck", "shit", "cunt", "rape", "cock", "nigg", "tits", "tard" };
+        // private readonly MarkovWordGenerator MarkovNames;
+        // private readonly List<string> CensoredWords = new List<string>() { "fuck", "shit", "cunt", "rape", "cock", "nigg", "tits", "tard" };
+
+        ZHWordGenerator Generator;
+
+
 
         const int nameUnitSize = 2;
         const int minNameLength = 8;
         const int maxNameLength = 30;
         const int maxAttempts = 50;
 
+
         public SpellNameGenerator(Random random)
         {
             Rand = random;
-            MarkovNames = new MarkovWordGenerator(Resources.TextData.AllSpellNames, unitSize: nameUnitSize, random: Rand);
+            // MarkovNames = new MarkovWordGenerator(Resources.TextData.AllSpellNames, unitSize: nameUnitSize, random: Rand);
+
+            var spellNames = Resources.TextData.AllSpellNames.Split('\n').ToList();
+            this.Generator = new ZHWordGenerator(spellNames);
         }
+
+
         public string GetRandomName(string spellType, bool exact = false)
         {
-            // Keeps trying to get a name that is naturally under the absolute max limit.
-            string randomName;
-            int attempts = 0;
-            do
+            string type = "";
+            if (spellType == "Sorcery")
             {
-                randomName = $"{spellType}: {MarkovNames.Generate(minNameLength, exact)}";
-                attempts++;
-                if (attempts >= maxAttempts)
-                    break;  // keep last name and trim
-            } while (randomName.Length > maxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
-
-            if (randomName.Length > maxNameLength)
-            {
-                // If max attempt number is exceeded (unlikely), just use a single random name.
-                randomName = $"{spellType}: {MarkovNames.Generate(minNameLength - (spellType.Length + 2), exact: true)}";
+                type = "魔法";
             }
-            return randomName;
+            else if (spellType == "Pyromancy")
+            {
+                type = "咒术";
+            }
+            else if (spellType == "Miracle")
+            {
+                type = "奇迹";
+            }
+
+            var name = type + ": " + this.Generator.RandomWord(this.Rand, 3, 7).Trim();
+            Console.WriteLine($"法术名字: <{name}>");
+            return name;
+            // Keeps trying to get a name that is naturally under the absolute max limit.
+            //    string randomName;
+            //    int attempts = 0;
+            //    do
+            //    {
+            //        randomName = $"{spellType}: {MarkovNames.Generate(minNameLength, exact)}";
+            //        attempts++;
+            //        if (attempts >= maxAttempts)
+            //            break;  // keep last name and trim
+            //    } while (randomName.Length > maxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
+
+            //    if (randomName.Length > maxNameLength)
+            //    {
+            //        // If max attempt number is exceeded (unlikely), just use a single random name.
+            //        randomName = $"{spellType}: {MarkovNames.Generate(minNameLength - (spellType.Length + 2), exact: true)}";
+            //    }
+            //    return randomName;
         }
     }
 

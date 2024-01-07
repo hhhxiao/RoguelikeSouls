@@ -10,6 +10,7 @@ using RoguelikeSouls.Extensions;
 using RoguelikeSouls.Installation;
 using System.Windows.Forms;
 using System.Resources;
+using JiebaNet.Segmenter;
 
 namespace RoguelikeSouls
 {
@@ -104,6 +105,15 @@ COMMANDS:
         [STAThread]
         static void Main()
         {
+
+            //          JiebaSegmenter segmenter = new JiebaSegmenter();
+            // List<string> sps =  ;
+
+            //          Console.WriteLine(string.Join(" / ", segmenter.Cut("灵魂结晶枪").ToList()));
+            //  Console.ReadLine();
+
+            //            return;
+
             Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("zh-CN");
             //   System.Diagnostics.Process.Start("CMD.exe", "chcp5001");
             if (File.Exists("ROGUELIKE_SOULS.cfg"))

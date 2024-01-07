@@ -277,7 +277,7 @@ namespace Markov
             s = Regex.Replace(s, @"\s+", " ").TrimEnd(' ');  // collapse excess whitespace
                                                              // Console.WriteLine($"MarkovWordGenerator: s = {s}");
             graphWeights = BuildTDict(s, unitSize);
-
+            Console.WriteLine("Build Dict finished");
         }
         public static MarkovWordGenerator MarkovFromFileInput(string inputPath, int unitSize, Random random = null)
         {

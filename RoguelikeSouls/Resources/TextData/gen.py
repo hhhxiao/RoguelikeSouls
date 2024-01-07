@@ -190,7 +190,9 @@ def save_all_weapon_descriptions():
     save_list(lst, "AllWeaponDescriptions.txt")
 
 
-save_all_armor_names()
+# save_all_armor_names()
+saves_all_spell_names()
+
 
 # weapon_set = []
 # kvs = read_fmg_xml()

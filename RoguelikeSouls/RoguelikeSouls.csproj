@@ -97,6 +97,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
     <None Include="Resources\FFX\FRPG_SfxBnd_m10.ffxbnd.dcx" />
     <None Include="Resources\FFX\FRPG_SfxBnd_m10_00.ffxbnd.dcx" />
     <None Include="Resources\FFX\FRPG_SfxBnd_m10_01.ffxbnd.dcx" />
@@ -438,6 +439,7 @@
     <Compile Include="Utils\Markov.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Utils\WordWrapper.cs" />
+    <Compile Include="Utils\ZHWordGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dependencies\PropertyHook\PropertyHook\PropertyHook.csproj">
@@ -454,6 +456,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="JiebaNet.Analyser, Version=0.42.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jieba.NET.0.42.2\lib\net45\JiebaNet.Analyser.dll</HintPath>
+    </Reference>
+    <Reference Include="JiebaNet.Segmenter, Version=0.42.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jieba.NET.0.42.2\lib\net45\JiebaNet.Segmenter.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Windows.Forms" />
