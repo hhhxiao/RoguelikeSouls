@@ -10,11 +10,11 @@ namespace RoguelikeSouls.Installation
 {
     enum TreasureType
     {
-        None = 0,  // no reward (used in random selection)
-        CommonItem = 1,  // e.g. Firebomb
-        UncommonItem = 2,  // e.g. Black Firebomb
-        RareItem = 3,  // e.g. Divine Blessing, Mote
-        VeryRareItem = 4,  // e.g. Soul of a Hero, Tome
+        None = 0, // no reward (used in random selection)
+        CommonItem = 1, // e.g. Firebomb
+        UncommonItem = 2, // e.g. Black Firebomb
+        RareItem = 3, // e.g. Divine Blessing, Mote
+        VeryRareItem = 4, // e.g. Soul of a Hero, Tome
         BasicWeapon = 5,
         BasicArmor = 6,
         LegendaryWeapon = 7,
@@ -24,8 +24,8 @@ namespace RoguelikeSouls.Installation
         Spell = 11,
         Ember = 13,
         Key = 14,
-        CorpseRenewable = 15,  // Common/Uncommon/Rare/VeryRare, depending on map rating
-        ChestRenewable = 16,  // Common/Uncommon/Rare/VeryRare, depending on map rating
+        CorpseRenewable = 15, // Common/Uncommon/Rare/VeryRare, depending on map rating
+        ChestRenewable = 16, // Common/Uncommon/Rare/VeryRare, depending on map rating
     }
 
     class Treasure
@@ -36,8 +36,9 @@ namespace RoguelikeSouls.Installation
         public TreasureType Type { get; }
         public int MaxCount { get; }
         public Label[] Labels { get; }
-        
-        public Treasure(string name, ItemLotCategory category, int itemID, TreasureType rewardType, int maxCount, params Label[] labels)
+
+        public Treasure(string name, ItemLotCategory category, int itemID, TreasureType rewardType, int maxCount,
+            params Label[] labels)
         {
             Name = name;
             Category = category;
@@ -53,89 +54,128 @@ namespace RoguelikeSouls.Installation
         public static List<Treasure> RenewableList { get; } = new List<Treasure>()
         {
             // Rewards that can be used in multiple item lots ("renewable").
-            new Treasure("Elizabeth's Mushroom",                  ItemLotCategory.Good, 230, TreasureType.RareItem, 1, Label.Divine, Label.Plant),
-            new Treasure("Divine Blessing",                       ItemLotCategory.Good, 240, TreasureType.RareItem, 1, Label.Divine, Label.Sapient, Label.Mimic),
-            new Treasure("Green Blossom",                         ItemLotCategory.Good, 260, TreasureType.UncommonItem, 1, Label.Plant),
-            new Treasure("Bloodred Moss Clump",                   ItemLotCategory.Good, 270, TreasureType.CommonItem, 1, Label.Infested, Label.Plant),
-            new Treasure("Purple Moss Clump",                     ItemLotCategory.Good, 271, TreasureType.CommonItem, 1, Label.Poison, Label.Infested, Label.Plant),
-            new Treasure("Blooming Purple Moss Clump",            ItemLotCategory.Good, 272, TreasureType.UncommonItem, 1, Label.Poison, Label.Infested, Label.Plant),
-            new Treasure("Purging Stone",                         ItemLotCategory.Good, 274, TreasureType.RareItem, 1, Label.Divine, Label.Stone),
-            new Treasure("Egg Vermifuge",                         ItemLotCategory.Good, 275, TreasureType.RareItem, 1, Label.Bug, Label.Infested),
-            new Treasure("Repair Powder",                         ItemLotCategory.Good, 280, TreasureType.RareItem, 1, Label.Metal, Label.Sapient),
-            new Treasure("Throwing Knife",                        ItemLotCategory.Good, 290, TreasureType.CommonItem, 10, Label.Sapient),
-            new Treasure("Poison Throwing Knife",                 ItemLotCategory.Good, 291, TreasureType.UncommonItem, 5, Label.Sapient, Label.Poison),
-            new Treasure("Firebomb",                              ItemLotCategory.Good, 292, TreasureType.CommonItem, 5, Label.Sapient, Label.Fire),
-            new Treasure("Dung Pie",                              ItemLotCategory.Good, 293, TreasureType.UncommonItem, 1, Label.Poison, Label.Infested),
-            new Treasure("Alluring Skull",                        ItemLotCategory.Good, 294, TreasureType.UncommonItem, 1, Label.Sapient, Label.Magic),
-            new Treasure("Lloyd's Talisman",                      ItemLotCategory.Good, 296, TreasureType.UncommonItem, 1, Label.Sapient, Label.Divine),
-            new Treasure("Black Firebomb",                        ItemLotCategory.Good, 297, TreasureType.UncommonItem, 5, Label.Sapient, Label.Fire),
-            new Treasure("Charcoal Pine Resin",                   ItemLotCategory.Good, 310, TreasureType.RareItem, 1, Label.Fire, Label.Plant),
-            new Treasure("Gold Pine Resin",                       ItemLotCategory.Good, 311, TreasureType.RareItem, 1, Label.Lightning, Label.Plant),
-            new Treasure("Transient Curse",                       ItemLotCategory.Good, 312, TreasureType.UncommonItem, 1, Label.Ghost),
-            new Treasure("Rotten Pine Resin",                     ItemLotCategory.Good, 313, TreasureType.RareItem, 1, Label.Poison, Label.Plant),
-            new Treasure("Homeward Bone",                         ItemLotCategory.Good, 330, TreasureType.UncommonItem, 1, Label.Sapient, Label.Skeleton),
-            new Treasure("Prism Stone",                           ItemLotCategory.Good, 370, TreasureType.UncommonItem, 3, Label.Sapient, Label.Crystal, Label.Stone),
-            new Treasure("Soul of a Lost Undead",                 ItemLotCategory.Good, 400, TreasureType.CommonItem, 1, Label.Hollow),
-            new Treasure("Large Soul of a Lost Undead",           ItemLotCategory.Good, 401, TreasureType.CommonItem, 1, Label.Hollow),
-            new Treasure("Soul of a Nameless Soldier",            ItemLotCategory.Good, 402, TreasureType.CommonItem, 1, Label.Hollow),
-            new Treasure("Large Soul of a Nameless Soldier",      ItemLotCategory.Good, 403, TreasureType.UncommonItem, 1, Label.Hollow),
-            new Treasure("Soul of a Proud Knight",                ItemLotCategory.Good, 404, TreasureType.UncommonItem, 1, Label.Hollow),
-            new Treasure("Large Soul of a Proud Knight",          ItemLotCategory.Good, 405, TreasureType.UncommonItem, 1, Label.Hollow),
-            new Treasure("Soul of a Brave Warrior",               ItemLotCategory.Good, 406, TreasureType.RareItem, 1, Label.Hollow),
-            new Treasure("Large Soul of a Brave Warrior",         ItemLotCategory.Good, 407, TreasureType.RareItem, 1, Label.Hollow),
-            new Treasure("Soul of a Hero",                        ItemLotCategory.Good, 408, TreasureType.VeryRareItem, 1, Label.Hollow),
-            new Treasure("Soul of a Great Hero",                  ItemLotCategory.Good, 409, TreasureType.VeryRareItem, 1, Label.Hollow),
-            new Treasure("Humanity",                              ItemLotCategory.Good, 500, TreasureType.UncommonItem, 1, Label.Abyssal, Label.Sapient),
-            new Treasure("Twin Humanities",                       ItemLotCategory.Good, 501, TreasureType.RareItem, 1, Label.Abyssal, Label.Sapient),
-            
-            new Treasure("Mote of Vitality",                      ItemLotCategory.Good, 650, TreasureType.RareItem, 1),
-            new Treasure("Mote of Attunement",                    ItemLotCategory.Good, 651, TreasureType.RareItem, 1),
-            new Treasure("Mote of Endurance",                     ItemLotCategory.Good, 652, TreasureType.RareItem, 1),
-            new Treasure("Mote of Strength",                      ItemLotCategory.Good, 653, TreasureType.RareItem, 1),
-            new Treasure("Mote of Dexterity",                     ItemLotCategory.Good, 654, TreasureType.RareItem, 1),
-            new Treasure("Mote of Resistance",                    ItemLotCategory.Good, 655, TreasureType.RareItem, 1),
-            new Treasure("Mote of Intelligence",                  ItemLotCategory.Good, 656, TreasureType.RareItem, 1),
-            new Treasure("Mote of Faith",                         ItemLotCategory.Good, 657, TreasureType.RareItem, 1),
+            new Treasure("Elizabeth's Mushroom", ItemLotCategory.Good, 230, TreasureType.RareItem, 1, Label.Divine,
+                Label.Plant),
+            new Treasure("Divine Blessing", ItemLotCategory.Good, 240, TreasureType.RareItem, 1, Label.Divine,
+                Label.Sapient, Label.Mimic),
+            new Treasure("Green Blossom", ItemLotCategory.Good, 260, TreasureType.UncommonItem, 1, Label.Plant),
+            new Treasure("Bloodred Moss Clump", ItemLotCategory.Good, 270, TreasureType.CommonItem, 1, Label.Infested,
+                Label.Plant),
+            new Treasure("Purple Moss Clump", ItemLotCategory.Good, 271, TreasureType.CommonItem, 1, Label.Poison,
+                Label.Infested, Label.Plant),
+            new Treasure("Blooming Purple Moss Clump", ItemLotCategory.Good, 272, TreasureType.UncommonItem, 1,
+                Label.Poison, Label.Infested, Label.Plant),
+            new Treasure("Purging Stone", ItemLotCategory.Good, 274, TreasureType.RareItem, 1, Label.Divine,
+                Label.Stone),
+            new Treasure("Egg Vermifuge", ItemLotCategory.Good, 275, TreasureType.RareItem, 1, Label.Bug,
+                Label.Infested),
+            new Treasure("Repair Powder", ItemLotCategory.Good, 280, TreasureType.RareItem, 1, Label.Metal,
+                Label.Sapient),
+            new Treasure("Throwing Knife", ItemLotCategory.Good, 290, TreasureType.CommonItem, 10, Label.Sapient),
+            new Treasure("Poison Throwing Knife", ItemLotCategory.Good, 291, TreasureType.UncommonItem, 5,
+                Label.Sapient, Label.Poison),
+            new Treasure("Firebomb", ItemLotCategory.Good, 292, TreasureType.CommonItem, 5, Label.Sapient, Label.Fire),
+            new Treasure("Dung Pie", ItemLotCategory.Good, 293, TreasureType.UncommonItem, 1, Label.Poison,
+                Label.Infested),
+            new Treasure("Alluring Skull", ItemLotCategory.Good, 294, TreasureType.UncommonItem, 1, Label.Sapient,
+                Label.Magic),
+            new Treasure("Lloyd's Talisman", ItemLotCategory.Good, 296, TreasureType.UncommonItem, 1, Label.Sapient,
+                Label.Divine),
+            new Treasure("Black Firebomb", ItemLotCategory.Good, 297, TreasureType.UncommonItem, 5, Label.Sapient,
+                Label.Fire),
+            new Treasure("Charcoal Pine Resin", ItemLotCategory.Good, 310, TreasureType.RareItem, 1, Label.Fire,
+                Label.Plant),
+            new Treasure("Gold Pine Resin", ItemLotCategory.Good, 311, TreasureType.RareItem, 1, Label.Lightning,
+                Label.Plant),
+            new Treasure("Transient Curse", ItemLotCategory.Good, 312, TreasureType.UncommonItem, 1, Label.Ghost),
+            new Treasure("Rotten Pine Resin", ItemLotCategory.Good, 313, TreasureType.RareItem, 1, Label.Poison,
+                Label.Plant),
+            new Treasure("Homeward Bone", ItemLotCategory.Good, 330, TreasureType.UncommonItem, 1, Label.Sapient,
+                Label.Skeleton),
+            new Treasure("Prism Stone", ItemLotCategory.Good, 370, TreasureType.UncommonItem, 3, Label.Sapient,
+                Label.Crystal, Label.Stone),
+            new Treasure("Soul of a Lost Undead", ItemLotCategory.Good, 400, TreasureType.CommonItem, 1, Label.Hollow),
+            new Treasure("Large Soul of a Lost Undead", ItemLotCategory.Good, 401, TreasureType.CommonItem, 1,
+                Label.Hollow),
+            new Treasure("Soul of a Nameless Soldier", ItemLotCategory.Good, 402, TreasureType.CommonItem, 1,
+                Label.Hollow),
+            new Treasure("Large Soul of a Nameless Soldier", ItemLotCategory.Good, 403, TreasureType.UncommonItem, 1,
+                Label.Hollow),
+            new Treasure("Soul of a Proud Knight", ItemLotCategory.Good, 404, TreasureType.UncommonItem, 1,
+                Label.Hollow),
+            new Treasure("Large Soul of a Proud Knight", ItemLotCategory.Good, 405, TreasureType.UncommonItem, 1,
+                Label.Hollow),
+            new Treasure("Soul of a Brave Warrior", ItemLotCategory.Good, 406, TreasureType.RareItem, 1, Label.Hollow),
+            new Treasure("Large Soul of a Brave Warrior", ItemLotCategory.Good, 407, TreasureType.RareItem, 1,
+                Label.Hollow),
+            new Treasure("Soul of a Hero", ItemLotCategory.Good, 408, TreasureType.VeryRareItem, 1, Label.Hollow),
+            new Treasure("Soul of a Great Hero", ItemLotCategory.Good, 409, TreasureType.VeryRareItem, 1, Label.Hollow),
+            new Treasure("Humanity", ItemLotCategory.Good, 500, TreasureType.UncommonItem, 1, Label.Abyssal,
+                Label.Sapient),
+            new Treasure("Twin Humanities", ItemLotCategory.Good, 501, TreasureType.RareItem, 1, Label.Abyssal,
+                Label.Sapient),
 
-            new Treasure("Tome of Vitality",                      ItemLotCategory.Good, 660, TreasureType.VeryRareItem, 1),
-            new Treasure("Tome of Attunement",                    ItemLotCategory.Good, 661, TreasureType.VeryRareItem, 1),
-            new Treasure("Tome of Endurance",                     ItemLotCategory.Good, 662, TreasureType.VeryRareItem, 1),
-            new Treasure("Tome of Strength",                      ItemLotCategory.Good, 663, TreasureType.VeryRareItem, 1),
-            new Treasure("Tome of Dexterity",                     ItemLotCategory.Good, 664, TreasureType.VeryRareItem, 1),
-            new Treasure("Tome of Resistance",                    ItemLotCategory.Good, 665, TreasureType.VeryRareItem, 1),
-            new Treasure("Tome of Intelligence",                  ItemLotCategory.Good, 666, TreasureType.VeryRareItem, 1),
-            new Treasure("Tome of Faith",                         ItemLotCategory.Good, 667, TreasureType.VeryRareItem, 1),
+            new Treasure("Mote of Vitality", ItemLotCategory.Good, 650, TreasureType.RareItem, 1),
+            new Treasure("Mote of Attunement", ItemLotCategory.Good, 651, TreasureType.RareItem, 1),
+            new Treasure("Mote of Endurance", ItemLotCategory.Good, 652, TreasureType.RareItem, 1),
+            new Treasure("Mote of Strength", ItemLotCategory.Good, 653, TreasureType.RareItem, 1),
+            new Treasure("Mote of Dexterity", ItemLotCategory.Good, 654, TreasureType.RareItem, 1),
+            new Treasure("Mote of Resistance", ItemLotCategory.Good, 655, TreasureType.RareItem, 1),
+            new Treasure("Mote of Intelligence", ItemLotCategory.Good, 656, TreasureType.RareItem, 1),
+            new Treasure("Mote of Faith", ItemLotCategory.Good, 657, TreasureType.RareItem, 1),
+
+            new Treasure("Tome of Vitality", ItemLotCategory.Good, 660, TreasureType.VeryRareItem, 1),
+            new Treasure("Tome of Attunement", ItemLotCategory.Good, 661, TreasureType.VeryRareItem, 1),
+            new Treasure("Tome of Endurance", ItemLotCategory.Good, 662, TreasureType.VeryRareItem, 1),
+            new Treasure("Tome of Strength", ItemLotCategory.Good, 663, TreasureType.VeryRareItem, 1),
+            new Treasure("Tome of Dexterity", ItemLotCategory.Good, 664, TreasureType.VeryRareItem, 1),
+            new Treasure("Tome of Resistance", ItemLotCategory.Good, 665, TreasureType.VeryRareItem, 1),
+            new Treasure("Tome of Intelligence", ItemLotCategory.Good, 666, TreasureType.VeryRareItem, 1),
+            new Treasure("Tome of Faith", ItemLotCategory.Good, 667, TreasureType.VeryRareItem, 1),
 
             // new Treasure("Standard Arrow",                        ItemLotCategory.Weapon, 2000000, TreasureType.CommonItem, 20, Label.Sapient, Label.Archer),
             // new Treasure("Large Arrow",                           ItemLotCategory.Weapon, 2001000, TreasureType.CommonItem, 20, Label.Sapient, Label.Archer),
-            new Treasure("Feather Arrow",                         ItemLotCategory.Weapon, 2002000, TreasureType.UncommonItem, 20, Label.Sapient, Label.Archer),
-            new Treasure("Fire Arrow",                            ItemLotCategory.Weapon, 2003000, TreasureType.UncommonItem, 20, Label.Sapient, Label.Archer, Label.Poison),
-            new Treasure("Poison Arrow",                          ItemLotCategory.Weapon, 2004000, TreasureType.UncommonItem, 20, Label.Sapient, Label.Archer, Label.Fire),
-            new Treasure("Moonlight Arrow",                       ItemLotCategory.Weapon, 2005000, TreasureType.UncommonItem, 20, Label.Sapient, Label.Archer, Label.Divine),
+            new Treasure("Feather Arrow", ItemLotCategory.Weapon, 2002000, TreasureType.UncommonItem, 20, Label.Sapient,
+                Label.Archer),
+            new Treasure("Fire Arrow", ItemLotCategory.Weapon, 2003000, TreasureType.UncommonItem, 20, Label.Sapient,
+                Label.Archer, Label.Poison),
+            new Treasure("Poison Arrow", ItemLotCategory.Weapon, 2004000, TreasureType.UncommonItem, 20, Label.Sapient,
+                Label.Archer, Label.Fire),
+            new Treasure("Moonlight Arrow", ItemLotCategory.Weapon, 2005000, TreasureType.UncommonItem, 20,
+                Label.Sapient, Label.Archer, Label.Divine),
             // new Treasure("Wooden Arrow",                          ItemLotCategory.Weapon, 2006000, TreasureType.CommonItem, 20, Label.Sapient, Label.Archer, Label.Infested),
-            new Treasure("Dragonslayer Arrow",                    ItemLotCategory.Weapon, 2007000, TreasureType.RareItem, 10, Label.Sapient, Label.Archer, Label.Dragon),
-            new Treasure("Gough's Great Arrow",                   ItemLotCategory.Weapon, 2008000, TreasureType.RareItem, 10, Label.Sapient, Label.Archer, Label.Dragon),
+            new Treasure("Dragonslayer Arrow", ItemLotCategory.Weapon, 2007000, TreasureType.RareItem, 10,
+                Label.Sapient, Label.Archer, Label.Dragon),
+            new Treasure("Gough's Great Arrow", ItemLotCategory.Weapon, 2008000, TreasureType.RareItem, 10,
+                Label.Sapient, Label.Archer, Label.Dragon),
 
             // new Treasure("Standard Bolt",                         ItemLotCategory.Weapon, 2100000, TreasureType.UncommonItem, 20, Label.Sapient, Label.Archer),
-            new Treasure("Heavy Bolt",                            ItemLotCategory.Weapon, 2101000, TreasureType.UncommonItem, 20, Label.Sapient, Label.Archer, Label.Metal),
-            new Treasure("Sniper Bolt",                           ItemLotCategory.Weapon, 2102000, TreasureType.UncommonItem, 20, Label.Sapient, Label.Archer),
+            new Treasure("Heavy Bolt", ItemLotCategory.Weapon, 2101000, TreasureType.UncommonItem, 20, Label.Sapient,
+                Label.Archer, Label.Metal),
+            new Treasure("Sniper Bolt", ItemLotCategory.Weapon, 2102000, TreasureType.UncommonItem, 20, Label.Sapient,
+                Label.Archer),
             // new Treasure("Wood Bolt",                             ItemLotCategory.Weapon, 2103000, TreasureType.CommonItem, 20, Label.Sapient, Label.Archer),
-            new Treasure("Lightning Bolt",                        ItemLotCategory.Weapon, 2104000, TreasureType.RareItem, 15, Label.Sapient, Label.Archer, Label.Lightning),
+            new Treasure("Lightning Bolt", ItemLotCategory.Weapon, 2104000, TreasureType.RareItem, 15, Label.Sapient,
+                Label.Archer, Label.Lightning),
 
-            new Treasure("Refined Ember",                         ItemLotCategory.Good, 1000, TreasureType.Ember, 1, Label.Metal),
-            new Treasure("Crystal Ember",                         ItemLotCategory.Good, 1010, TreasureType.Ember, 1, Label.Crystal),
-            new Treasure("Magic Ember",                           ItemLotCategory.Good, 1020, TreasureType.Ember, 1, Label.Magic),
-            new Treasure("Enchanted Ember",                       ItemLotCategory.Good, 1030, TreasureType.Ember, 1, Label.Magic),
-            new Treasure("Lightning Ember",                       ItemLotCategory.Good, 1040, TreasureType.Ember, 1, Label.Lightning),
-            new Treasure("Divine Ember",                          ItemLotCategory.Good, 1050, TreasureType.Ember, 1, Label.Divine),
-            new Treasure("Dire Ember",                            ItemLotCategory.Good, 1060, TreasureType.Ember, 1, Label.Divine),
-            new Treasure("Blazing Ember",                         ItemLotCategory.Good, 1070, TreasureType.Ember, 1, Label.Fire),
-            new Treasure("Dragonfire Ember",                      ItemLotCategory.Good, 1080, TreasureType.Ember, 1, Label.Dragon),
+            new Treasure("Refined Ember", ItemLotCategory.Good, 1000, TreasureType.Ember, 1, Label.Metal),
+            new Treasure("Crystal Ember", ItemLotCategory.Good, 1010, TreasureType.Ember, 1, Label.Crystal),
+            new Treasure("Magic Ember", ItemLotCategory.Good, 1020, TreasureType.Ember, 1, Label.Magic),
+            new Treasure("Enchanted Ember", ItemLotCategory.Good, 1030, TreasureType.Ember, 1, Label.Magic),
+            new Treasure("Lightning Ember", ItemLotCategory.Good, 1040, TreasureType.Ember, 1, Label.Lightning),
+            new Treasure("Divine Ember", ItemLotCategory.Good, 1050, TreasureType.Ember, 1, Label.Divine),
+            new Treasure("Dire Ember", ItemLotCategory.Good, 1060, TreasureType.Ember, 1, Label.Divine),
+            new Treasure("Blazing Ember", ItemLotCategory.Good, 1070, TreasureType.Ember, 1, Label.Fire),
+            new Treasure("Dragonfire Ember", ItemLotCategory.Good, 1080, TreasureType.Ember, 1, Label.Dragon),
 
-            new Treasure("Small Titanite Piece",                  ItemLotCategory.Good, 1100, TreasureType.CommonItem, 1, Label.Stone, Label.Metal),
-            new Treasure("Large Titanite Piece",                  ItemLotCategory.Good, 1110, TreasureType.UncommonItem, 1, Label.Stone, Label.Metal),
-            new Treasure("Giant Titanite Piece",                  ItemLotCategory.Good, 1120, TreasureType.RareItem, 1, Label.Stone, Label.Metal),
-            new Treasure("Colossal Titanite Piece",               ItemLotCategory.Good, 1130, TreasureType.VeryRareItem, 1, Label.Stone, Label.Metal),
+            new Treasure("Small Titanite Piece", ItemLotCategory.Good, 1100, TreasureType.CommonItem, 1, Label.Stone,
+                Label.Metal),
+            new Treasure("Large Titanite Piece", ItemLotCategory.Good, 1110, TreasureType.UncommonItem, 1, Label.Stone,
+                Label.Metal),
+            new Treasure("Giant Titanite Piece", ItemLotCategory.Good, 1120, TreasureType.RareItem, 1, Label.Stone,
+                Label.Metal),
+            new Treasure("Colossal Titanite Piece", ItemLotCategory.Good, 1130, TreasureType.VeryRareItem, 1,
+                Label.Stone, Label.Metal),
         };
 
         public static Treasure GetCorpseRenewable(int mapRating, Random random)
@@ -168,16 +208,20 @@ namespace RoguelikeSouls.Installation
             return options.GetRandomElement(random);
         }
 
-        public static Treasure GetRandomReward(TreasureType treasureType, Label[] labels, List<(ItemLotCategory, int)> usedItems, Random random)
+        public static Treasure GetRandomReward(TreasureType treasureType, Label[] labels,
+            List<(ItemLotCategory, int)> usedItems, Random random)
         {
             List<Treasure> options = new List<Treasure>(RenewableList.Where(
-                            treasure => treasure.Type == treasureType && treasure.Labels.Intersect(labels).Any()));
+                treasure => treasure.Type == treasureType && treasure.Labels.Intersect(labels).Any()));
             if (!options.Any())
                 // No items of this rarity for this list of labels (e.g. Demonic only). Any label is permitted.
                 options = new List<Treasure>(RenewableList.Where(treasure => treasure.Type == treasureType));
             // Exclude used treasure.
-            options = new List<Treasure>(options.Where(treasure => !usedItems.Contains((treasure.Category, treasure.ItemID))));
-            return options.Any() ? options.GetRandomElement(random) : null;  // If all available treasure is used, no item in this slot.
+            options = new List<Treasure>(options.Where(treasure =>
+                !usedItems.Contains((treasure.Category, treasure.ItemID))));
+            return options.Any()
+                ? options.GetRandomElement(random)
+                : null; // If all available treasure is used, no item in this slot.
         }
 
         public static Treasure GetRandomRewardWeightedByLabel(TreasureType type, Label[] labels, Random random)
@@ -192,153 +236,282 @@ namespace RoguelikeSouls.Installation
                 if (reward.Type == type && sharedLabels.Any())
                     weightDict[reward] = sharedLabels.Count();
             }
+
             return weightDict.GetWeightedRandomElement(random);
         }
     }
 
     class GoodsGenerator
     {
+        public static Dictionary<string, string> CNNames { get; } = new Dictionary<string, string>()
+        {
+            { "Hand of Cessation", "停止之手" },
+            { "Undead Flame", "不死火焰" },
+            { "Mark of Death", "死亡印记" },
+            { "Heart of St. Jude", "圣裘德之心" },
+
+            { "Refined Ember", "精制余烬" },
+            { "Crystal Ember", "结晶余烬" },
+            { "Magic Ember", "法术余烬" },
+            { "Enchanted Ember", "魔力余烬" },
+            { "Lightning Ember", "雷电余烬" },
+            { "Divine Ember", "烬神圣余烬" },
+            { "Dire Ember", "邪教余烬" },
+            { "Blazing Ember", "火焰余烬" },
+            { "Dragonfire Ember", "龙族余烬" },
+
+            { "Small Titanite Piece", "小楔形石碎片 " },
+            { "Large Titanite Piece", "中型楔形石碎片" },
+            { "Giant Titanite Piece", "大楔形石碎片" },
+            { "Colossal Titanite Piece", "巨大楔形石碎片" },
+
+            { "Rusted Key", "生锈钥匙" },
+            { "Tarnished Key", "晦暗钥匙" },
+            { "Polished Key", "抛光钥匙" },
+            { "Giant Key", "巨大钥匙" },
+            { "Holy Sigil", "神圣徽记" },
+            { "Piercing Eye", "穿刺只眼" },
+            { "Skeleton Keys", "骷髅钥匙" },
+
+            { "Mote of Vitality", "体力微粒" },
+            { "Mote of Attunement", "记忆力微粒" },
+            { "Mote of Endurance", "耐力微粒" },
+            { "Mote of Strength", "力量微粒" },
+            { "Mote of Dexterity", "增加灵巧微粒" },
+            { "Mote of Resistance", "抗性微粒" },
+            { "Mote of Intelligence", "智力微粒" },
+            { "Mote of Faith", "信仰微粒" },
+            { "Tome of Vitality", "体力只书" },
+            { "Tome of Attunement", "记忆力之书" },
+            { "Tome of Endurance", "耐力之书" },
+            { "Tome of Strength", "力量之书" },
+            { "Tome of Dexterity", "灵巧之书" },
+            { "Tome of Resistance", "抗性之书" },
+            { "Tome of Intelligence", "智力之书" },
+            { "Tome of Faith", "大幅增加信仰" },
+            { "Alvina's Ring", "雅薇娜戒指" },
+
+            { "Solaire's Ring", "索拉尔戒指" },
+            { "Siegmeyer's Ring", "杰克麦雅的戒指" },
+            { "Logan's Ring", "罗根戒指" },
+            { "Quelana's Ring", "克拉娜友谊的戒指" },
+            { "Havel's Ring", "哈维尔友谊的戒指" },
+            { "Mornstein's Ring", "莫恩斯坦戒指" },
+            { "Lobos Jr's Ring", "小洛博斯戒指" }
+        };
+
         public static Dictionary<string, string> Summaries { get; } = new Dictionary<string, string>()
         {
-            { "Hand of Cessation", "Deathly relic with nefarious intent" },
-            { "Undead Flame", "Bonfire kindling spark" },
-            { "Mark of Death", "Item accrued upon demise" },
-            { "Heart of St. Jude", "Blazing core that forges bonds" },
+            { "Hand of Cessation", "带有邪恶意图的死亡遗物" },
+            { "Undead Flame", "篝火点的燃火花" },
+            { "Mark of Death", "死亡时获得的物品" },
+            { "Heart of St. Jude", "建立联系的炽热核心" },
 
-            { "Refined Ember", "Weapon ascension ember" },
-            { "Crystal Ember", "Weapon ascension ember" },
-            { "Magic Ember", "Weapon ascension ember" },
-            { "Enchanted Ember", "Weapon ascension ember" },
-            { "Lightning Ember", "Weapon ascension ember" },
-            { "Divine Ember", "Weapon ascension ember" },
-            { "Dire Ember", "Weapon ascension ember" },
-            { "Blazing Ember", "Weapon ascension ember" },
-            { "Dragonfire Ember", "Weapon ascension ember" },
+            { "Refined Ember", "武器质变余烬" },
+            { "Crystal Ember", "武器质变余烬" },
+            { "Magic Ember", "武器质变余烬" },
+            { "Enchanted Ember", "武器质变余烬" },
+            { "Lightning Ember", "武器质变余烬" },
+            { "Divine Ember", "武器质变余烬" },
+            { "Dire Ember", "武器质变余烬" },
+            { "Blazing Ember", "武器质变余烬" },
+            { "Dragonfire Ember", "武器质变余烬" },
+            { "Small Titanite Piece", "盔甲升级材料" },
+            { "Large Titanite Piece", "盔甲升级材料" },
+            { "Giant Titanite Piece", "盔甲升级材料" },
+            { "Colossal Titanite Piece", "盔甲升级材料" },
+            //
+            { "Rusted Key", "打开旧木门的钥匙" },
+            { "Tarnished Key", "打开加固门的钥匙" },
+            { "Polished Key", "打开一些金属门的钥匙" },
+            { "Giant Key", "打开巨大大门的钥匙" },
+            { "Holy Sigil", "授予使用电梯的徽记" },
+            { "Piercing Eye", "幻觉破坏者" },
+            { "Skeleton Keys", "打开大多数锁的钥匙" },
 
-            { "Small Titanite Piece", "Armor upgrade material" },
-            { "Large Titanite Piece", "Armor upgrade material" },
-            { "Giant Titanite Piece", "Armor upgrade material" },
-            { "Colossal Titanite Piece", "Armor upgrade material" },
 
-            { "Rusted Key", "Key to old wooden doors" },
-            { "Tarnished Key", "Key to reinforced doors"},
-            { "Polished Key", "Key to some metal gates" },
-            { "Giant Key", "Key to massive door" },
-            { "Holy Sigil", "Sigil granting elevator use" },
-            { "Piercing Eye", "Breaker of illusions" },
-            { "Skeleton Keys", "Keys to most locks" },
+            //
+            { "Mote of Vitality", "增加体力" },
+            { "Mote of Attunement", "增加记忆力" },
+            { "Mote of Endurance", "增加耐力" },
+            { "Mote of Strength", "增加力量" },
+            { "Mote of Dexterity", "增加灵巧" },
+            { "Mote of Resistance", "增加抗性" },
+            { "Mote of Intelligence", "增加智力" },
+            { "Mote of Faith", "增加信仰" },
 
-            { "Mote of Vitality", "Increases vitality" },
-            { "Mote of Attunement", "Increases attunement" },
-            { "Mote of Endurance", "Increases endurance" },
-            { "Mote of Strength", "Increases strength" },
-            { "Mote of Dexterity", "Increases dexterity" },
-            { "Mote of Resistance", "Increases resistance" },
-            { "Mote of Intelligence", "Increases intelligence" },
-            { "Mote of Faith", "Increases faith" },
-
-            { "Tome of Vitality", "Greatly increases vitality" },
-            { "Tome of Attunement", "Greatly increases attunement" },
-            { "Tome of Endurance", "Greatly increases endurance" },
-            { "Tome of Strength", "Greatly increases strength" },
-            { "Tome of Dexterity", "Greatly increases dexterity" },
-            { "Tome of Resistance", "Greatly increases resistance" },
-            { "Tome of Intelligence", "Greatly increases intelligence" },
-            { "Tome of Faith", "Greatly increases faith" },
+            { "Tome of Vitality", "大幅增加体力" },
+            { "Tome of Attunement", "大幅增加记忆力" },
+            { "Tome of Endurance", "大幅增加耐力" },
+            { "Tome of Strength", "大幅增加力量" },
+            { "Tome of Dexterity", "大幅增加灵巧" },
+            { "Tome of Resistance", "大幅增加抗性" },
+            { "Tome of Intelligence", "大幅增加智力" },
+            { "Tome of Faith", "大幅增加信仰" }
         };
+
 
         public static Dictionary<string, string> Descriptions { get; } = new Dictionary<string, string>()
         {
-            { "Hand of Cessation", "Part of a gnarled limb of some eldritch creature. The fingers seem to curl, one by one, whenever its Undead bearer faces death in Lordran. " +
-                "Crush them together manually to return to Firelink Shrine prematurely." },
-            { "Undead Flame", "Undying spark of fire, not unlike the ring of the Darksign. Use to create a bonfire in Lordran, but be wary that " +
-                "only one bonfire can be kindled in each area." },
-            { "Mark of Death", "Unsettling sentient eye that appears in one's inventory upon death. Only the light of Firelink Shrine seems to scare these ethereal beings away." },
-            { "Heart of St. Jude", "Burning flame at the heart of all comradery. It is said that by staring into the flames, one may glimpse a future where " +
-                "no one ever need be alone. Unleash it to permanently increase enemy difficulty." },
+            { "Hand of Cessation", "一根扭曲肢体的一部分，来自某个古老怪物。每当其不死的携带者在洛斯兰面临死亡时，手指似乎会逐一卷曲。手动捏紧它们可提前返回炼火神龛。" },
+            { "Undead Flame", "不死之火的不朽火花，有点像暗记的戒指。在洛斯兰中创建篝火时使用，但要注意每个区域只能点燃一个篝火。" },
+            { "Mark of Death", "死亡时出现在物品栏中的不安的知觉之眼。似乎只有炼火神龛的光芒才能吓退这些虚幻的存在。" },
+            { "Heart of St. Jude", "所有同伴情感的燃烧之心。据说凝视火焰，可以瞥见一个永远不必独处的未来。释放它以永久增加敌人的难度。" },
 
-            { "Refined Ember", "One of the ancient smithing embers. Use it to refine the edge or heft of any basic weapon, which provides a modest " +
-                "increase in attack power." },
-            { "Crystal Ember", "One of the ancient smithing embers. Use it to refine the edge or heft of any basic weapon with solid crystal, which provides a sharp increase " +
-                "in damage at the cost of durability. Crystal weapons cannot be repaired." },
-            { "Magic Ember", "One of the ancient smithing embers. Use it to imbue a weapon with magical power, which increases magic damage." },
-            { "Enchanted Ember", "One of the ancient smithing embers. Use it to imbue a weapon with a sorcerous hunger that modestly increases magic damage and recharges " +
-                "spells when enemies are struck." },
-            { "Lightning Ember", "One of the ancient smithing embers. Use it to imbue a weapon with thunderous might, which is particularly damaging to armored foes " +
-                "and moderately effective against dragons." },
-            { "Divine Ember", "One of the ancient smithing embers. Use it to imbue a weapon with divine power, which increases holy magical damage and is particularly " +
-                "effective against the reanimated dead." },
-            { "Dire Ember", "One of the ancient smithing embers, thought lost to time. Use it to imbue a weapon with a piece of one's own mortality, which provides an increase in damage " +
-                "that is proportional to one's proximity to their final demise." },
-            { "Blazing Ember", "One of the ancient smithing embers. Use it to imbue a weapon with a scorching heat that can burn unarmored " +
-                "foes to a crisp." },
-            { "Dragonfire Ember", "One of the ancient smithing embers, thought lost to time. Use it to imbue a weapon with the incredible heat of draconic fire, which deals " +
-                "lasting damage to struck foes and can melt clean through dragon scales. Be wary of wielding such a flame." },
+            //
+            { "Refined Ember", "古老的铁匠余烬之一。用它来精炼任何基础武器的刃缘或分量，可提供适度的攻击力增加。" },
+            { "Crystal Ember", "古老的铁匠余烬之一。用它来在任何基础武器上加工实心结晶，可在损耗耐久度的代价下大幅增加伤害。结晶武器无法修复。" },
+            { "Magic Ember", "古老的铁匠余烬之一。用它来赋予武器魔力，增加魔法伤害。" },
 
-            { "Small Titanite Piece", "A small piece of broken titanite, which can be used for slight armor reinforcement." },
-            { "Large Titanite Piece", "A large piece of broken titanite, which can be used for moderate armor reinforcement." },
-            { "Giant Titanite Piece", "A giant piece of broken titanite, which can be used for great armor reinforcement." },
-            { "Colossal Titanite Piece", "A slab of nearly flawless titanite, which can be used for extreme armor reinforcement." },
+            { "Enchanted Ember", "古老的铁匠余烬之一。用它来赋予武器巫术的饥渴，适度增加魔法伤害，并在击中敌人时重新充能法术。" },
+            { "Lightning Ember", "古老的铁匠余烬之一。用它来赋予武器雷电之力，对穿甲的敌人特别有效，并对龙类有中等效果。" },
 
-            { "Rusted Key", "Simple key, poorly maintained and eventually discarded. Can open basic locks on some older wooden doors." },
-            { "Tarnished Key", "Simple key beginning to show many signs of age. Can open locks on some newer wooden doors. "},
-            { "Polished Key", "Simple key with a few scrape marks. Can open locks on some metal gates." },
-            { "Giant Key", "Large key to the massive door in the Depths, and perhaps others." },
-            { "Holy Sigil", "Sacred stone sigil required for the use of many elevators in Lordran." },
-            { "Piercing Eye", "Unsettling blue orb. Allows its holder to break through some illusions." },
-            { "Skeleton Keys", "Ring with multiple keys, which together can open most doors in Lordran." },
+            { "Divine Ember", "古老的铁匠余烬之一。用它来赋予武器神圣的力量，增加神圣魔法伤害，对复活的亡灵尤为有效。" },
+            { "Dire Ember", "古老的铁匠余烬之一，被认为已经失传。用它来赋予武器自身必死的一部分，提供与死亡的接近程度成比例的伤害增加。" },
+            { "Blazing Ember", "古老的铁匠余烬之一。用它来赋予武器灼热的热量，可以将无甲敌人烤成焦炭。" },
+            { "Dragonfire Ember", "古老的铁匠余烬之一，被认为已经失传。用它来赋予武器龙之火的惊人热量，对击中的敌人造成持续伤害，并能熔化龙鳞。小心挥舞这样的火焰。" },
 
-            { "Mote of Vitality", "Wooden carving. For some reason, gnawing on it grants a small increase in vitality, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Mote of Attunement", "Wooden carving. For some reason, gnawing on it grants a small increase in attunement, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Mote of Endurance", "Wooden carving. For some reason, gnawing on it grants a small increase in endurance, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Mote of Strength", "Wooden carving. For some reason, gnawing on it grants a small increase in strength, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Mote of Dexterity", "Wooden carving. For some reason, gnawing on it grants a small increase in dexterity, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Mote of Resistance", "Wooden carving. For some reason, gnawing on it grants a small increase in resistance, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Mote of Intelligence", "Wooden carving. For some reason, gnawing on it grants a small increase in intelligence, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Mote of Faith", "Wooden carving. For some reason, gnawing on it grants a small increase in faith, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
+            {
+                "Small Titanite Piece",
+                "一小块破碎的楔形石块，可用于轻微的盔甲强化。"
+            },
+            {
+                "Large Titanite Piece",
+                "一大块破碎的楔形石块，可用于中度的盔甲强化。"
+            },
+            {
+                "Giant Titanite Piece",
+                "一块巨大的破碎的楔形石块，可用于强烈的盔甲强化。"
+            },
+            {
+                "Colossal Titanite Piece",
+                "一块几乎无瑕的楔形石块，可用于极端的盔甲强化。"
+            },
 
-            { "Tome of Vitality", "Page from an old book. Can impart power that grants a large increase in vitality, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Tome of Attunement", "Page from an old book. Can impart power that grants a large increase in attunement, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Tome of Endurance", "Page from an old book. Can impart power that grants a large increase in endurance, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Tome of Strength", "Page from an old book. Can impart power that grants a large increase in strength, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Tome of Dexterity", "Page from an old book. Can impart power that grants a large increase in dexterity, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Tome of Resistance", "Page from an old book. Can impart power that grants a large increase in resistance, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Tome of Intelligence", "Page from an old book. Can impart power that grants a large increase in intelligence, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-            { "Tome of Faith", "Page from an old book. Can impart power that grants a large increase in faith, though " +
-                "this boon is lost upon returning to Firelink Shrine." },
-
-            { "Alvina's Ring", "Ring marking friendship with the mysterious Alvina. Slows the decay of the Hand of Cessation, " +
-                "increasing the number of Undead lives outside Firelink Shrine from five to nine." },
-            { "Solaire's Ring", "Ring marking friendship with the jolly Solaire. Allows its wearer to move a bonfire after " +
-                "placing it, though only once in each region." },
-            { "Siegmeyer's Ring", "Ring marking friendship with the relentless Siegmeyer. Bestows a care package of sorts " +
-                "upon its wearer when they venture out from Firelink Shrine. Has no other effect, except to remind one of " +
-                "the joys of stoic companionship." },
-            { "Logan's Ring", "Ring marking friendship wtih the inquistive Logan. Increases the occurrence of portals to the " +
-                "Abyss, which should not be entered lightly." },
-            { "Quelana's Ring", "Ring marking friendship with the ancient Quelana. Grants three pyromancies to its wearer " +
-                "when their journey begins and provides some resistance against lava." },
-            { "Havel's Ring", "Ring marking friendship with the indomitable Havel. Greatly increases its wearer's maximum equip " +
-                "load, making for easier travels." },
-            { "Mornstein's Ring", "Ring marking friendship with Mornstein, King of Leonia and fearless warrior. Increases the " +
-                "chances of encountering very powerful enemies, whose defeat can lead to superior treasure." },
-            { "Lobos Jr's Ring", "Ring marking friendship with Lobos Jr, eternal ally of adventurers. Its wearer will find " +
-                "their journey through Lordran longer and its foes rarer and more diverse." },
+            {
+                "Rusted Key",
+                "简单的钥匙，保养较差最终被丢弃。可以打开一些老旧木门上的锁。"
+            },
+            {
+                "Tarnished Key",
+                "简单的钥匙，开始显示出许多年代的迹象。可以打开一些较新的木门上的锁。"
+            },
+            {
+                "Polished Key",
+                "带有一些刮痕的简单钥匙。可以打开一些金属门上的锁。"
+            },
+            {
+                "Giant Key",
+                "深渊中巨大门的大钥匙，可能还能打开其他的门。"
+            },
+            {
+                "Holy Sigil",
+                "罗德兰中许多升降梯所需的神圣石印。"
+            },
+            {
+                "Piercing Eye",
+                "令人不安的蓝色眼球。持有者可以穿透一些幻象。"
+            },
+            {
+                "Skeleton Keys",
+                "带有多把钥匙的钥匙串，一起可以打开罗德兰中大多数门。"
+            },
+            {
+                "Mote of Vitality",
+                "木雕。不知何故，咀嚼它会在体力上略微增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Mote of Attunement",
+                "木雕。不知何故，咀嚼它会在记忆力上略微增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Mote of Endurance",
+                "木雕。不知何故，咀嚼它会在耐力上略微增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Mote of Strength",
+                "木雕。不知何故，咀嚼它会在力量上略微增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Mote of Dexterity",
+                "木雕。不知何故，咀嚼它会在灵巧上略微增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Mote of Resistance",
+                "木雕。不知何故，咀嚼它会在抗性上略微增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Mote of Intelligence",
+                "木雕。不知何故，咀嚼它会在智力上略微增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Mote of Faith",
+                "木雕。不知何故，咀嚼它会在信仰上略微增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Tome of Vitality",
+                "来自一本古老书籍的一页。可以传授力量，使体力大幅增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Tome of Attunement",
+                "来自一本古老书籍的一页。可以传授力量，使记忆力大幅增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Tome of Endurance",
+                "来自一本古老书籍的一页。可以传授力量，使耐力大幅增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Tome of Strength",
+                "来自一本古老书籍的一页。可以传授力量，使力量大幅增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Tome of Dexterity",
+                "来自一本古老书籍的一页。可以传授力量，使灵巧大幅增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Tome of Resistance",
+                "来自一本古老书籍的一页。可以传授力量，使抗性大幅增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Tome of Intelligence",
+                "来自一本古老书籍的一页。可以传授力量，使智力大幅增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Tome of Faith",
+                "来自一本古老书籍的一页。可以传授力量，使信仰大幅增加，尽管这个恩惠在返回传火祭祀场时会失去。"
+            },
+            {
+                "Alvina's Ring",
+                "标志着与神秘的雅薇娜友谊的戒指。减缓「终结之手」的衰减，将传火祭祀场外不死生命的次数从五次增加到九次。"
+            },
+            {
+                "Solaire's Ring",
+                "标志着与欢乐的索拉尔友谊的戒指。允许佩戴者在放置篝火后移动它，尽管在每个区域只能使用一次。"
+            },
+            {
+                "Siegmeyer's Ring",
+                "标志着与不懈的杰克麦雅友谊的戒指。在佩戴者从传火祭祀场冒险时给予一些关心。除了提醒人们坚忍伙伴关系的喜悦外，没有其他效果。"
+            },
+            {
+                "Logan's Ring",
+                "标志着与好奇的罗根友谊的戒指。增加通往深渊的传送门出现的几率，这不应该轻易进入。"
+            },
+            {
+                "Quelana's Ring",
+                "标志着与古老的克拉娜友谊的戒指。在旅程开始时给予佩戴者三种炼狱术，并提供对岩浆的一些抵抗力。"
+            },
+            {
+                "Havel's Ring",
+                "标志着与不可战胜的哈维尔友谊的戒指。大幅增加佩戴者的最大装备负重，使旅行更加轻松。"
+            },
+            {
+                "Mornstein's Ring",
+                "标志着与莫恩斯坦，利奥尼安国王和无畏战士的友谊的戒指。增加遇到非常强大敌人的几率，战胜它们可能会带来更优质的战利品。"
+            },
+            {
+                "Lobos Jr's Ring",
+                "标志着与小洛博斯，冒险家们永恒的盟友的友谊的戒指。佩戴者将会在罗德兰中的旅程变得更加漫长，其敌人变得更加稀少和多样化。"
+            }
         };
 
         public static Dictionary<string, ushort> Icons = new Dictionary<string, ushort>()
@@ -488,13 +661,41 @@ namespace RoguelikeSouls.Installation
         };
 
         SoulsMod Mod { get; }
-        Good SystemItemTemplate { get => Mod.VanillaGPARAM.Goods[117]; }  // Darksign
-        Good MarkerItemTemplate { get => Mod.VanillaGPARAM.Goods[2012]; }  // Key
-        Good ConsumableTemplate { get => Mod.VanillaGPARAM.Goods[260]; }  // Green Blossom
-        Good ReinforcementTemplate { get => Mod.VanillaGPARAM.Goods[1000]; }  // Titanite Shard
-        Good KeyItemTemplate { get => Mod.VanillaGPARAM.Goods[2001]; }  // Basement Key
-        Accessory RingTemplate { get => Mod.VanillaGPARAM.Rings[100]; }  // Havel's Ring
-        ItemLot ItemLotTemplate { get => Mod.VanillaGPARAM.ItemLots[1000]; }  // Solaire's Soapstone gift
+
+        Good SystemItemTemplate
+        {
+            get => Mod.VanillaGPARAM.Goods[117];
+        } // Darksign
+
+        Good MarkerItemTemplate
+        {
+            get => Mod.VanillaGPARAM.Goods[2012];
+        } // Key
+
+        Good ConsumableTemplate
+        {
+            get => Mod.VanillaGPARAM.Goods[260];
+        } // Green Blossom
+
+        Good ReinforcementTemplate
+        {
+            get => Mod.VanillaGPARAM.Goods[1000];
+        } // Titanite Shard
+
+        Good KeyItemTemplate
+        {
+            get => Mod.VanillaGPARAM.Goods[2001];
+        } // Basement Key
+
+        Accessory RingTemplate
+        {
+            get => Mod.VanillaGPARAM.Rings[100];
+        } // Havel's Ring
+
+        ItemLot ItemLotTemplate
+        {
+            get => Mod.VanillaGPARAM.ItemLots[1000];
+        } // Solaire's Soapstone gift
 
         public GoodsGenerator(SoulsMod mod)
         {
@@ -515,65 +716,66 @@ namespace RoguelikeSouls.Installation
         {
             // Set up ObjActs. These were originally hard-coded in the Param resource.
 
-            Mod.GPARAM.ObjActs[1200].Name = "Sunlight Gate Lever";  // disabled in m10_01 MSB (region trigger used)
-            
+            Mod.GPARAM.ObjActs[1200].Name = "Sunlight Gate Lever"; // disabled in m10_01 MSB (region trigger used)
+
             Mod.GPARAM.ObjActs[1202].Name = "Parish Bell Lever";
-            
+
             Mod.GPARAM.ObjActs[1305].Name = "Watchtower Door (Upper)";
-            Mod.GPARAM.ObjActs[1305].SpQualifiedId = 2001;  // Rusted Key
-            Mod.GPARAM.ObjActs[1305].SpQualifiedType2 = 1;  // has good
-            Mod.GPARAM.ObjActs[1305].SpQualifiedId2 = 2100;  // Skeleton Keys
-            
-            Mod.GPARAM.ObjActs[1306].Name = "Door to Depths";  // disabled in m10_01 MSB (region trigger used)
-            
+            Mod.GPARAM.ObjActs[1305].SpQualifiedId = 2001; // Rusted Key
+            Mod.GPARAM.ObjActs[1305].SpQualifiedType2 = 1; // has good
+            Mod.GPARAM.ObjActs[1305].SpQualifiedId2 = 2100; // Skeleton Keys
+
+            Mod.GPARAM.ObjActs[1306].Name = "Door to Depths"; // disabled in m10_01 MSB (region trigger used)
+
             Mod.GPARAM.ObjActs[1308].Name = "Parish Cell";
-            Mod.GPARAM.ObjActs[1308].SpQualifiedId = 2003;  // Polished Key (still has Master Key access)
-            
+            Mod.GPARAM.ObjActs[1308].SpQualifiedId = 2003; // Polished Key (still has Master Key access)
+
             Mod.GPARAM.ObjActs[1310].Name = "Burg House";
             Mod.GPARAM.ObjActs[1310].ActionFailedMsgId = -1;
-            Mod.GPARAM.ObjActs[1310].SpQualifiedType = 0;  // none
+            Mod.GPARAM.ObjActs[1310].SpQualifiedType = 0; // none
             Mod.GPARAM.ObjActs[1310].SpQualifiedId = 0;
-            Mod.GPARAM.ObjActs[1310].SpQualifiedType2 = 0;  // none
+            Mod.GPARAM.ObjActs[1310].SpQualifiedType2 = 0; // none
             Mod.GPARAM.ObjActs[1310].SpQualifiedId2 = 0;
-            
+
             Mod.GPARAM.ObjActs[1314].Name = "Lower Burg Shortcut";
 
             Mod.GPARAM.ObjActs[1317].Name = "Lower Burg House";
             Mod.GPARAM.ObjActs[1317].ActionFailedMsgId = -1;
-            Mod.GPARAM.ObjActs[1317].SpQualifiedType = 0;  // none
+            Mod.GPARAM.ObjActs[1317].SpQualifiedType = 0; // none
             Mod.GPARAM.ObjActs[1317].SpQualifiedId = 0;
-            Mod.GPARAM.ObjActs[1317].SpQualifiedType2 = 0;  // none
+            Mod.GPARAM.ObjActs[1317].SpQualifiedType2 = 0; // none
             Mod.GPARAM.ObjActs[1317].SpQualifiedId2 = 0;
-            
-            Mod.GPARAM.ObjActs[1465].Name = "Firelink New Londo Gate";  // disabled in m10_02 MSB
-            
+
+            Mod.GPARAM.ObjActs[1465].Name = "Firelink New Londo Gate"; // disabled in m10_02 MSB
+
             Mod.GPARAM.ObjActs[1550].Name = "Painted World Sewer Lever";
-            
+
             Mod.GPARAM.ObjActs[1580].Name = "Painted World Annex Door";
-            Mod.GPARAM.ObjActs[1580].SpQualifiedId = 2002;  // Tarnished Key
-            Mod.GPARAM.ObjActs[1580].SpQualifiedType2 = 1;  // has good
-            Mod.GPARAM.ObjActs[1580].SpQualifiedId2 = 2100;  // Skeleton Keys
-            
+            Mod.GPARAM.ObjActs[1580].SpQualifiedId = 2002; // Tarnished Key
+            Mod.GPARAM.ObjActs[1580].SpQualifiedType2 = 1; // has good
+            Mod.GPARAM.ObjActs[1580].SpQualifiedId2 = 2100; // Skeleton Keys
+
             Mod.GPARAM.ObjActs[6010].Name = "New Londo to Valley Gate";
             Mod.GPARAM.ObjActs[6010].ActionFailedMsgId = -1;
-            Mod.GPARAM.ObjActs[6010].SpQualifiedType = 0;  // none
+            Mod.GPARAM.ObjActs[6010].SpQualifiedType = 0; // none
             Mod.GPARAM.ObjActs[6010].SpQualifiedId = 0;
-            Mod.GPARAM.ObjActs[6010].SpQualifiedType2 = 0;  // none
+            Mod.GPARAM.ObjActs[6010].SpQualifiedType2 = 0; // none
             Mod.GPARAM.ObjActs[6010].SpQualifiedId2 = 0;
 
-            Mod.GPARAM.ObjActs[11305].Name = "Watchtower Basement (Lower)";  // disabled in m10_01 MSB (region trigger used)
-            
+            Mod.GPARAM.ObjActs[11305].Name =
+                "Watchtower Basement (Lower)"; // disabled in m10_01 MSB (region trigger used)
+
             Mod.GPARAM.ObjActs[11312].Name = "Lower Burg Basement Door";
             Mod.GPARAM.ObjActs[11312].ActionFailedMsgId = -1;
-            Mod.GPARAM.ObjActs[11312].SpQualifiedType = 0;  // none
+            Mod.GPARAM.ObjActs[11312].SpQualifiedType = 0; // none
             Mod.GPARAM.ObjActs[11312].SpQualifiedId = 0;
-            Mod.GPARAM.ObjActs[11312].SpQualifiedType2 = 0;  // none
+            Mod.GPARAM.ObjActs[11312].SpQualifiedType2 = 0; // none
             Mod.GPARAM.ObjActs[11312].SpQualifiedId2 = 0;
 
             Mod.GPARAM.ObjActs[16010].Name = "New Londo Flood Lever Gate";
-            Mod.GPARAM.ObjActs[16010].SpQualifiedId = 2003;  // Polished Key
-            Mod.GPARAM.ObjActs[16010].SpQualifiedType2 = 1;  // has good
-            Mod.GPARAM.ObjActs[16010].SpQualifiedId2 = 2100;  // Skeleton Keys
+            Mod.GPARAM.ObjActs[16010].SpQualifiedId = 2003; // Polished Key
+            Mod.GPARAM.ObjActs[16010].SpQualifiedType2 = 1; // has good
+            Mod.GPARAM.ObjActs[16010].SpQualifiedId2 = 2100; // Skeleton Keys
         }
 
 
@@ -607,11 +809,12 @@ namespace RoguelikeSouls.Installation
             newRing.Name = ringName;
             if (!Descriptions.ContainsKey(ringName))
                 throw new Exception($"No description for ring {ringName}.");
-            newRing.Summary = "Ring symbolizing an unbreakable friendship";
+            newRing.Summary = "象征牢不可破的友谊的戒指";
             newRing.Description = string.Join("\n", WordWrapper.WordWrap(Descriptions[ringName], 39));
             newRing.SortIndex = sortIndex;
             newRing.MenuIcon = iconID;
             newRing.SpecialEffect = spEffect;
+            newRing.Name = CNNames[ringName];
             return newRing;
         }
 
@@ -619,50 +822,50 @@ namespace RoguelikeSouls.Installation
         {
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 50010);
             Mod.GPARAM.ItemLots[50010].SetSimpleItem(ItemLotCategory.Good, 2001, 1, 50050010);
-            Mod.GPARAM.ItemLots[50010].Name = "Rusted Key";
+            Mod.GPARAM.ItemLots[50010].Name = CNNames["Rusted Key"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 50020);
             Mod.GPARAM.ItemLots[50020].SetSimpleItem(ItemLotCategory.Good, 2002, 1, 50050020);
-            Mod.GPARAM.ItemLots[50020].Name = "Tarnished Key";
+            Mod.GPARAM.ItemLots[50020].Name = CNNames["Tarnished Key"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 50030);
             Mod.GPARAM.ItemLots[50030].SetSimpleItem(ItemLotCategory.Good, 2003, 1, 50050030);
-            Mod.GPARAM.ItemLots[50030].Name = "Polished Key";
+            Mod.GPARAM.ItemLots[50030].Name = CNNames["Polished Key"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 50050);
             Mod.GPARAM.ItemLots[50050].SetSimpleItem(ItemLotCategory.Good, 2005, 1, 50050050);
-            Mod.GPARAM.ItemLots[50050].Name = "Giant Key";
+            Mod.GPARAM.ItemLots[50050].Name = CNNames["Giant Key"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 50060);
             Mod.GPARAM.ItemLots[50060].SetSimpleItem(ItemLotCategory.Good, 2006, 1, 50050060);
-            Mod.GPARAM.ItemLots[50060].Name = "Holy Sigil";
+            Mod.GPARAM.ItemLots[50060].Name = CNNames["Holy Sigil"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 50070);
             Mod.GPARAM.ItemLots[50070].SetSimpleItem(ItemLotCategory.Good, 2007, 1, 50050070);
-            Mod.GPARAM.ItemLots[50070].Name = "Piercing Eye";
+            Mod.GPARAM.ItemLots[50070].Name = CNNames["Piercing Eye"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 50100);
             Mod.GPARAM.ItemLots[50100].SetSimpleItem(ItemLotCategory.Good, 2100, 1, 50050100);
-            Mod.GPARAM.ItemLots[50100].Name = "Skeleton Keys";
+            Mod.GPARAM.ItemLots[50100].Name = CNNames["Skeleton Keys"];
 
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 51000);
             Mod.GPARAM.ItemLots[51000].SetSimpleItem(ItemLotCategory.Ring, 100, 1, 50051000);
-            Mod.GPARAM.ItemLots[51000].Name = "Alvina's Ring";
+            Mod.GPARAM.ItemLots[51000].Name = CNNames["Alvina's Ring"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 51010);
             Mod.GPARAM.ItemLots[51010].SetSimpleItem(ItemLotCategory.Ring, 101, 1, 50051010);
-            Mod.GPARAM.ItemLots[51010].Name = "Solaire's Ring";
+            Mod.GPARAM.ItemLots[51010].Name = CNNames["Solaire's Ring"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 51020);
             Mod.GPARAM.ItemLots[51020].SetSimpleItem(ItemLotCategory.Ring, 102, 1, 50051020);
-            Mod.GPARAM.ItemLots[51020].Name = "Siegmeyer's Ring";
+            Mod.GPARAM.ItemLots[51020].Name = CNNames["Siegmeyer's Ring"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 51030);
             Mod.GPARAM.ItemLots[51030].SetSimpleItem(ItemLotCategory.Ring, 103, 1, 50051030);
-            Mod.GPARAM.ItemLots[51030].Name = "Logan's Ring";
+            Mod.GPARAM.ItemLots[51030].Name = CNNames["Logan's Ring"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 51040);
             Mod.GPARAM.ItemLots[51040].SetSimpleItem(ItemLotCategory.Ring, 104, 1, 50051040);
-            Mod.GPARAM.ItemLots[51040].Name = "Quelana's Ring";
+            Mod.GPARAM.ItemLots[51040].Name = CNNames["Quelana's Ring"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 51050);
             Mod.GPARAM.ItemLots[51050].SetSimpleItem(ItemLotCategory.Ring, 105, 1, 50051050);
-            Mod.GPARAM.ItemLots[51050].Name = "Havel's Ring";
+            Mod.GPARAM.ItemLots[51050].Name = CNNames["Havel's Ring"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 51060);
             Mod.GPARAM.ItemLots[51060].SetSimpleItem(ItemLotCategory.Ring, 106, 1, 50051060);
-            Mod.GPARAM.ItemLots[51060].Name = "Mornstein's Ring";
+            Mod.GPARAM.ItemLots[51060].Name = CNNames["Mornstein's Ring"];
             Mod.GPARAM.ItemLots.CopyRow(ItemLotTemplate, 51070);
             Mod.GPARAM.ItemLots[51070].SetSimpleItem(ItemLotCategory.Ring, 107, 1, 50051070);
-            Mod.GPARAM.ItemLots[51070].Name = "LobosJr's Ring";
+            Mod.GPARAM.ItemLots[51070].Name = CNNames["Lobos Jr's Ring"];
         }
 
         void CreateGoods()
@@ -683,7 +886,8 @@ namespace RoguelikeSouls.Installation
             flame.ConfirmationMessage = 80033;
             flame.AutomaticallyEquipped = true;
 
-            Good endGame = CreateGood(602, "Heart of St. Jude", 5, Icons["Soul of Gwyn, Lord of Cinder"], SystemItemTemplate);
+            Good endGame = CreateGood(602, "Heart of St. Jude", 5, Icons["Soul of Gwyn, Lord of Cinder"],
+                SystemItemTemplate);
             endGame.RefID = 8897;
             endGame.ConfirmationMessage = 80034;
             endGame.ConsumedOnUse = true;
@@ -748,18 +952,24 @@ namespace RoguelikeSouls.Installation
 
             // CreateGood(384, "Peculiar Doll", 4030, Icons["Peculiar Doll"], KeyItemTemplate);  // the Painting will always appear
             Good key;
-            key = CreateGood(2001, "Rusted Key", 4021, Icons["Watchtower Basement Key"], KeyItemTemplate);  // unlocks basic wooden doors
+            key = CreateGood(2001, "Rusted Key", 4021, Icons["Watchtower Basement Key"],
+                KeyItemTemplate); // unlocks basic wooden doors
             key.IsUnique = true;
-            key = CreateGood(2002, "Tarnished Key", 4022, Icons["Key to Depths"], KeyItemTemplate);  // unlocks reinforced wooden doors (e.g. Depths)
+            key = CreateGood(2002, "Tarnished Key", 4022, Icons["Key to Depths"],
+                KeyItemTemplate); // unlocks reinforced wooden doors (e.g. Depths)
             key.IsUnique = true;
-            key = CreateGood(2003, "Polished Key", 4023, Icons["Basement Key"], KeyItemTemplate);  // unlocks basic metal gates
+            key = CreateGood(2003, "Polished Key", 4023, Icons["Basement Key"],
+                KeyItemTemplate); // unlocks basic metal gates
             key.IsUnique = true;
             // CreateGood(2004, "Mechanism Key", 4024, Icons["Crest Key"], KeyItemTemplate);  // allows use of most levers/mechanisms
-            key = CreateGood(2005, "Giant Key", 4025, Icons["Blighttown Key"], KeyItemTemplate);  // unlocks a few giant doors
+            key = CreateGood(2005, "Giant Key", 4025, Icons["Blighttown Key"],
+                KeyItemTemplate); // unlocks a few giant doors
             key.IsUnique = true;
-            key = CreateGood(2006, "Holy Sigil", 4026, Icons["Crest of Artorias"], KeyItemTemplate);  // allows use of most button-triggered elevators and Darkroot door
+            key = CreateGood(2006, "Holy Sigil", 4026, Icons["Crest of Artorias"],
+                KeyItemTemplate); // allows use of most button-triggered elevators and Darkroot door
             key.IsUnique = true;
-            key = CreateGood(2007, "Piercing Eye", 4027, Icons["Blue Eye Orb"], KeyItemTemplate);  // allows one to break illusory walls
+            key = CreateGood(2007, "Piercing Eye", 4027, Icons["Blue Eye Orb"],
+                KeyItemTemplate); // allows one to break illusory walls
             key.IsUnique = true;
             // CreateGood(2008, "Palace Key", 4028, Icons["Big Pilgrim's Key"], KeyItemTemplate);  // allows one to break illusory walls
             key = CreateGood(2100, "Skeleton Keys", 4029, Icons["Master Key"], KeyItemTemplate);
@@ -800,6 +1010,17 @@ namespace RoguelikeSouls.Installation
             newGood.Description = string.Join("\n", WordWrapper.WordWrap(Descriptions[goodName], 39));
             newGood.SortIndex = sortIndex;
             newGood.GoodIcon = iconID;
+            if (CNNames.ContainsKey(goodName))
+            {
+                newGood.Name = CNNames[goodName];
+            }
+            else
+            {
+#if DEBUG
+                Console.WriteLine($"找不到物品{goodName}的中文名");
+#endif
+            }
+
             return newGood;
         }
     }

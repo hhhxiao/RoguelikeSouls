@@ -13,51 +13,52 @@ namespace RoguelikeSouls.Installation
         // TODO: SpEffects are used in EMEVD to buff allies according to the level you're in.
         public static List<Ally> AllyList = new List<Ally>()
         {
-            new Ally(0)  { Name = "Alvina", OldParamID = 536100 },
-            new Ally(10) { Name = "Knight Solaire", OldParamID = 6000, Equipment =
+            new Ally(0)  { Name = "雅薇娜", OldParamID = 536100 },
+            new Ally(10) { Name = "太阳战士索拉尔", OldParamID = 6000, Equipment =
                 new EquipmentSet() {
                     RightHand1 = 50000, RightHand2 = 51000,
                     LeftHand1 = 52000, LeftHand2 = -1,
                     HeadArmor = 20000, BodyArmor = 21000,
                     ArmsArmor = 22000, LegsArmor = 23000,
                     } },
-            new Ally(20) { Name = "Siegmeyer of Catarina", OldParamID = 6280, Equipment =
+            new Ally(20) { Name = "卡塔利纳的杰克麦雅", OldParamID = 6280, Equipment =
                 new EquipmentSet() {
                     RightHand1 = 53000, RightHand2 = -1,
                     LeftHand1 = 54000, LeftHand2 = -1,
                     HeadArmor = 30000, BodyArmor = 31000,
                     ArmsArmor = 32000, LegsArmor = 33000,
                     } },
-            new Ally(30) { Name = "Big Hat Logan", OldParamID = 6030, Equipment =
+            new Ally(30) { Name = "大帽子罗根", OldParamID = 6030, Equipment =
                 new EquipmentSet() {
                     RightHand1 = 55000, RightHand2 = 56000,
                     LeftHand1 = 57000, LeftHand2 = -1,
                     HeadArmor = 40000, BodyArmor = 41000,
                     ArmsArmor = 42000, LegsArmor = 43000,
                     } },
-            new Ally(40) { Name = "Quelana of Izalith", OldParamID = 6170, Equipment =
+            new Ally(40) { Name = "伊扎里斯的克拉娜", OldParamID = 6170, Equipment =
                 new EquipmentSet() {
                     RightHand1 = 58000, RightHand2 = -1,
                     LeftHand1 = -1, LeftHand2 = -1,
                     HeadArmor = 50000, BodyArmor = 51000,
                     ArmsArmor = 52000, LegsArmor = 53000,
                     } },
-            new Ally(50) { Name = "Havel the Rock", OldParamID = 6580, Equipment =
+            new Ally(50) { Name = "坚石哈维尔", OldParamID = 6580, Equipment =
                 new EquipmentSet() {
                     RightHand1 = 59000, RightHand2 = -1,
                     LeftHand1 = 60000, LeftHand2 = -1,
                     HeadArmor = 60000, BodyArmor = 61000,
                     ArmsArmor = 62000, LegsArmor = 63000,
                     } },
-            new Ally(60) { Name = "King Mornstein", OldParamID = 527000 },
-            new Ally(70) { Name = "Lobos Jr", OldParamID = 452000 },
+           // new Ally(60) { Name = "King Mornstein", OldParamID = 527000 },
+             new Ally(60) { Name = "莫恩斯坦国王", OldParamID = 527000 },
+            new Ally(70) { Name = "小洛博斯", OldParamID = 452000 },
         };
 
         public static List<Merchant> MerchantList { get; } = new List<Merchant>()
         {
             new Merchant()
             {
-                Name = "Andre of Astora",
+                Name = "亚斯特拉的安德烈",
                 ModelID = 2640,
                 EntityID = 6100,
                 ParamID = 6100,
@@ -133,7 +134,7 @@ namespace RoguelikeSouls.Installation
             },
             new Merchant()
             {
-                Name = "Vamos",
+                Name = "巴摩斯",
                 ModelID = 2920,
                 EntityID = 6110,
                 ParamID = 6110,
@@ -191,7 +192,7 @@ namespace RoguelikeSouls.Installation
             },
             new Merchant()
             {
-                Name = "Undead Merchant",
+                Name = "不死镇商人",
                 ModelID = 2510,
                 EntityID = 6120,
                 ParamID = 6120,
@@ -247,7 +248,7 @@ namespace RoguelikeSouls.Installation
             //new Merchant("Crestfallen Merchant",       0, 6130, 6130,   6250, 150625, 5300,   -1),  // don't use his leaning animation
             new Merchant()
             {
-                Name = "Marvelous Chester",
+                Name = "伟哉切斯特",
                 ModelID = 4090,
                 EntityID = 6140,
                 ParamID = 6140,
@@ -606,10 +607,10 @@ namespace RoguelikeSouls.Installation
 
             // Add invader name and invasion messages.
             Mod.Text.NPCNames[InvaderNameTextOffset + invaderIndex] = invaderName;
-            Mod.Text.EventText[InvaderEventTextOffset + 10 * invaderIndex + 0] = $"Dark spirit {invaderName} has invaded!";
-            Mod.Text.EventText[InvaderEventTextOffset + 10 * invaderIndex + 1] = $"Dark spirit {invaderName} was vanquished";
-            Mod.Text.EventText[InvaderEventTextOffset + 10 * invaderIndex + 2] = $"Invading the world of {invaderName}";
-            Mod.Text.EventText[InvaderEventTextOffset + 10 * invaderIndex + 3] = $"Vengeance claimed upon {invaderName}";
+            Mod.Text.EventText[InvaderEventTextOffset + 10 * invaderIndex + 0] = $"已遭暗灵 {invaderName} 侵入!";
+            Mod.Text.EventText[InvaderEventTextOffset + 10 * invaderIndex + 1] = $"暗灵 {invaderName} 已被消灭";
+            Mod.Text.EventText[InvaderEventTextOffset + 10 * invaderIndex + 2] = $"已入侵 {invaderName} 的世界";
+            Mod.Text.EventText[InvaderEventTextOffset + 10 * invaderIndex + 3] = $"已向 {invaderName} 复仇";
 
             NPC invaderNPC = Mod.GPARAM.NPCs.CopyRow(Mod.VanillaGPARAM.NPCs[invader.TemplateParamID], invaderID);
             invaderNPC.Name = invaderName;
