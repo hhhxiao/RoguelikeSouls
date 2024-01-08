@@ -28,10 +28,8 @@ namespace RoguelikeSouls.Utils
             }
         }
 
-
         public string RandomWord(Random random, int min = 3, int max = 10)
         {
-
             StringBuilder builder = new StringBuilder();
             int ApproLen = random.Next(min, max + 1);
             int attempts = 0;
@@ -41,6 +39,7 @@ namespace RoguelikeSouls.Utils
                 if (attempts > 10) break;
                 builder.Append(this.Pool[random.Next(Pool.Count)]);
             }
+
             return builder.ToString();
         }
     }
@@ -76,6 +75,7 @@ namespace RoguelikeSouls.Utils
                 this.SentenceTypePool.Add(st);
             }
         }
+
         private String Preprocess(String sentence)
         {
             //     c[i] >= 0x4e00 && c[i] <= 0x9fbb
@@ -91,6 +91,7 @@ namespace RoguelikeSouls.Utils
                     {
                         builder.Append(ch);
                     }
+
                     lastIsZH = false;
                 }
                 else if ((int)ch >= 0x4e00 && (int)ch <= 0x9fbb) //汉字
@@ -100,14 +101,16 @@ namespace RoguelikeSouls.Utils
                     hans++;
                 }
                 else //标准ascii 或者其他标点
-                { }
+                {
+                }
             }
+
             if (hans == 0) return "";
 
             var res = builder.ToString();
             return res.Last() == '，' || res.Last() == '。' ? res.Substring(0, res.Length - 1) + "。" : res + "。";
-
         }
+
         public string RandomSentence(Random random)
         {
             var st = this.SentenceTypePool[random.Next(this.SentenceTypePool.Count)];
@@ -124,13 +127,10 @@ namespace RoguelikeSouls.Utils
                     var word = this.WordPool[flag][random.Next(Len)];
 
                     builder.Append(word);
-
-
                 }
             }
 
             return Preprocess(builder.ToString());
-
         }
 
 
@@ -145,8 +145,28 @@ namespace RoguelikeSouls.Utils
                 attempts++;
             }
 
-            return builder.ToString();
-        }
+            var res = builder.ToString();
+            StringBuilder resBuilder = new StringBuilder();
+            int curretLen = 0;
+            foreach (var ch in res)
+            {
+                resBuilder.Append(ch);
+                if (ch == '，' || ch == '。')
+                {
+                    if (curretLen >= 15)
+                    {
+                        resBuilder.Append('\n');
+                        curretLen = 0;
+                    }
+                }
+                else
+                {
+                    curretLen++;
+                }
+            }
 
+            Console.WriteLine($"{resBuilder.ToString()}");
+            return resBuilder.ToString();
+        }
     }
 }

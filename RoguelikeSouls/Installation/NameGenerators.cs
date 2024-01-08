@@ -627,7 +627,6 @@ namespace RoguelikeSouls.Installation
         const int maxAttempts = 50;
         //private List<string> TitleNames = new List<string>() { "恶魔", "火焰恶魔", "离群恶魔", "不死院恶魔", "巨偶", "猎龙者", "刽子手", "薪王", "暗月" };
 
-
         public BossNameGenerator(Random random)
         {
             Rand = random;
@@ -703,47 +702,23 @@ namespace RoguelikeSouls.Installation
             var name = type + ": " + this.Generator.RandomWord(this.Rand, 3, 7).Trim();
             //  Console.WriteLine($"法术名字: <{name}>");
             return name;
-            // Keeps trying to get a name that is naturally under the absolute max limit.
-            //    string randomName;
-            //    int attempts = 0;
-            //    do
-            //    {
-            //        randomName = $"{spellType}: {MarkovNames.Generate(minNameLength, exact)}";
-            //        attempts++;
-            //        if (attempts >= maxAttempts)
-            //            break;  // keep last name and trim
-            //    } while (randomName.Length > maxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
-
-            //    if (randomName.Length > maxNameLength)
-            //    {
-            //        // If max attempt number is exceeded (unlikely), just use a single random name.
-            //        randomName = $"{spellType}: {MarkovNames.Generate(minNameLength - (spellType.Length + 2), exact: true)}";
-            //    }
-            //    return randomName;
         }
     }
 
     class SpellDescriptionGenerator
     {
         private readonly Random Rand;
-        private readonly SmartMarkovProseGenerator MarkovDescriptions;
-
-        const int descriptionUnitSize = 2;
-        const int requestedLength = 15;
-        const int maxLineLength = 39; // TODO: Confirm.
+        private ZHParagraphGenerator ParagraphGenerator;
 
         public SpellDescriptionGenerator(Random random)
         {
             Rand = random;
-            MarkovDescriptions = new SmartMarkovProseGenerator(Resources.TextData.AllSpellDescriptions,
-                unitSize: descriptionUnitSize, random: Rand);
+            this.ParagraphGenerator = new ZHParagraphGenerator(Resources.TextData.AllSpellDescriptions.Split('\n').ToList());
         }
 
         public string GetRandomDescription(bool exact = false)
         {
-            string desc = MarkovDescriptions.Generate(requestedLength, exact);
-            // TOOD: Trim back to a comma if desc is too many lines.
-            return string.Join("\n", WordWrapper.WordWrap(desc, maxLineLength));
+            return this.ParagraphGenerator.RandomParagraph(this.Rand, 60, 100);
         }
     }
 }
