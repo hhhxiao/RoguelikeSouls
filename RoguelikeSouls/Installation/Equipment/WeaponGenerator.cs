@@ -29,10 +29,7 @@ namespace RoguelikeSouls.Installation
         public string WeaponClass { get; } // Melee, Bow, Crossbow, Catalyst, Talisman, Flame, Shield, Special  
 
         public string
-            WeaponSubclass
-        {
-            get;
-        } // e.g. Dagger, StraightSword, Greatsword... or Bow, Greatbow... or Shield, Greatshield...
+            WeaponSubclass { get; } // e.g. Dagger, StraightSword, Greatsword... or Bow, Greatbow... or Shield, Greatshield...
 
         public int ParamId { get; } // for Weapon param
         public int ModelId { get; }
@@ -976,10 +973,7 @@ namespace RoguelikeSouls.Installation
             // Animations 900 to 908 are some kind of "Ryuken" Fists variant. Not using this special category (117).
         };
 
-        static Dictionary<string, (byte strength, byte dexterity, byte intelligence, byte faith)> BaseRequiredStats
-        {
-            get;
-        }
+        static Dictionary<string, (byte strength, byte dexterity, byte intelligence, byte faith)> BaseRequiredStats { get; }
             = new Dictionary<string, (byte strength, byte dexterity, byte intelligence, byte faith)>
             {
                 { "Dagger", (9, 11, 8, 8) },
@@ -1761,7 +1755,11 @@ namespace RoguelikeSouls.Installation
             RandomizeRequiredStats(newWeapon, modelWeaponStats.WeaponSubclass, randomRange: 0.1);
             newWeapon.Name = weaponName;
             newWeapon.Row.Name = $"<{modelWeaponStats.WeaponSubclass}|{baseWeaponStats.WeaponSubclass}> {weaponName}";
-            newWeapon.Summary = modelWeaponStats.WeaponSubclass; // TODO: Correct?
+
+            // newWeapon.Summary = modelWeaponStats.WeaponSubclass; // TODO: Correct?
+            newWeapon.Summary = WeaponNameGenerator.GetSubClassCN(modelWeaponStats.WeaponClass);
+            // $"这是测试类型: {modelWeaponStats.WeaponSubclass}"; // TODO: Correct?
+            //     Console.WriteLine($"测试类型 {modelWeaponStats.WeaponSubclass}");
             newWeapon.Description = weaponDesc;
             newWeapon.BehaviorVariationID = behaviorVarId;
             newWeapon.SortIndex = SortIndex;

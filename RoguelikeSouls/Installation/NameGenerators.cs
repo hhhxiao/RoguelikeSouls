@@ -12,6 +12,8 @@ using ArmorNameOptionDict =
         System.Collections.Generic.List<string> heavy)>;
 using JiebaNet.Segmenter;
 using System.IO;
+using System.IO.Pipes;
+using System.Security.Permissions;
 using System.Text;
 
 namespace RoguelikeSouls.Installation
@@ -20,6 +22,9 @@ namespace RoguelikeSouls.Installation
     {
         public static readonly WeaponNameOptionDict ClassOptions = new WeaponNameOptionDict()
         {
+            {
+                "Melee", (new List<string>() { "近战" }, new List<string>() { "近战" })
+            },
             {
                 "Dagger", (
                     // new List<string>() { "Dagger", "Knife", "Tracer", "Dirk", "Quickblade" },
@@ -227,6 +232,19 @@ namespace RoguelikeSouls.Installation
         }
 
 
+        public static string GetSubClassCN(string weaponClass)
+        {
+            if (ClassOptions.ContainsKey((weaponClass)))
+            {
+                return ClassOptions[weaponClass].common[0];
+            }
+            else
+            {
+                Console.WriteLine("Unknown weapon class name: " + weaponClass);
+                return weaponClass;
+            }
+        }
+
         public string GetRandomName(out string randomPart, string weaponClass = "", bool isLegendary = false,
             bool exact = false)
         {
@@ -240,41 +258,8 @@ namespace RoguelikeSouls.Installation
             // int actualMaxNameLength = className != "" ? (maxNameLength - (className.Length + (isTitled ? 4 : 1))) : maxNameLength;
             //  randomPart = "";
             return fullName;
-            //int actualMinNameLength = Math.Min(minNameLength, actualMaxNameLength - 2);
-
-            //if (actualMaxNameLength < 3)
-            //{
-            //    className = "";
-            //    actualMaxNameLength = maxNameLength;
-            //}
-
-            //// Keeps trying to get a name that is naturally under the absolute max limit (which is affected by class name).
-            //string randomName;
-            //int attempts = 0;
-            //do
-            //{
-            //    randomName = MarkovNames.Generate(actualMinNameLength, exact);
-            //    // Console.WriteLine($"Random name: {randomName}");
-            //    attempts++;
-            //    if (attempts >= maxAttempts)
-            //        break;
-            //} while (randomName.Length > actualMaxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
-            //if (randomName.Length > actualMaxNameLength)
-            //{
-            //    // If max attempt number is exceeded (unlikely), just trim the last name.
-            //    randomName = TrimName(randomName, actualMaxNameLength);
-            //}
-            ////    Console.WriteLine($"Random Name = {randomName}");
-
-            //randomPart = randomName;  // Can use output to affect description (TODO).
-
-            //if (className == "")
-            //    return randomName;
-            //else if (isTitled)
-            //    return $"{randomName}的{className}";
-            //else
-            //    return $"{randomName} {className}";
         }
+
 
         //返回武器类名(后缀)
         string GetRandomClassName(string weaponClass, bool isLegendary)
@@ -339,16 +324,6 @@ namespace RoguelikeSouls.Installation
             var res = this.ParagraphGenerator.RandomParagraph(this.Rand, 60, 100);
             //  Console.WriteLine($"武器描述信息: {res}");
             return res;
-
-            //string desc = MarkovDescriptions.Generate(requestedLength, exact);
-            //while (desc.Length > maxCharLength && desc.Contains(","))  // Cut off at last comma.
-            //    desc = desc.Substring(0, desc.LastIndexOf(',')) + ".";
-
-            //string wrappedDesc = string.Join("\n", WordWrapper.WordWrap(desc, maxLineLength));
-            //if (extraParagraph != "")
-            //    return string.Join("\n", WordWrapper.WordWrap(extraParagraph, maxLineLength)) + "\n\n" + wrappedDesc;
-            //else
-            //    return wrappedDesc;
         }
     }
 
@@ -412,25 +387,6 @@ namespace RoguelikeSouls.Installation
             foreach (string pieceType in PieceNameOptions.Keys)
                 pieceNames[pieceType] = GetRandomClassName(pieceType, isLegendary);
 
-            //int actualMaxNameLength = pieceNames.Values.Min(name => maxNameLength - (name.Length + (isTitled ? 4 : 1)));
-            //int actualMinNameLength = Math.Min(minNameLength, actualMaxNameLength - 2);
-
-            //// Tries to get a name that is naturally under the actual maximum length.
-            //string randomName;
-            //int attempts = 0;
-            //do
-            //{
-            //    randomName = MarkovNames.Generate(actualMinNameLength, exact);
-            //    attempts++;
-            //    if (attempts >= maxAttempts)
-            //        break;
-            //} while (randomName.Length > actualMaxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
-            //if (randomName.Length > actualMaxNameLength)
-            //{
-            //    // If max attempt number is exceeded (unlikely), just trim the last name.
-            //    randomName = TrimName(randomName, actualMaxNameLength);
-            //}
-
             randomPart = this.Generator.RandomWord(this.Rand, 3, 6); // Can use output to affect description (TODO).
 
             Dictionary<string, string> pieceFullNames = new Dictionary<string, string>();
@@ -441,7 +397,6 @@ namespace RoguelikeSouls.Installation
                 pieceFullNames[pieceType] = fullName;
             }
 
-            //pieceFullNames[pieceType] = isTitled ? $"{pieceNames[pieceType]} of {randomName}" : $"{randomName} {pieceNames[pieceType]}";
             return pieceFullNames;
         }
 
@@ -516,15 +471,6 @@ namespace RoguelikeSouls.Installation
             Dictionary<string, string> wrappedPieceDescriptions = new Dictionary<string, string>();
             foreach (string pieceType in PieceTypes)
             {
-                //if (extraParagraphs[pieceType] != "")
-                //{
-                //    string wrappedExtraParagraph = string.Join("\n", WordWrapper.WordWrap(extraParagraphs[pieceType], maxLineLength));
-                //    //    wrappedPieceDescriptions[pieceType] = wrappedExtraParagraph + "\n\n" + res;
-                //}
-                //else
-                //{
-                //    wrappedPieceDescriptions[pieceType] = res;
-                //}
                 wrappedPieceDescriptions[pieceType] = res;
             }
 
@@ -590,13 +536,6 @@ namespace RoguelikeSouls.Installation
             return builder.ToString();
         }
 
-        private string RandomPlaceName()
-        {
-            List<String> names = new List<string>();
-
-            return "";
-        }
-
         public string GetRandomName(string npcTitle = "", bool exact = false)
         {
             var Place = this.PlaceNames[Rand.Next(this.PlaceNames.Count)];
@@ -607,7 +546,7 @@ namespace RoguelikeSouls.Installation
                 Name = $"{this.RandomName()},{Place}的{npcTitle}";
             }
 
-            Console.WriteLine($"NPC名字: {Name}");
+            // Console.WriteLine($"NPC名字: {Name}");
 
             return Name;
         }
@@ -653,7 +592,7 @@ namespace RoguelikeSouls.Installation
                 randomName = MarkovNames.Generate(minNameLength, exact: true);
             }
 
-            Console.WriteLine($"Boss Name: {randomName}");
+            //  Console.WriteLine($"Boss Name: {randomName}");
             return randomName;
         }
     }

@@ -16,6 +16,7 @@ namespace RoguelikeSouls.Installation
         private readonly SoulsMod Mod;
 
         private int SortIndex = 0;
+
         Dictionary<string, (int offset, Type legendClass)> PieceInfo { get; } = new Dictionary<string, (int, Type)>()
         {
             { "Head", (0, typeof(LegendaryHeadArmorEffects)) },
@@ -23,34 +24,47 @@ namespace RoguelikeSouls.Installation
             { "Arms", (2000, typeof(LegendaryArmsArmorEffects)) },
             { "Legs", (3000, typeof(LegendaryLegsArmorEffects)) },
         };
+
         static Dictionary<string, List<int>> WeightClasses { get; } = new Dictionary<string, List<int>>()
         {
-            { "Light", new List<int> {
-                 50000,  60000, 140000, 150000, 220000, 230000, 250000, 290000,
-                300000, 310000, 330000, 340000, 360000, 370000, 380000, 400000,
-                410000, 460000, 500000, 540000, 550000, 640000, 670000, 700000
-            } },
-            { "Medium", new List<int> {
-                 10000,  20000,  40000,  90000, 100000, 110000, 130000, 160000,
-                170000, 180000, 200000, 210000, 240000, 270000, 280000, 350000,
-                390000, 450000, 480000, 510000, 520000, 650000, 660000
-            } },
-            { "Heavy", new List<int> {
-                 70000,  80000, 120000, 320000, 420000, 440000, 470000, 490000,
-                530000, 680000, 690000
-            } },
-            { "SpecialHead", new List<int> {
-                560000,  // Sack
-                570000,  // Symbol of Avarice
-                580000,  // Royal Helm
-                590000,  // Mask of the Father
-                600000,  // Mask of the Mother
-                610000,  // Mask of the Child
-                620000,  // Fang Boar Helm
-                630000,  // Gargoyle Helm
-                710000,  // Bloated Head
-                720000,  // Bloated Sorcerer 
-            } }
+            {
+                "Light", new List<int>
+                {
+                    50000, 60000, 140000, 150000, 220000, 230000, 250000, 290000,
+                    300000, 310000, 330000, 340000, 360000, 370000, 380000, 400000,
+                    410000, 460000, 500000, 540000, 550000, 640000, 670000, 700000
+                }
+            },
+            {
+                "Medium", new List<int>
+                {
+                    10000, 20000, 40000, 90000, 100000, 110000, 130000, 160000,
+                    170000, 180000, 200000, 210000, 240000, 270000, 280000, 350000,
+                    390000, 450000, 480000, 510000, 520000, 650000, 660000
+                }
+            },
+            {
+                "Heavy", new List<int>
+                {
+                    70000, 80000, 120000, 320000, 420000, 440000, 470000, 490000,
+                    530000, 680000, 690000
+                }
+            },
+            {
+                "SpecialHead", new List<int>
+                {
+                    560000, // Sack
+                    570000, // Symbol of Avarice
+                    580000, // Royal Helm
+                    590000, // Mask of the Father
+                    600000, // Mask of the Mother
+                    610000, // Mask of the Child
+                    620000, // Fang Boar Helm
+                    630000, // Gargoyle Helm
+                    710000, // Bloated Head
+                    720000, // Bloated Sorcerer 
+                }
+            }
         };
 
         public static List<int> IncompleteSets { get; } = new List<int>() { 480000, 500000, 520000 };
@@ -104,7 +118,8 @@ namespace RoguelikeSouls.Installation
                     if (roll < oddsTotal)
                         return chosenID + upgrade;
                 }
-                return chosenID;  // No upgrade.
+
+                return chosenID; // No upgrade.
             }
         }
 
@@ -154,12 +169,12 @@ namespace RoguelikeSouls.Installation
             // Modify Armor Upgrade and armor Upgrade Material params.
             ModifyUpgradeParams();
 
-            CreateStartingArmorSet(500000, 10000, noArms: true);  // Starting armor (Hollow Thief set).
-            CreateStartingArmorSet(160000, 20000);  // Sunlight set (Solaire)
-            CreateStartingArmorSet(10000, 30000);  // Catarina set (Siegmeyer)
-            CreateStartingArmorSet(380000, 40000);  // Big Hat set (Logan)
-            CreateStartingArmorSet(460000, 50000);  // Gold-Hemmed set (Quelana)
-            CreateStartingArmorSet(440000, 60000);  // Havel's set 
+            CreateStartingArmorSet(500000, 10000, noArms: true); // Starting armor (Hollow Thief set).
+            CreateStartingArmorSet(160000, 20000); // Sunlight set (Solaire)
+            CreateStartingArmorSet(10000, 30000); // Catarina set (Siegmeyer)
+            CreateStartingArmorSet(380000, 40000); // Big Hat set (Logan)
+            CreateStartingArmorSet(460000, 50000); // Gold-Hemmed set (Quelana)
+            CreateStartingArmorSet(440000, 60000); // Havel's set 
         }
 
         void CreateArmorSet(string armorClass, ref int armorIndex, bool isAbyssal = false)
@@ -179,17 +194,18 @@ namespace RoguelikeSouls.Installation
             foreach (string pieceType in PieceInfo.Keys)
             {
                 if (pieceType == "Arms" && modelSet.Arms == null)
-                    continue;  // Don't record missing arms.
+                    continue; // Don't record missing arms.
 
                 if (isBasic || isLegendary || isAbyssal)
                 {
-                    armorEffects[pieceType] = (LegendaryArmorEffects)Activator.CreateInstance(PieceInfo[pieceType].legendClass, isBasic, isLegendary, isAbyssal, Rand);
+                    armorEffects[pieceType] =
+                        (LegendaryArmorEffects)Activator.CreateInstance(PieceInfo[pieceType].legendClass, isBasic, isLegendary, isAbyssal, Rand);
                     if (isAbyssal)
                         AbyssalArmor.Add(headArmorParamId + PieceInfo[pieceType].offset);
                     else if (isLegendary)
                         LegendaryArmor.Add(headArmorParamId + PieceInfo[pieceType].offset);
                     else if (isBasic)
-                        BasicArmor.Add(headArmorParamId + PieceInfo[pieceType].offset);  // Probably won't use this, but just in case.
+                        BasicArmor.Add(headArmorParamId + PieceInfo[pieceType].offset); // Probably won't use this, but just in case.
                 }
                 else
                 {
@@ -197,6 +213,7 @@ namespace RoguelikeSouls.Installation
                     GenericArmor.Add(headArmorParamId + PieceInfo[pieceType].offset);
                 }
             }
+
             BasicArmorSetup(headArmorParamId, armorEffects, modelSet, defenseSet, resistanceSet);
             armorIndex++;
         }
@@ -231,7 +248,7 @@ namespace RoguelikeSouls.Installation
             foreach (string pieceType in PieceInfo.Keys)
             {
                 if (pieceType == "Arms" && modelSet.Arms == null)
-                    continue;  // Some Hollow sets are missing arms. Don't create arms for them.
+                    continue; // Some Hollow sets are missing arms. Don't create arms for them.
 
                 LegendaryArmorEffects armorEffects = legendaryEffects[pieceType];
                 string armorName = pieceNames[pieceType];
@@ -244,12 +261,13 @@ namespace RoguelikeSouls.Installation
                 newArmor.Name = armorName;
                 newArmor.Row.Name = $"<{modelSet.WeightClass}|{defenseSet.WeightClass}> {armorName}";
                 // No summary (short description).
+                newArmor.Summary = "";
                 newArmor.Description = armorDesc;
                 newArmor.SortIndex = SortIndex;
                 SortIndex++;
 
                 if (armorEffects != null)
-                    armorEffects.ApplyEffects(newArmor);  // applies basic and abyssal effects as needed
+                    armorEffects.ApplyEffects(newArmor); // applies basic and abyssal effects as needed
 
                 // Create reinforcement names.
                 for (int upgradeLevel = 1; upgradeLevel <= 4; upgradeLevel++)
@@ -257,7 +275,6 @@ namespace RoguelikeSouls.Installation
                     Mod.Text.ArmorNames[newArmor.ID + upgradeLevel] = $"{armorName}+{upgradeLevel}";
                     // Summaries and descriptions are always loaded from base ID.
                 }
-
             }
         }
 
@@ -344,9 +361,9 @@ namespace RoguelikeSouls.Installation
             newArmor.UpgradeOrigin14 = -1;
             newArmor.UpgradeOrigin15 = -1;
 
-            newArmor.WearerSpecialEffect1 = -1;  // Stamina reduction change; copied from defense override.
-            newArmor.WearerSpecialEffect2 = 6300;  // All armor grants this poise animation change.
-            newArmor.WearerSpecialEffect3 = -1;  // Optional legendary effect.
+            newArmor.WearerSpecialEffect1 = -1; // Stamina reduction change; copied from defense override.
+            newArmor.WearerSpecialEffect2 = 6300; // All armor grants this poise animation change.
+            newArmor.WearerSpecialEffect3 = -1; // Optional legendary effect.
         }
 
         void ModifyUpgradeParams()
@@ -354,7 +371,7 @@ namespace RoguelikeSouls.Installation
             for (int upgradeLevel = 1; upgradeLevel <= 4; upgradeLevel++)
             {
                 int upgradeMaterialID = 7000 + upgradeLevel;
-                int titaniteID = 1100 + 10 * (upgradeLevel - 1);  // Small/Large/Giant/Colossal Titanite Piece
+                int titaniteID = 1100 + 10 * (upgradeLevel - 1); // Small/Large/Giant/Colossal Titanite Piece
                 Mod.GPARAM.UpgradeMaterials[upgradeMaterialID].Name = $"Armor +{upgradeLevel}";
                 Mod.GPARAM.UpgradeMaterials[upgradeMaterialID].ItemNum01 = 1;
                 Mod.GPARAM.UpgradeMaterials[upgradeMaterialID].MaterialId01 = titaniteID;
@@ -394,7 +411,7 @@ namespace RoguelikeSouls.Installation
                 newPiece.Description = oldPiece.Description;
                 newPiece.SortIndex = SortIndex;
                 SortIndex++;
-                for (int i = 1; i <= 15; i++)  // Remove upgrades.
+                for (int i = 1; i <= 15; i++) // Remove upgrades.
                     newPiece.Row[$"originEquipPro{i}"].Value = -1;
             }
         }

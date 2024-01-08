@@ -153,7 +153,7 @@ namespace RoguelikeSouls.Utils
                 resBuilder.Append(ch);
                 if (ch == '，' || ch == '。')
                 {
-                    if (curretLen >= 15)
+                    if (curretLen >= 10)
                     {
                         resBuilder.Append('\n');
                         curretLen = 0;
@@ -165,7 +165,7 @@ namespace RoguelikeSouls.Utils
                 }
             }
 
-            Console.WriteLine($"{resBuilder.ToString()}");
+            // Console.WriteLine($"{resBuilder.ToString()}");
             return resBuilder.ToString();
         }
     }
