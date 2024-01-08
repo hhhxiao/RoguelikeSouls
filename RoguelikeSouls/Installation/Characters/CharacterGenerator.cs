@@ -314,7 +314,8 @@ namespace RoguelikeSouls.Installation
                 ArmorWeight = "Medium",
                 SpellType = "Miracle",
                 SpellCount = 2,
-                TitleNames = new string[] { "Knight", "Warrior", "Soldier", "Champion", "Paladin" }
+                //TitleNames = new string[] { "Knight", "Warrior", "Soldier", "Champion", "Paladin" }
+                TitleNames = new string[] { "骑士", "战士", "士兵", "冠军", "圣骑士" }
             },
             new Invader()  // Oscar template
             {
@@ -322,7 +323,8 @@ namespace RoguelikeSouls.Installation
                 RightHand1 = "StraightSword",
                 LeftHand1 = "Shield",
                 ArmorWeight = "Medium",
-                TitleNames = new string[] { "Knight", "Warrior", "Soldier", "Champion", "Veteran" }
+                //TitleNames = new string[] { "Knight", "Warrior", "Soldier", "Champion", "Veteran" }
+                TitleNames = new string[] { "骑士", "战士", "士兵", "冠军", "老兵" }
             },
             new Invader()  // Logan template
             {
@@ -332,7 +334,8 @@ namespace RoguelikeSouls.Installation
                 ArmorWeight = "Light",
                 SpellType = "Sorcery",
                 SpellCount = 4,
-                TitleNames = new string[] { "Wizard", "Sorcerer", "Magus", "Warlock", "Witch" }
+                //TitleNames = new string[] { "Wizard", "Sorcerer", "Magus", "Warlock", "Witch" }
+                TitleNames = new string[] { "巫师", "法师", "魔法师", "咒术师", "女巫" }
             },
             new Invader()  // Petrus template
             {
@@ -343,7 +346,8 @@ namespace RoguelikeSouls.Installation
                 ArmorWeight = "Medium",
                 SpellType = "Miracle",
                 SpellCount = 2,
-                TitleNames = new string[] { "Cleric", "Battlemage", "Magus", "Witch" }
+                //TitleNames = new string[] { "Cleric", "Battlemage", "Magus", "Witch" }
+                TitleNames = new string[] { "圣职", "战斗法师", "魔法师", "女巫" }
             },
             new Invader()  // Laurentius template
             {
@@ -353,7 +357,9 @@ namespace RoguelikeSouls.Installation
                 ArmorWeight = "Light",
                 SpellType = "Pyromancy",
                 SpellCount = 3,
-                TitleNames = new string[] { "Pyromancer", "Warlock" }
+                //TitleNames = new string[] { "Pyromancer", "Warlock" }
+                TitleNames = new string[] { "火法师", "咒术师" }
+
             },
             new Invader()  // Crestfallen Merchant template
             {
@@ -361,7 +367,10 @@ namespace RoguelikeSouls.Installation
                 RightHand1 = "Greatsword",
                 LeftHand1 = "Greatshield",
                 ArmorWeight = "Heavy",
-                TitleNames = new string[] { "Warrior", "Soldier", "Knight", "Cavalier", "Great Knight" }
+                //TitleNames = new string[] { "Warrior", "Soldier", "Knight", "Cavalier", "Great Knight" }
+                TitleNames = new string[] { "战士", "士兵", "骑士", "骑兵", "大骑士" }
+
+
             },
             new Invader()  // Siegmeyer template
             {
@@ -369,7 +378,8 @@ namespace RoguelikeSouls.Installation
                 RightHand1 = "UltraGreatsword",
                 LeftHand1 = "Shield",
                 ArmorWeight = "Medium",
-                TitleNames = new string[] { "Knight", "Warrior", "Champion" }
+                //TitleNames = new string[] { "Knight", "Warrior", "Champion" }
+                TitleNames = new string[] { "骑士", "战士", "冠军" }
             },
             new Invader()  // Lautrec template 
             {
@@ -377,7 +387,8 @@ namespace RoguelikeSouls.Installation
                 RightHand1 = "CurvedSword",
                 LeftHand1 = "CurvedSword",
                 ArmorWeight = "Heavy",
-                TitleNames = new string[] { "Knight", "Butcher", "Sellsword", "Mercenary" }
+                //TitleNames = new string[] { "Knight", "Butcher", "Sellsword", "Mercenary" }
+                TitleNames = new string[] { "骑士", "屠夫", "雇佣剑士", "雇佣兵" }
             },
             new Invader()  // Patches template
             {
@@ -385,7 +396,8 @@ namespace RoguelikeSouls.Installation
                 RightHand1 = "Spear",
                 LeftHand1 = "Shield",
                 ArmorWeight = "Medium",
-                TitleNames = new string[] { "Lancer", "Piker", "Bodyguard" }
+                //TitleNames = new string[] { "Lancer", "Piker", "Bodyguard" }
+                TitleNames = new string[] { "枪兵", "长矛兵","护卫"}
             },
             new Invader()  // Patches halberd variant
             {
@@ -393,7 +405,8 @@ namespace RoguelikeSouls.Installation
                 RightHand1 = "Halberd",
                 LeftHand1 = "Shield",
                 ArmorWeight = "Medium",
-                TitleNames = new string[] { "Halberdier", "Lancer", "Knight", "Footsoldier" }
+                //TitleNames = new string[] { "Halberdier", "Lancer", "Knight", "Footsoldier" }
+                TitleNames = new string[] { "戟兵", "枪兵", "骑士", "步兵" }
             },
             new Invader()  // Havel template
             {
@@ -401,7 +414,8 @@ namespace RoguelikeSouls.Installation
                 RightHand1 = "GreatHammer",
                 LeftHand1 = "Greatshield",
                 ArmorWeight = "Heavy",
-                TitleNames = new string[] { "Knight", "Bishop", "Vanquisher", "Conqueror" } 
+               // TitleNames = new string[] { "Knight", "Bishop", "Vanquisher", "Conqueror" }
+                TitleNames = new string[] { "骑士", "主教", "胜利者", "征服者" }
             },
             new Invader()  // Ricard template
             {
@@ -410,7 +424,8 @@ namespace RoguelikeSouls.Installation
                 RightHand2 = "Bow",
                 LeftHand1 = "Shield",
                 ArmorWeight = "Medium",
-                TitleNames = new string[] { "Knight", "Hunter", "Archer", "Ranger" } 
+                //TitleNames = new string[] { "Knight", "Hunter", "Archer", "Ranger" }
+                TitleNames = new string[] { "骑士", "猎人", "弓箭手", "游侠" }
             },
             new Invader()  // Witch template
             {
@@ -419,7 +434,8 @@ namespace RoguelikeSouls.Installation
                 ArmorWeight = "Light",
                 SpellType = "Pyromancy",
                 SpellCount = 4,
-                TitleNames = new string[] { "Witch", "Warlock", "Pyromancer", "Pyromaniac", "Firemagus" } 
+                //TitleNames = new string[] { "Witch", "Warlock", "Pyromancer", "Pyromaniac", "Firemagus" }
+                TitleNames = new string[] { "女巫", "咒术师", "火法师", "火焰狂人", "火焰魔法师" }
             },
             new Invader()  // Ciaran template
             {
@@ -427,7 +443,8 @@ namespace RoguelikeSouls.Installation
                 RightHand2 = "Dagger",  // Note her weapons are in slot 2, as Ciaran is unarmed by default.
                 LeftHand2 = "CurvedSword",
                 ArmorWeight = "Light",
-                TitleNames = new string[] { "Twinblade", "Stalker", "Assassin", "Mercenary" },
+                //TitleNames = new string[] { "Twinblade", "Stalker", "Assassin", "Mercenary" },
+                TitleNames = new string[] { "双刃", "潜行者", "刺客", "雇佣兵" },
                 UsesOffensiveGood = true,
             },
         };
@@ -605,7 +622,7 @@ namespace RoguelikeSouls.Installation
             invaderNPC.NewGamePlusSpecialEffect = 7401;
             for (int lot = 2; lot < 7; lot++)  // Clear remaining item lots.
                 invaderNPC.Row[$"itemLotId_{lot}"].Value = -1;
-            
+
             // Create level variants. They all have the same drop table.
             for (int level = 1; level < 10; level++)
             {

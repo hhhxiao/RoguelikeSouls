@@ -36,9 +36,20 @@ def save_list(lst, name: str):
 
 
 def save_all_armor_descriptions():
-    save_list(
-        read_fmg_as_list("./xmls/Armor_long_desc_.fmg.xml"), "AllArmorDescriptions.txt"
-    )
+    lst = read_fmg_as_list("./xmls/Armor_long_desc_.fmg.xml")
+
+    res = []
+    for i in lst:
+        sps = i.split("\n\n")
+        for j in sps:
+            j = j.replace("\n", "")
+            ss = j.split("。")
+            for x in ss:
+                if len(x.strip()) > 0:
+                    if not ("／" in x or "【" in x or "platmsg" in x or "武器种类" in x):
+                        res.append(x.replace("“", "").replace("”", "") + "。")
+
+    save_list(list(dict.fromkeys(res)), "AllArmorDescriptions.txt")
 
 
 def save_all_armor_names():
@@ -183,15 +194,22 @@ def save_weapon_names():
 def save_all_weapon_descriptions():
     lst = read_fmg_as_list("./xmls/Weapon_long_desc_.fmg.xml")
 
-    def mapper(name: str):
-        return "\n\n".join(name.split("\n"))
+    res = []
+    for i in lst:
+        sps = i.split("\n\n")
+        for j in sps:
+            j = j.replace("\n", "")
+            ss = j.split("。")
+            for x in ss:
+                if len(x.strip()) > 0:
+                    if not ("／" in x or "【" in x or "platmsg" in x or "武器种类" in x):
+                        res.append(x.replace("“", "").replace("”", "") + "。")
 
-    lst = map(mapper, lst)
-    save_list(lst, "AllWeaponDescriptions.txt")
+    save_list(res, "AllWeaponDescriptions.txt")
 
 
 # save_all_armor_names()
-saves_all_spell_names()
+save_all_armor_descriptions()
 
 
 # weapon_set = []

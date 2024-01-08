@@ -11,6 +11,7 @@ using RoguelikeSouls.Installation;
 using System.Windows.Forms;
 using System.Resources;
 using JiebaNet.Segmenter;
+using RoguelikeSouls.Utils;
 
 namespace RoguelikeSouls
 {
@@ -106,13 +107,18 @@ COMMANDS:
         static void Main()
         {
 
-            //          JiebaSegmenter segmenter = new JiebaSegmenter();
-            // List<string> sps =  ;
 
-            //          Console.WriteLine(string.Join(" / ", segmenter.Cut("灵魂结晶枪").ToList()));
-            //  Console.ReadLine();
+            //Random random = new Random();
+            //ZHParagraphGenerator paragraphGenerator = new ZHParagraphGenerator(Resources.TextData.AllWeaponDescriptions.Split('\n').ToList());
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine(paragraphGenerator.RandomSentence(random));
 
-            //            return;
+            //}
+
+
+            //Console.ReadKey();
+            //return;
 
             Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("zh-CN");
             //   System.Diagnostics.Process.Start("CMD.exe", "chcp5001");

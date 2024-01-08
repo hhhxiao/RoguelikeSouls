@@ -8,6 +8,7 @@ using WeaponNameOptionDict = System.Collections.Generic.Dictionary<string, (Syst
 using ArmorNameOptionDict = System.Collections.Generic.Dictionary<string, (System.Collections.Generic.List<string> light, System.Collections.Generic.List<string> heavy)>;
 using JiebaNet.Segmenter;
 using System.IO;
+using System.Text;
 
 namespace RoguelikeSouls.Installation
 {
@@ -179,7 +180,7 @@ namespace RoguelikeSouls.Installation
                 ) }
         };
         private readonly Random Rand;
-        private readonly MarkovWordGenerator MarkovNames;
+        // private readonly MarkovWordGenerator MarkovNames;
         private readonly List<string> CensoredWords = new List<string>() { "fuck", "shit", "cunt", "rape", "cock", "nigg", "tits", "tard" };
 
         const int nameUnitSize = 2;
@@ -207,7 +208,7 @@ namespace RoguelikeSouls.Installation
             if (min == 0) min += 1;
             randomPart = this.Generator.RandomWord(this.Rand, min, 6);
             var fullName = $"{randomPart}{className}";
-            Console.WriteLine($"生成武器: <{fullName}>");
+            //  Console.WriteLine($"生成武器: <{fullName}>");
             // int actualMaxNameLength = className != "" ? (maxNameLength - (className.Length + (isTitled ? 4 : 1))) : maxNameLength;
             //  randomPart = "";
             return fullName;
@@ -289,6 +290,7 @@ namespace RoguelikeSouls.Installation
     {
         private readonly Random Rand;
         private readonly SmartMarkovProseGenerator MarkovDescriptions;
+        ZHParagraphGenerator ParagraphGenerator;
 
         const int descriptionUnitSize = 2;
         const int requestedLength = 15;
@@ -298,20 +300,26 @@ namespace RoguelikeSouls.Installation
         public WeaponDescriptionGenerator(Random random)
         {
             Rand = random;
-            MarkovDescriptions = new SmartMarkovProseGenerator(Resources.TextData.AllWeaponDescriptions, unitSize: descriptionUnitSize, random: Rand);
+            //MarkovDescriptions = new SmartMarkovProseGenerator(Resources.TextData.AllWeaponDescriptions, unitSize: descriptionUnitSize, random: Rand);
+            ParagraphGenerator = new ZHParagraphGenerator(Resources.TextData.AllWeaponDescriptions.Split('\n').ToList());
+
         }
 
         public string GetRandomDescription(string extraParagraph = "", bool exact = false)
         {
-            string desc = MarkovDescriptions.Generate(requestedLength, exact);
-            while (desc.Length > maxCharLength && desc.Contains(","))  // Cut off at last comma.
-                desc = desc.Substring(0, desc.LastIndexOf(',')) + ".";
+            var res = this.ParagraphGenerator.RandomParagraph(this.Rand, 60, 100);
+            //  Console.WriteLine($"武器描述信息: {res}");
+            return res;
 
-            string wrappedDesc = string.Join("\n", WordWrapper.WordWrap(desc, maxLineLength));
-            if (extraParagraph != "")
-                return string.Join("\n", WordWrapper.WordWrap(extraParagraph, maxLineLength)) + "\n\n" + wrappedDesc;
-            else
-                return wrappedDesc;
+            //string desc = MarkovDescriptions.Generate(requestedLength, exact);
+            //while (desc.Length > maxCharLength && desc.Contains(","))  // Cut off at last comma.
+            //    desc = desc.Substring(0, desc.LastIndexOf(',')) + ".";
+
+            //string wrappedDesc = string.Join("\n", WordWrapper.WordWrap(desc, maxLineLength));
+            //if (extraParagraph != "")
+            //    return string.Join("\n", WordWrapper.WordWrap(extraParagraph, maxLineLength)) + "\n\n" + wrappedDesc;
+            //else
+            //    return wrappedDesc;
         }
     }
 
@@ -388,7 +396,7 @@ namespace RoguelikeSouls.Installation
             foreach (string pieceType in PieceNameOptions.Keys)
             {
                 var fullName = $"{randomPart}{pieceNames[pieceType]}";
-                Console.WriteLine($"生成盔甲: <{fullName}>");
+                //    Console.WriteLine($"生成盔甲: <{fullName}>");
                 pieceFullNames[pieceType] = fullName;
             }
 
@@ -437,7 +445,8 @@ namespace RoguelikeSouls.Installation
     class ArmorDescriptionGenerator
     {
         private readonly Random Rand;
-        private readonly SmartMarkovProseGenerator MarkovDescriptions;
+        // private readonly SmartMarkovProseGenerator MarkovDescriptions;
+        ZHParagraphGenerator Generator;
 
         private static string[] PieceTypes { get; } = { "Head", "Body", "Arms", "Legs" };
 
@@ -449,26 +458,31 @@ namespace RoguelikeSouls.Installation
         public ArmorDescriptionGenerator(Random random)
         {
             Rand = random;
-            MarkovDescriptions = new SmartMarkovProseGenerator(Resources.TextData.AllArmorDescriptions, unitSize: descriptionUnitSize, random: Rand);
+            //  MarkovDescriptions = new SmartMarkovProseGenerator(Resources.TextData.AllArmorDescriptions, unitSize: descriptionUnitSize, random: Rand);
+            this.Generator = new ZHParagraphGenerator(Resources.TextData.AllArmorDescriptions.Split('\n').ToList());
+
         }
         public Dictionary<string, string> GetRandomSetDescriptions(Dictionary<string, string> extraParagraphs, bool exact = false)
         {
-            string desc = MarkovDescriptions.Generate(requestedLength, exact);
-            while (desc.Length > maxCharLength && desc.Contains(","))  // Cut off at last comma.
-                desc = desc.Substring(0, desc.LastIndexOf(',')) + ".";
-            string wrappedDesc = string.Join("\n", WordWrapper.WordWrap(desc, maxLineLength));
+            //string desc = MarkovDescriptions.Generate(requestedLength, exact);
+            //while (desc.Length > maxCharLength && desc.Contains(","))  // Cut off at last comma.
+            //    desc = desc.Substring(0, desc.LastIndexOf(',')) + ".";
+            //string wrappedDesc = string.Join("\n", WordWrapper.WordWrap(desc, maxLineLength));
+            var res = this.Generator.RandomParagraph(this.Rand, 60, 100);
+            //   Console.WriteLine($"盔甲描述信息: {res}");
             Dictionary<string, string> wrappedPieceDescriptions = new Dictionary<string, string>();
             foreach (string pieceType in PieceTypes)
             {
-                if (extraParagraphs[pieceType] != "")
-                {
-                    string wrappedExtraParagraph = string.Join("\n", WordWrapper.WordWrap(extraParagraphs[pieceType], maxLineLength));
-                    wrappedPieceDescriptions[pieceType] = wrappedExtraParagraph + "\n\n" + wrappedDesc;
-                }
-                else
-                {
-                    wrappedPieceDescriptions[pieceType] = wrappedDesc;
-                }
+                //if (extraParagraphs[pieceType] != "")
+                //{
+                //    string wrappedExtraParagraph = string.Join("\n", WordWrapper.WordWrap(extraParagraphs[pieceType], maxLineLength));
+                //    //    wrappedPieceDescriptions[pieceType] = wrappedExtraParagraph + "\n\n" + res;
+                //}
+                //else
+                //{
+                //    wrappedPieceDescriptions[pieceType] = res;
+                //}
+                wrappedPieceDescriptions[pieceType] = res;
             }
             return wrappedPieceDescriptions;
         }
@@ -489,57 +503,104 @@ namespace RoguelikeSouls.Installation
         static double MononymOdds { get; } = 0.5;
         static double SuffixNameOdds { get; } = 0.3;  // "Oscar, Knight of Astora" rather than "Knight Oscar of Astora"
 
+        private List<string> PlaceNames;
+
+        private List<string> TitleNames;
+
+        private string CharSet;
+
+
+
         public NPCNameGenerator(Random random)
         {
             Rand = random;
-            MarkovNames = new MarkovWordGenerator(Resources.TextData.AllNPCNames, unitSize: NameUnitSize, random: Rand);
+            //MarkovNames = new MarkovWordGenerator(Resources.TextData.AllNPCNames, unitSize: NameUnitSize, random: Rand);
+            PlaceNames = new List<string>() { "卡塔利纳", "索尔隆德", "卡利姆", "小隆德", "东国", "亚斯特拉", "巴勒德尔", "伯尼斯",
+                                            "乌拉席露", "彼海姆", "卡萨斯", "大沼", "隆道尔", "薄暮之国", "库尔兰", "米尔伍德" };
+            TitleNames = new List<string>() { "骑士", "佣兵", "圣女", "战士", "铁匠", "圣骑士",
+                "疗伤圣手", "暗月骑士", "太阳战士", "灰心战士","魔女","魔法师","商人","流浪者","圣职",
+                "武士","咒术师","公主","王子","修女","侍女","使者","游魂","小偷" };
+            var splits = Resources.TextData.AllNPCNames.Split('\n');
+            foreach (var sp in splits)
+            {
+                this.CharSet += sp.Trim();
+            }
+
         }
+        private string RandomName()
+        {
+            var len = Rand.Next(2, 6);
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i < len; i++)
+            {
+                builder.Append(this.CharSet[Rand.Next(0, this.CharSet.Length)]);
+            }
+            return builder.ToString();
+        }
+
+        private string RandomPlaceName()
+        {
+            List<String> names = new List<string>();
+
+            return "";
+        }
+
         public string GetRandomName(string npcTitle = "", bool exact = false)
         {
-            bool isTitled = npcTitle != "" && Rand.NextDouble() < TitledNameOdds;
-            bool hasOrigin = Rand.NextDouble() < OriginNameOdds;
-            bool withComma = hasOrigin && Rand.NextDouble() < SuffixNameOdds;
-            bool hasMononym = Rand.NextDouble() < MononymOdds;
-
-            // Keeps trying to get a name that is naturally under the absolute max limit.
-            string randomName;
-            int attempts = 0;
-            do
+            var Place = this.PlaceNames[Rand.Next(this.PlaceNames.Count)];
+            var sp = Rand.NextDouble() > 0.5 ? "的" : "";
+            var Name = $"{Place}{sp}{npcTitle}{this.RandomName()}";
+            if (Rand.NextDouble() > 0.6)
             {
-                // Name can be twice as long without origin.
-                string name = MarkovNames.Generate(hasOrigin ? MinNameLength : 2 * MinNameLength, exact);
-                if (hasMononym)
-                    // Use longest word in name as mononymous name.4
-                    name = name.Split(' ').OrderByDescending(s => s.Length).First();
-                if (hasOrigin)
-                {
-                    string placeName = MarkovNames.Generate(MinNameLength, exact);
-                    if (isTitled)
-                        if (withComma)
-                            randomName = $"{name}, {npcTitle} of {placeName}";
-                        else
-                            randomName = $"{npcTitle} {name} of {placeName}";
-                    else
-                        randomName = $"{name} of {placeName}";
-                }
-                else
-                {
-                    randomName = isTitled ? $"{npcTitle} {name}" : name;
-                }
-                attempts++;
-                if (attempts >= MaxAttempts)
-                    break;  // keep last name and trim
-            } while (randomName.Length > MaxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
-
-            if (randomName.Length > MaxNameLength)
-            {
-                //Console.WriteLine("Max attempts exceeded. Getting exact name.");
-                // If max attempt number is exceeded (unlikely), just use a single exact random name.
-                int nameLength = Rand.Next(MinNameLength, isTitled ? MaxNameLength - npcTitle.Length : MaxNameLength);
-                randomName = MarkovNames.Generate(nameLength, exact: true);
-                return isTitled ? $"{npcTitle} {randomName}" : randomName;
+                Name = $"{this.RandomName()},{Place}的{npcTitle}";
             }
-            return randomName;
+            Console.WriteLine($"NPC名字: {Name}");
+
+            return Name;
+            //bool isTitled = npcTitle != "" && Rand.NextDouble() < TitledNameOdds;
+            //bool hasOrigin = Rand.NextDouble() < OriginNameOdds;
+            //bool withComma = hasOrigin && Rand.NextDouble() < SuffixNameOdds;
+            //bool hasMononym = Rand.NextDouble() < MononymOdds;
+            //// Keeps trying to get a name that is naturally under the absolute max limit.
+            //string randomName;
+            //int attempts = 0;
+            //do
+            //{
+            //    // Name can be twice as long without origin.
+            //    string name = MarkovNames.Generate(hasOrigin ? MinNameLength : 2 * MinNameLength, exact);
+            //    if (hasMononym)
+            //        // Use longest word in name as mononymous name.4
+            //        name = name.Split(' ').OrderByDescending(s => s.Length).First();
+            //    if (hasOrigin)
+            //    {
+            //        string placeName = MarkovNames.Generate(MinNameLength, exact);
+            //        if (isTitled)
+            //            if (withComma)
+            //                randomName = $"{name}, {npcTitle} of {placeName}";
+            //            else
+            //                randomName = $"{npcTitle} {name} of {placeName}";
+            //        else
+            //            randomName = $"{name} of {placeName}";
+            //    }
+            //    else
+            //    {
+            //        randomName = isTitled ? $"{npcTitle} {name}" : name;
+            //    }
+            //    attempts++;
+            //    if (attempts >= MaxAttempts)
+            //        break;  // keep last name and trim
+            //} while (randomName.Length > MaxNameLength || randomName.ToLower().ContainsAny(CensoredWords));
+
+            //if (randomName.Length > MaxNameLength)
+            //{
+            //    //Console.WriteLine("Max attempts exceeded. Getting exact name.");
+            //    // If max attempt number is exceeded (unlikely), just use a single exact random name.
+            //    int nameLength = Rand.Next(MinNameLength, isTitled ? MaxNameLength - npcTitle.Length : MaxNameLength);
+            //    randomName = MarkovNames.Generate(nameLength, exact: true);
+            //    return isTitled ? $"{npcTitle} {randomName}" : randomName;
+            //}
+            //Console.WriteLine($"Random Npc name: {randomName}");
+            //return randomName;
         }
     }
 
@@ -577,6 +638,7 @@ namespace RoguelikeSouls.Installation
                 // If max attempt number is exceeded (unlikely), just use a single random name.
                 randomName = MarkovNames.Generate(minNameLength, exact: true);
             }
+            Console.WriteLine($"Boss Name: {randomName}");
             return randomName;
         }
     }
@@ -624,7 +686,7 @@ namespace RoguelikeSouls.Installation
             }
 
             var name = type + ": " + this.Generator.RandomWord(this.Rand, 3, 7).Trim();
-            Console.WriteLine($"法术名字: <{name}>");
+            //  Console.WriteLine($"法术名字: <{name}>");
             return name;
             // Keeps trying to get a name that is naturally under the absolute max limit.
             //    string randomName;
