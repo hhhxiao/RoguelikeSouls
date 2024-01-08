@@ -14,7 +14,8 @@
 
 ## 下载和使用
 
-前往Nexusmod或者Release下载（链接等待补充） 使用方法将所有文件覆盖到原版即可。
+前往Nexusmod（链接等待补充）或者[Release](https://github.com/hhhxiao/RoguelikeSouls/releases)下载
+使用方法：将所有文件覆盖到原版即可。
 
 ## Credits
 
